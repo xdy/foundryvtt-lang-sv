@@ -1,7 +1,7 @@
 {
    "name" : "lang-sv",
    "title" : "Swedish [Core]",
-   "version" : "0.0.1",
+   "version" : "0.0.2",
    "minimumCoreVersion" : "0.6.2",
    "compatibleCoreVersion" : "0.6.999",
    "author" : "xdy",
@@ -17,6 +17,6 @@
    "scripts" : [],
    "styles" : [],
    "url" : "https://github.com/xdy/foundryvtt-lang-sv",
-   "manifest" : "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
-   "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v0.0.1.zip"
+   "manifest" : "https://github.com/xdy/foundryvtt-lang-sv/-/raw/master/module.json",
+   "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v0.0.2.zip"
 }
