@@ -1,0 +1,36 @@
+#!/bin/sh
+set -o errexit
+echo -n 'version: '
+read VERSION
+echo -n 'min core version: '
+read MINIMUM_CORE_VERSION
+echo -n 'max core version: '
+read COMPATIBLE_CORE_VERSION
+cat >module.json <<EOF
+{
+   "name" : "lang-sv",
+   "title" : "Swedish [Core]",
+   "version" : "$VERSION",
+   "minimumCoreVersion" : "$MINIMUM_CORE_VERSION",
+   "compatibleCoreVersion" : "$COMPATIBLE_CORE_VERSION",
+   "author" : "xdy",
+   "description" : "Swedish language support for Foundry VTT",
+   "languages" : [
+      {
+         "lang" : "sv",
+         "name" : "Swedish",
+         "path" : "sv.json"
+      }
+   ],
+   "packs" : [],
+   "scripts" : [],
+   "styles" : [],
+   "url" : "https://github.com/xdy/foundryvtt-lang-sv",
+   "manifest" : "https://github.com/xdy/foundryvtt-lang-sv/-/raw/master/module.json",
+   "download" : "TODO"
+}
+EOF
+git add --all
+git commit -m "Released version $VERSION"
+git tag --force "v$VERSION"
+#git push --tags --force
