@@ -27,10 +27,10 @@ cat >module.json <<EOF
    "styles" : [],
    "url" : "https://github.com/xdy/foundryvtt-lang-sv",
    "manifest" : "https://github.com/xdy/foundryvtt-lang-sv/-/raw/master/module.json",
-   "download" : "TODO"
+   "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v$VERSION.zip"
 }
 EOF
 git add --all
 git commit -m "Released version $VERSION"
 git tag --force "v$VERSION"
-#git push --tags --force
+git push --tags --force
