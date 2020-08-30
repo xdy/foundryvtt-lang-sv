@@ -34,3 +34,4 @@ git add --all
 git commit -m "Released version $VERSION"
 git tag --force "v$VERSION"
 git push --tags --force
+git push
