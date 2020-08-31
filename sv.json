@@ -718,7 +718,7 @@
   "WEBRTC.DisableAudioOutput": "Ingen ljudutgång",
   "WEBRTC.DisableAudioSource": "Ingen ljudinspelning",
   "WEBRTC.DisableVideoSource": "Ingen videoinspelning",
-  "WEBRTC.FVTTSignalingServer": "Gjuteri VTT",
+  "WEBRTC.FVTTSignalingServer": "Foundry VTT",
   "WEBRTC.GeneralTab": "Allmänt",
   "WEBRTC.GeneralTabNotGM": "Allmänna inställningar för ljud / videokonferenser kan endast ändras av SL",
   "WEBRTC.GenericError": "WebRTC-fel:",
