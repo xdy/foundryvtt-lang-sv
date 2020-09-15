@@ -1,4 +1,5 @@
 # Swedish language support for Foundry VTT
+<img title="Minimum core version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json&label=core&query=minimumCoreVersion&suffix=%2B&style=flat-square&color=important"> <img title="Latest compatible version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json&label=compatible&query=compatibleCoreVersion&style=flat-square&color=important"> <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json&label=version&query=version&style=flat-square&color=success"> [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 
 ## Installation
 
