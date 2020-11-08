@@ -2,7 +2,7 @@
    "name" : "lang-sv",
    "title" : "Swedish [Core]",
    "version" : "0.2.0",
-   "minimumCoreVersion" : "0.6.6",
+   "minimumCoreVersion" : "0.7.6",
    "compatibleCoreVersion" : "0.7.999",
    "author" : "xdy",
    "description" : "Swedish language support for Foundry VTT",
