@@ -612,6 +612,8 @@
   "SCENES.Configure": "Konfigurera",
   "SCENES.Darkness": "Mörker",
   "SCENES.DarknessHint": "Ställ in en mörk effekt med vilken natt eller skymning simuleras.",
+  "SETTINGS.DevicePixN": "Pixel-rendering med hög densitet",
+  "SETTINGS.DevicePixL": "Öka upplösningen på den renderade duken för skärmar med hög pixeldensitet. Detta medför en avsevärd höjning av prestandakravet på din GPU.",
   "SCENES.DimensionChangeTitle": "Ändra scenmått?",
   "SCENES.DimensionChangeWarning": "Du ändrar de underliggande måtten för den här scenen. Om du redan har placerat objekt i den här scenen kan den här åtgärden orsaka att dessa objekt flyttas i förhållande till bakgrundsbilden.",
   "SCENES.Dimensions": "Scenmått",
