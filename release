@@ -42,6 +42,10 @@ cat >module.json <<EOF
     {
       "type": "icon",
       "url": "https://raw.githubusercontent.com/xdy/twodsix-foundryvtt/master/foundry_lang_sv.svg"
+    },
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/xdy/twodsix-foundryvtt/master/foundry_lang_sv.svg"
     }
   ]
 }
