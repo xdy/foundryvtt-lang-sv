@@ -1,24 +1,24 @@
 {
-  "name": "lang-sv",
-  "title": "Swedish [Core]",
-  "version": "0.2.4",
-  "minimumCoreVersion": "0.7.6",
-  "compatibleCoreVersion": "0.7.999",
-  "author": "xdy",
-  "description": "Swedish language support for Foundry VTT",
-  "languages": [
-    {
-      "lang": "sv",
-      "name": "Swedish",
-      "path": "sv.json"
-    }
-  ],
-  "packs": [],
-  "scripts": [],
-  "styles": [],
-  "url": "https://github.com/xdy/foundryvtt-lang-sv",
-  "manifest": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
-  "download": "https://github.com/xdy/foundryvtt-lang-sv/archive/v0.2.4.zip",
+    "name" : "lang-sv",
+    "title" : "Swedish [Core]",
+    "version" : "0.2.5",
+    "minimumCoreVersion" : "0.7.6",
+    "compatibleCoreVersion" : "0.7.999",
+    "author" : "xdy",
+    "description" : "Swedish language support for Foundry VTT",
+    "languages" : [
+      {
+         "lang" : "sv",
+         "name" : "Swedish",
+         "path" : "sv.json"
+      }
+    ],
+    "packs" : [],
+    "scripts" : [],
+    "styles" : [],
+    "url" : "https://github.com/xdy/foundryvtt-lang-sv",
+    "manifest" : "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
+    "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v0.2.5.zip",
   "manifestPlusVersion": "1.0.0",
   "authors": [
     {
