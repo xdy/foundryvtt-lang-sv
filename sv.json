@@ -698,6 +698,8 @@
   "SETTINGS.MipMapN": "Zoomad struktur antialiasing",
   "SETTINGS.Players": "Konfigurera spelare",
   "SETTINGS.Reset": "Återställ till standardvärden",
+  "SETTINGS.ResScaleN": "Inaktivera Pixelupplösningsskalning",
+  "SETTINGS.ResScaleL": "Inaktivera automatisk skalning av dukupplösningen till bildskärmens pixeldensitet. Detta kommer att resultera i en minskning av den visuella kvaliteten men en förbättring av applikationsprestanda för skärmar med hög densitet.",
   "SETTINGS.Save": "Spara ändringar",
   "SETTINGS.SettingsHeader": "Spelinställningar",
   "SETTINGS.Setup": "Gå till installationen",
