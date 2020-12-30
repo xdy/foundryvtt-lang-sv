@@ -15,6 +15,7 @@ cat >module.json <<EOF
     "compatibleCoreVersion" : "$COMPATIBLE_CORE_VERSION",
     "author" : "xdy",
     "description" : "Swedish language support for Foundry VTT",
+    "coreTranslation": true,
     "languages" : [
       {
          "lang" : "sv",
@@ -28,26 +29,26 @@ cat >module.json <<EOF
     "url" : "https://github.com/xdy/foundryvtt-lang-sv",
     "manifest" : "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
     "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v$VERSION.zip",
-  "manifestPlusVersion": "1.0.0",
-  "authors": [
-    {
-      "name": "Jonas Karlsson",
-      "url": "https://gnu.xdy.se/home",
-      "discord": "xdy#3735",
-      "twitter": "@xdy",
-      "reddit": "u/xdydxy"
-    }
-  ],
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
-    },
-    {
-      "type": "cover",
-      "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
-    }
-  ]
+    "manifestPlusVersion": "1.0.0",
+    "authors": [
+      {
+        "name": "Jonas Karlsson",
+        "url": "https://gnu.xdy.se/home",
+        "discord": "xdy#3735",
+        "twitter": "@xdy",
+        "reddit": "u/xdydxy"
+      }
+    ],
+    "media": [
+      {
+        "type": "icon",
+        "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
+      },
+      {
+        "type": "cover",
+        "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
+      }
+    ]
 }
 EOF
 git add --all
