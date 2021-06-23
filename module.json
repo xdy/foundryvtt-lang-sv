@@ -3,7 +3,7 @@
     "title" : "Swedish [Core]",
     "version" : "0.2.12",
     "minimumCoreVersion" : "0.7.9",
-    "compatibleCoreVersion" : "0.7.999",
+    "compatibleCoreVersion" : "0.8.999",
     "author" : "xdy",
     "description" : "Swedish language support for Foundry VTT",
     "coreTranslation": true,
