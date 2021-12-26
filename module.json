@@ -1,8 +1,8 @@
 {
     "name" : "lang-sv",
     "title" : "Swedish [Core]",
-    "version" : "1.0.0",
-    "minimumCoreVersion" : ""0.7.9"",
+    "version" : "1.0.1",
+    "minimumCoreVersion" : "0.7.9",
     "compatibleCoreVersion" : "9",
     "author" : "xdy",
     "description" : "Swedish language support for Foundry VTT",
@@ -19,7 +19,7 @@
     "styles" : [],
     "url" : "https://github.com/xdy/foundryvtt-lang-sv",
     "manifest" : "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
-    "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v1.0.0.zip",
+    "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v1.0.1.zip",
     "manifestPlusVersion": "1.0.0",
     "authors": [
       {
