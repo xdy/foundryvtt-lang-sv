@@ -19,7 +19,7 @@ cat >module.json <<EOF
     "languages" : [
       {
          "lang" : "sv",
-         "name" : "Swedish",
+         "name" : "Svenska",
          "path" : "sv.json"
       }
     ],
