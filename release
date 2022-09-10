@@ -13,6 +13,10 @@ cat >module.json <<EOF
     "version" : "$VERSION",
     "minimumCoreVersion" : "$MINIMUM_CORE_VERSION",
     "compatibleCoreVersion" : "$COMPATIBLE_CORE_VERSION",
+    "compatibility": {
+        "minimum": "$MINIMUM_CORE_VERSION",
+        "verified": "$COMPATIBLE_CORE_VERSION"
+    },
     "author" : "xdy",
     "description" : "Swedish language support for Foundry VTT",
     "coreTranslation": true,

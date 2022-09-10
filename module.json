@@ -1,9 +1,14 @@
 {
     "name" : "lang-sv",
+    "id" : "lang-sv",
     "title" : "Swedish [Core]",
     "version" : "1.0.4",
     "minimumCoreVersion" : "0.7.9",
-    "compatibleCoreVersion" : "9",
+    "compatibleCoreVersion" : "10",
+    "compatibility": {
+        "minimum": "0.7.9",
+        "verified": "10"
+    },
     "author" : "xdy",
     "description" : "Swedish language support for Foundry VTT",
     "coreTranslation": true,
