@@ -33,7 +33,6 @@ cat >module.json <<EOF
     "url" : "https://github.com/xdy/foundryvtt-lang-sv",
     "manifest" : "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
     "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v$VERSION.zip",
-    "manifestPlusVersion": "1.0.0",
     "authors": [
       {
         "name": "Jonas Karlsson",
@@ -43,16 +42,31 @@ cat >module.json <<EOF
         "reddit": "u/xdydxy"
       }
     ],
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
+    },
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
+    },
+    {
+      "type": "setup",
+      "caption": "Foundry på Svenska",
+      "thumbnail": "/modules/foundryvtt-lang-sv/foundry_lang_sv.svg"
+    }
+  ],
+  "flags": {
     "media": [
-      {
-        "type": "icon",
-        "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
-      },
       {
         "type": "cover",
         "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
       }
-    ]
+    ],
+    "manifestPlusVersion": "1.2.0",
+    "allowBugReporter": true
+  }
 }
 EOF
 git add --all
