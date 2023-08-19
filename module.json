@@ -1,9 +1,9 @@
 {
     "name" : "lang-sv",
     "title" : "Swedish [Core]",
-    "version" : "v2.0.3",
+    "version" : "2.0.4",
     "minimumCoreVersion" : "0.7.9",
-    "compatibleCoreVersion" : "",
+    "compatibleCoreVersion" : "11",
     "compatibility": {
         "minimum": "0.7.9",
         "verified": "11"
@@ -23,7 +23,7 @@
     "styles" : [],
     "url" : "https://github.com/xdy/foundryvtt-lang-sv",
     "manifest" : "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
-    "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/vv2.0.3.zip",
+    "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v2.0.4.zip",
     "authors": [
       {
         "name": "Jonas Karlsson",
