@@ -6,7 +6,7 @@
     "compatibleCoreVersion" : "",
     "compatibility": {
         "minimum": "0.7.9",
-        "verified": ""
+        "verified": "11"
     },
     "author" : "xdy",
     "description" : "Swedish language support for Foundry VTT",
