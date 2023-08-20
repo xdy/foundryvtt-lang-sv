@@ -47,7 +47,7 @@
     {
       "type": "setup",
       "caption": "Foundry på Svenska",
-      "thumbnail": "/modules/lang-sv/foundry_lang_sv.svg"
+      "thumbnail": "/modules/lang-sv/foundry_lang_sv.svg",
       "loop": false,
       "flags": {}
     }
