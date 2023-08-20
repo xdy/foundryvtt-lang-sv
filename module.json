@@ -1,57 +1,64 @@
 {
-  "name": "lang-sv",
-  "title": "Swedish [Core] - Foundry på svenska",
-  "version": "3.0.1",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "author": "xdy",
-  "description": "Swedish language support for Foundry VTT - Foundry på svenska",
-  "coreTranslation": true,
-  "languages": [{
-    "lang": "sv",
-    "name": "Svenska",
-    "path": "sv.json"
-  }],
-  "packs": [],
-  "scripts": [],
-  "styles": [],
-  "url": "https://github.com/xdy/foundryvtt-lang-sv",
-  "manifest": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
-  "download": "https://github.com/xdy/foundryvtt-lang-sv/archive/v3.0.1.zip",
-  "authors": [{
-    "name": "Jonas Karlsson",
-    "url": "https://gnu.xdy.se/home",
-    "discord": "xdy#3735",
-    "twitter": "@xdy",
-    "reddit": "u/xdydxy"
-  }],
-  "media": [{
-    "type": "icon",
-    "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg",
-    "loop": false,
-    "flags": {}
-  },
+    "name" : "lang-sv",
+    "title" : "Swedish [Core] - Foundry på svenska",
+    "version" : "3.0.3",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "author" : "xdy",
+    "description" : "Swedish language support for Foundry VTT - Foundry på svenska",
+    "coreTranslation": true,
+    "languages" : [
+      {
+         "lang" : "sv",
+         "name" : "Svenska",
+         "path" : "sv.json"
+      }
+    ],
+    "packs" : [],
+    "scripts" : [],
+    "styles" : [],
+    "url" : "https://github.com/xdy/foundryvtt-lang-sv",
+    "manifest" : "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
+    "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v3.0.3.zip",
+    "authors": [
+      {
+        "name": "Jonas Karlsson",
+        "url": "https://gnu.xdy.se/home",
+        "discord": "xdy#3735",
+        "twitter": "@xdy",
+        "reddit": "u/xdydxy"
+      }
+    ],
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
+      "loop": false,
+      "flags": {}
+    },
     {
       "type": "cover",
-      "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg",
+      "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
       "loop": false,
       "flags": {}
     },
     {
       "type": "setup",
       "caption": "Foundry på Svenska",
-      "thumbnail": "/modules/lang-sv/foundry_lang_sv.svg",
+      "thumbnail": "/modules/lang-sv/foundry_lang_sv.svg"
       "loop": false,
       "flags": {}
     }
   ],
   "flags": {
-    "media": [{
-      "type": "cover",
-      "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
-    }],
+    "media": [
+      {
+        "type": "cover",
+        "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
+      }
+    ],
     "manifestPlusVersion": "1.2.0",
     "allowBugReporter": true
   }
