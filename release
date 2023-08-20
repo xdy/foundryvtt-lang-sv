@@ -8,7 +8,7 @@ echo -n 'verified core version: '
 read VERIFIED_CORE_VERSION
 cat >module.json <<EOF
 {
-    "name" : "lang-sv",
+    "id" : "lang-sv",
     "title" : "Swedish [Core] - Foundry på svenska",
     "version" : "$VERSION",
     "compatibility": {

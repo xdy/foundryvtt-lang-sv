@@ -1,5 +1,5 @@
 {
-    "name" : "lang-sv",
+    "id" : "lang-sv",
     "title" : "Swedish [Core] - Foundry på svenska",
     "version" : "3.0.6",
     "compatibility": {
