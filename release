@@ -1,24 +1,22 @@
 #!/bin/sh
 set -o errexit
-echo -n 'version: '
+echo -n 'version (do not add v): '
 read VERSION
 echo -n 'min core version: '
 read MINIMUM_CORE_VERSION
-echo -n 'max core version: '
-read COMPATIBLE_CORE_VERSION
+echo -n 'verified core version: '
+read VERIFIED_CORE_VERSION
 cat >module.json <<EOF
 {
     "name" : "lang-sv",
-    "title" : "Swedish [Core]",
+    "title" : "Swedish [Core] - Foundry på svenska",
     "version" : "$VERSION",
-    "minimumCoreVersion" : "$MINIMUM_CORE_VERSION",
-    "compatibleCoreVersion" : "$COMPATIBLE_CORE_VERSION",
     "compatibility": {
         "minimum": "$MINIMUM_CORE_VERSION",
-        "verified": "$COMPATIBLE_CORE_VERSION"
+        "verified": "$VERIFIED_CORE_VERSION"
     },
     "author" : "xdy",
-    "description" : "Swedish language support for Foundry VTT",
+    "description" : "Swedish language support for Foundry VTT - Foundry på svenska",
     "coreTranslation": true,
     "languages" : [
       {
@@ -46,15 +44,21 @@ cat >module.json <<EOF
     {
       "type": "icon",
       "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
+      "loop": false,
+      "flags": {}
     },
     {
       "type": "cover",
       "url": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/foundry_lang_sv.svg"
+      "loop": false,
+      "flags": {}
     },
     {
       "type": "setup",
       "caption": "Foundry på Svenska",
       "thumbnail": "/modules/lang-sv/foundry_lang_sv.svg"
+      "loop": false,
+      "flags": {}
     }
   ],
   "flags": {
