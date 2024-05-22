@@ -108,7 +108,7 @@
   "CARDS.NotifyReset": "Återkallade alla kort till: {link}",
   "CARDS.NotifyReturn": "Returnerade alla kort från: {link}",
   "CARDS.NotifyShuffle": "Blandade: {link}",
-  "CARDS.Number": "Nummer",
+  "CARDS.Number": "Antal",
   "CARDS.Pass": "Skicka till",
   "CARDS.PassHint": "Skicka ett visst antal kort till en annan hand eller hög.",
   "CARDS.PassTitle": "Skicka kort",
