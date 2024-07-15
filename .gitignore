@@ -7,3 +7,6 @@
 *.iml
 out
 gen
+
+#Used to compare with foundry, but not distributable
+en.json

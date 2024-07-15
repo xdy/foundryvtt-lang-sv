@@ -4,7 +4,7 @@
     "version" : "3.0.9",
     "compatibility": {
         "minimum": "11",
-        "verified": "11"
+        "verified": "12"
     },
     "author" : "xdy",
     "description" : "Swedish language support for Foundry VTT - Foundry på svenska",
