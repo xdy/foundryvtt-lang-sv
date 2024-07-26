@@ -6,7 +6,6 @@
         "minimum": "11",
         "verified": "12"
     },
-    "author" : "xdy",
     "description" : "Swedish language support for Foundry VTT - Foundry på svenska",
     "coreTranslation": true,
     "languages" : [
