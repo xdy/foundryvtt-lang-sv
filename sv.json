@@ -1,4 +1,4 @@
-{
+f{
     "ADVENTURE.Caption": "Bannerbildens bildtext",
     "ADVENTURE.CaptionHint": "Ange en bildtext som kommer att visas under bannerbilden. Denna bildtext kan innehålla HTML eller vanlig text.",
     "ADVENTURE.Create": "Skapa äventyr",
@@ -807,7 +807,7 @@
     "EFFECT.MODE_CUSTOM": "Anpassad",
     "EFFECT.MODE_DOWNGRADE": "Nedgradera",
     "EFFECT.MODE_MULTIPLY": "Multiplicera",
-    "EFFECT.MODE_OVERRIDE": "Åsidosätta",
+    "EFFECT.MODE_OVERRIDE": "Åsidosätt",
     "EFFECT.MODE_UPGRADE": "Uppgradera",
     "EFFECT.Name": "Effektnamn",
     "EFFECT.Origin": "Effektkälla",
