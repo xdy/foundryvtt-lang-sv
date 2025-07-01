@@ -4,6 +4,6 @@
 
 ## Installation
 1. Either select it in the foundry module list or copy this link and use it in Foundrys module manager to install the module
-    > [https://github.com/xdy/foundryvtt-lang-sv/-/raw/master/module.json](https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/refs/heads/master/module.json)
-2. Enable the module in your worlds module settings
-3. Choose "Svenska" as language in your system settings
+  > https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/refs/heads/master/module.json
+3. Enable the module in your worlds module settings
+4. Choose "Svenska" as language in your system settings
