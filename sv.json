@@ -860,7 +860,7 @@
     "GroupDrawing": "Ritverktyg",
     "GroupLighting": "Ljusverktyg",
     "GroupMeasure": "Mätverktyg",
-    "GroupNotes": "Journalanteckningar",
+    "GroupNotes": "Interface Fading",
     "GroupRegion": "Regionkontroller",
     "GroupSound": "Omgivande ljud",
     "GroupTile": "Brickverktyg",
@@ -1120,8 +1120,8 @@
     "Imported": "Data för {document} \"{name}\" importerades framgångsrikt från JSON.",
     "Item": "Föremål",
     "Items": "Föremål",
-    "JournalEntries": "Journalposter",
-    "JournalEntry": "Journalpost",
+    "JournalEntries": "Journalsidor",
+    "JournalEntry": "Journalsida",
     "JournalEntryCategories": "Kategorier",
     "JournalEntryCategory": "Kategori",
     "JournalEntryPage": "Sida",
@@ -1656,7 +1656,7 @@
     "ModeMultiple": "Flera sidläge",
     "ModeSingle": "Enkel sidläge",
     "ModeText": "Text",
-    "NavLabel": "Innehållsförteckning för dagboksanteckningar",
+    "NavLabel": "Innehållsförteckning för journaler",
     "NextPage": "Nästa sida",
     "PrevPage": "Föregående sida",
     "ShowBadPermissions": "Du får endast visa anteckningar eller sidor som du äger.",
@@ -1958,13 +1958,13 @@
     "AnchorPoint": "Textankare",
     "ConfigTitle": "Konfiguration av kartanteckningar",
     "Create": "Skapa kartanteckning",
-    "CreateJournal": "Skapa motsvarande dagboksinlägg?",
+    "CreateJournal": "Skapa motsvarande journal?",
     "Custom": "Anpassad",
     "CustomIcon": "Anpassad ikon",
     "EntryIcon": "Inläggsikon",
     "FIELDS": {
       "entryId": {
-        "label": "Dagboksinlägg"
+        "label": "Journal"
       },
       "fontFamily": {
         "label": "Typsnittsfamilj"
@@ -2021,7 +2021,7 @@
     "Update": "Uppdatera kartanteckning"
   },
   "NUE": {
-    "FirstLaunchBody": "Det verkar som om detta är en ny värld. För att komma igång bör du först lägga till eventuella ytterligare spelare som du kanske behöver via konfigurationen för <a class=\"nue-tab\" data-tab=\"settings\">Användarhantering</a>. Därifrån kan du skapa <a class=\"nue-tab\" data-tab=\"actors\"> karaktärer</a> för dem, liksom andra viktiga personligheter du behöver representera. Kartor och andra visuella element kan ställas in med hjälp av <a class=\"nue-tab\" data-tab=\"scenes\">Scener</a>, och handouts, anteckningar och annan information kan lagras i <a class=\"nue-tab\" data-tab=\"journal\">Dagboksinlägg</a>.",
+    "FirstLaunchBody": "Det verkar som om detta är en ny värld. För att komma igång bör du först lägga till eventuella ytterligare spelare som du kanske behöver via konfigurationen för <a class=\"nue-tab\" data-tab=\"settings\">Användarhantering</a>. Därifrån kan du skapa <a class=\"nue-tab\" data-tab=\"actors\"> karaktärer</a> för dem, liksom andra viktiga personligheter du behöver representera. Kartor och andra visuella element kan ställas in med hjälp av <a class=\"nue-tab\" data-tab=\"scenes\">Scener</a>, och handouts, anteckningar och annan information kan lagras i <a class=\"nue-tab\" data-tab=\"journal\">Journanteckning</a>.",
     "FirstLaunchHeader": "Kom igång",
     "FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i> Det här chattkortet kan tas ut genom att högerklicka på det, eller så kan du ta ut hela chattrutan genom att högerklicka på pratbubblans ikon högst upp. Du kan göra samma sak för att ta ut alla andra sidoflikar också.",
     "FirstLaunchInvite": "Bjuda in dina spelare",
@@ -2172,7 +2172,7 @@
     "Title": "Pakettitel",
     "TitleHint": "Titeln är läsbar för människor och kan innehålla specialtecken.",
     "Type": {
-      "allPl": "All",
+      "allPl": "Alla",
       "module": "Modul",
       "modulePl": "Moduler",
       "system": "System",
@@ -2361,7 +2361,7 @@
         "label": "Ljudkanal"
       },
       "description": {
-        "label": "Ljud Beskrivning"
+        "label": "Ljudbeskrivning"
       },
       "fade": {
         "label": "Försvinnande Varaktighet"
@@ -2560,7 +2560,7 @@
       "Dark": "Mörk ambiens",
       "ResetEnvironment": "Återställ till standardalternativ"
     },
-    "BackgroundScale": "Bakgrundsbilds Skala",
+    "BackgroundScale": "Bakgrundsbildsskala",
     "BackgroundScaleHint": "Använd SKIFT + Musrulle eller SKIFT + Upp Piltangent och SKIFT + Ner Piltangent för att justera bakgrundsbildens storlek.",
     "CaptureInitialViewPosition": "Fångad dukposition som initial vy i Scenkonfigurationsformuläret.",
     "Configure": "Konfigurera",
@@ -2613,7 +2613,7 @@
         },
         "cycle": {
           "hint": "När detta alternativ är markerat kombineras basambiensvärdena med mörkerambiensvärden enligt mörkernivån.",
-          "label": "Blandning av Ambiens "
+          "label": "Blandning av ambiens "
         },
         "darknessLevel": {
           "hint": "Tillämpa en överlagring som fördunklar scenen och minskar ljuskällorna för att simulera nattetid eller svagt upplysta förhållanden.",
@@ -2621,18 +2621,18 @@
         },
         "darknessLock": {
           "hint": "När detta alternativ är markerat kan mörkernivån inte ändras.",
-          "label": "Lås Mörkernivå"
+          "label": "Lås mörkernivå"
         },
         "globalLight": {
           "darkness": {
             "max": {
               "hint": "En mörkertetröskel mellan 0 och 1. När scenens mörkernivå överstiger denna tröskel, inaktiveras automatiskt den globala belysningen.",
-              "label": "Global Belysnings Tröskel "
+              "label": "Global belysningströskel "
             }
           },
           "enabled": {
             "hint": "Denna scen innehåller en global ljuskälla som ger allt område av scenen med en basnivå av belysning.",
-            "label": "Global Belysning"
+            "label": "Global belysning"
           }
         }
       },
@@ -2658,11 +2658,11 @@
       },
       "foreground": {
         "hint": "En valfri framgrundsbild som ritas ovanpå andra objekt i scenen.",
-        "label": "Framgrunds bild"
+        "label": "Förgrundsbild"
       },
       "foregroundElevation": {
         "hint": "En höjd i enheter för distans som konfigurerar höjden på framgrunds bilden och överliggande tiles.",
-        "label": "Framhöjning"
+        "label": "Förgrundshöjd"
       },
       "grid": {
         "alpha": {
@@ -2697,12 +2697,12 @@
         }
       },
       "journal": {
-        "hint": "Ett länkat Dagboksinlägg som ger anteckningar för Spelmaster om denna Scen.",
-        "label": "Dagboksinlägg"
+        "hint": "En länkad journalsida som ger anteckningar för Spelmaster om denna Scen.",
+        "label": "Journalsdia"
       },
       "journalEntryPage": {
-        "hint": "En specifik sida från det länkade Dagboksinlägget.",
-        "label": "Sida i Dagboken"
+        "hint": "En specifik sida från den länkade journalen.",
+        "label": "Sida i journalen"
       },
       "name": {
         "label": "Scennamn"
@@ -2874,8 +2874,8 @@
     "InitialViewButton": "Fånga aktuell vy",
     "InitialViewHint": "Ställ in en standard kameraposition som visas första gången denna scen ses.",
     "InvalidDimension": "Den angivna dimensionen skulle resultera i ett icke-heltal för den andra dimensionen. Försök med ett annat värde eller avlänka dimensionerna.",
-    "JournalEntry": "Journalinlägg",
-    "JournalEntryHint": "Ett länkat journalinlägg som ger spelägaren anteckningar om denna scen.",
+    "JournalEntry": "Journalsida",
+    "JournalEntryHint": "En länkad journalsida som ger spelägaren anteckningar om denna scen.",
     "Loading": "Laddar {name}",
     "NavLabel": "Navigering för kanvasscen",
     "NavName": "Navigationsnamn",
@@ -3574,7 +3574,7 @@
         "Compendium": "Skapa Kompendium",
         "Folder": "Skapa Mapp",
         "Item": "Skapa Föremål",
-        "JournalEntry": "Skapa Post",
+        "JournalEntry": "Skapa Journalsida",
         "Macro": "Skapa Makro",
         "Playlist": "Skapa Spellista",
         "RollTable": "Skapa Slumptabell",
@@ -3631,7 +3631,7 @@
     "SortModeAlpha": "Sortera i bokstavsordning",
     "SortModeManual": "Sortera manuellt",
     "TabCompendium": "Kompendiepaket",
-    "TabJournal": "Journal",
+    "TabJournal": "Journaler",
     "TabSettings": "Spelinställningar",
     "TabTables": "Slumptabeller",
     "TokenArt": "Visa spelfigurkonst",
