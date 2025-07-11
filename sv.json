@@ -4,8 +4,8 @@
       "ClearSection": "Rensa sektion",
       "RestoreSection": "Återställ sektion"
     },
-    "Caption": "Bannerbildens bildtext",
-    "CaptionHint": "Ange en bildtext som kommer att visas under bannerbilden. Denna bildtext kan innehålla HTML eller vanlig text.",
+    "Caption": "Banerbildens bildtext",
+    "CaptionHint": "Ange en bildtext som kommer att visas under banerbilden. Denna bildtext kan innehålla HTML eller vanlig text.",
     "Create": "Skapa äventyr",
     "CreateSuccess": "Äventyret \"{name}\" skapades framgångsrikt!",
     "Description": "Äventyrsbeskrivning",
@@ -23,24 +23,24 @@
     "ExportTabSummary": "Sammanfattning",
     "FIELDS": {
       "caption": {
-        "hint": "Lägg till en text som kommer att visas under bannret. Denna text kan innehålla HTML eller rent text.",
-        "label": "Bannertext"
+        "hint": "Lägg till en text som kommer att visas under baneret. Denna text kan innehålla HTML eller rent text.",
+        "label": "Banertext"
       },
       "description": {
         "hint": "Ge en beskrivning med översikt och synopsis av äventyret.",
         "label": "Äventyrsbeskrivning"
       },
       "img": {
-        "hint": "Lägg till en bannertitel med minst 768px bredd och 300px höjd som kommer att visas för detta äventyr.",
-        "label": "Bannertitel"
+        "hint": "Lägg till en banertitel med minst 768px bredd och 300px höjd som kommer att visas för detta äventyr.",
+        "label": "Banertitel"
       },
       "name": {
         "hint": "Välj ett namn för detta äventyr som kommer vara unikt inom paketet som innehåller det.",
         "label": "Äventyrets namn"
       }
     },
-    "Image": "Bannerbild",
-    "ImageHint": "Ange en bannerbild med minst 768px bredd och 300px höjd som kommer att visas för detta äventyr.",
+    "Image": "Banerbild",
+    "ImageHint": "Ange en banerbild med minst 768px bredd och 300px höjd som kommer att visas för detta äventyr.",
     "ImportAll": "Importera alla",
     "ImportContent": "Importera {label}",
     "ImportHeaderContents": "Innehåll",
@@ -609,7 +609,7 @@
         "core": {
           "combatTrackerConfig": {
             "resource": {
-              "hint": "Välj en egenskap att spåra för varje stridare.",
+              "hint": "Välj en egenskap att spåra för varje stridande.",
               "label": "Spårad Resurs"
             },
             "skipDefeated": {
@@ -727,7 +727,7 @@
   "COMPENDIUM": {
     "ART": {
       "CONFIG": {
-        "Hint": "Använd pilarna för att justera prioriteringen för konstnärskällorna. När en enskild aktör har konst från flera källor kommer den med högst prioritet att användas.",
+        "Hint": "Använd pilarna för att justera prioriteringen för bildkällorna. När en enskild aktör har bilder från flera källor kommer den med högst prioritet att användas.",
         "Portraits": "Porträtt",
         "PriorityDecrease": "Minska prioritet",
         "PriorityIncrease": "Öka prioritet",
@@ -838,17 +838,17 @@
     "DragDrop": "Dra och Släpp",
     "DrawingClear": "Rensa ritningar",
     "DrawingConfig": "Konfigurera ritning",
-    "DrawingEllipse": "Rita Ellips",
+    "DrawingEllipse": "Rita ellips",
     "DrawingFree": "Rita fritt",
     "DrawingHeader": "Ritningsverktyg",
-    "DrawingPoly": "Rita Polygon",
+    "DrawingPoly": "Rita polygon",
     "DrawingPolyP": "<span class=\"reference\">Klicka + dra</span> för att börja sedan <span class=\"reference\">Klicka</span> för att lägga till punkter. <span class=\"reference\">Dubbelklicka</span> för att avsluta.",
     "DrawingRect": "Rita rektangel",
     "DrawingRole": "Toggla informationsritning",
     "DrawingSelect": "Välj ritningar",
-    "DrawingText": "Rita Text",
-    "DrawingTextCancel": "Avbryt ritnings Text",
-    "DrawingTextConfirm": "Bekräfta ritnings Text",
+    "DrawingText": "Rita text",
+    "DrawingTextCancel": "Avbryt textritning",
+    "DrawingTextConfirm": "Bekräfta textritning",
     "Drop": "Släpp",
     "During": "under",
     "EmptyUndoHistory": "Ingen mer historik kan ångras för objekt av typ {type}.",
@@ -1023,9 +1023,9 @@
   },
   "DICE": {
     "CONFIG": {
-      "Hint": "Configure how dice rolling is performed.",
-      "Label": "Configure Dice",
-      "Title": "Dice Configuration"
+      "Hint": "Konfigurera hur tärningsslag utförs.",
+      "Label": "Konfigurera tärningar",
+      "Titel": "Tärningskonfiguration"
     },
     "ErrorNonNumeric": "Tärningsformeln {formula} resulterade inte i ett numeriskt resultat.",
     "FULFILLMENT": {
@@ -1174,7 +1174,7 @@
     },
     "FillColor": "Fyllningsfärg",
     "FillOpacity": "Fyllnadsopacitet",
-    "FillTexture": "Fyllningsmönster",
+    "FillTexture": "Textur",
     "FillTypeNone": "Ingen",
     "FillTypePattern": "Mönster",
     "FillTypeSolid": "Solid",
@@ -1387,10 +1387,10 @@
     }
   },
   "ERROR": {
-    "BackgroundTextureSize": "Du använder en scenbakgrundstextur med dimensioner {width}px x {height}px. En eller båda av dessa dimensioner överstiger den maximala texturstorleken på {max}px som stöds av din enhet.",
+    "BackgroundTextureSize": "Du använder ett scenbakgrundstextur med dimensioner {width}px x {height}px. En eller båda av dessa dimensioner överstiger den maximala texturfönsterstorleken på {max}px som stöds av din enhet.",
     "BrowserVersion": "Foundry Virtual Tabletop använder moderna JavaScript-funktioner som inte stöds i {browser}-version mindre än {minimum}. Du använder för närvarande {browser}-version {version}. Vänligen uppdatera eller använd en annan webbläsare.",
     "CantWhisper": "Du har inte behörighet att skicka viskande chattmeddelanden till andra användare.",
-    "ElectronVersion": "Du använder en äldre version av Foundry Virtual Tabletop Electron-klienten. För bästa prestanda rekommenderar vi att du laddar ner den önskade versionen av Foundry Virtual Tabletop och utför en fullständig ominstallation av programvaran.",
+    "ElectronVersion": "Du använder en äldre version av Foundry Virtual Tabletops Electronklient. För bästa prestanda rekommenderar vi att du laddar ner den önskade versionen av Foundry Virtual Tabletop och utför en fullständig ominstallation av programvaran.",
     "InvalidAdminKey": "Det angivna administratörslösenordet är ogiltigt. Om du har glömt ditt konfigurerade lösenord måste du manuellt ta bort filen <strong>Config/admin.txt</strong> från din användardata-plats.",
     "LoadPackages": "Begäran om att bläddra bland befintliga paket misslyckades att ansluta till Foundrys server. Se till att din applikation tillåter utgående anslutningar.",
     "LowResolution": "Foundry Virtual Tabletop kräver en skärmupplösning på minst {reqWidth}px x {reqHeight}px eller större. Din skärm har för närvarande en effektiv upplösning på {width}px x {height}px, vilket kan leda till att många funktioner i programvaran inte fungerar korrekt.",
@@ -1410,7 +1410,7 @@
     "UpdateRequiresManualInstall": "Foundry Virtual Tabletop Version {version} is now available but cannot be installed from within the Foundry Virtual Tabletop application because it requires updates to core dependencies which are only available by re-installing the software from the <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> website."
   },
   "EULA": {
-    "Acknowledge": "Bekräfta avtal",
+    "Acknowledge": "Bekräfta avtal",cx
     "Agree": "Bekräfta",
     "AgreeHint": "Genom att klicka i kryssrutan ovan så indikerar du att du har läst och gått med på villkoren för att använda Foundry Virtual Tabletop.",
     "AgreeLabel": "Jag går med på dessa villkor",
@@ -1726,16 +1726,16 @@
     "CycleView": "Växla vy för kanvas",
     "Delete": "Radera objekt",
     "DeleteBinding": "Ta bort bindning",
-    "Dismiss": "Växla meny / Avvisa fönster",
+    "Dismiss": "Växla meny / Stäng alla fönster",
     "EditBinding": "Redigera bindning",
     "ErrorIllegalModifier": "Den begärda modifikatornyckeln \"{key}\" är inte ett giltigt värde i KeyboardManager.MODIFIER_KEYS",
     "ErrorProtectedKey": "Kan inte sätta den skyddade nyckeln \"{key}\" som en bindning",
     "ErrorReservedModifier": "Kan inte sätta \"{key}\" som en bindning, eftersom det är en reserverad modifikator för denna tangentbordsgenvägsåtgärd",
-    "ExecuteMacro": "Utför genvägssats {number}",
+    "ExecuteMacro": "Kör makro {number}",
     "FocusChat": "Fokusera på chatt",
     "Highlight": "Markera objekt",
     "HowToEdit": "Använd {icon} eller dubbelklicka på tangentbindningen för att ändra värdet.",
-    "MoveAlongMeasuredRuler": "Rör dig längs mätt linjal",
+    "MoveAlongMeasuredRuler": "Rör dig längs uppmätt linje",
     "MustBeArray": "Måste vara en matris med värden",
     "NavLabel": "Flikar för tangentbordsinställningar",
     "PTTKey": "Tryck-för-att-prata / Tryck-för-att-muta",
@@ -2315,7 +2315,7 @@
         "label": "Sorteringsläge"
       }
     },
-    "Fade": "Fade-varaktighet (ms)",
+    "Fade": "Toning-varaktighet (ms)",
     "Forward": "Nästa ljud",
     "Mode": "Uppspelningsläge",
     "ModeDisabled": "Endast ljudbräde",
@@ -2364,7 +2364,7 @@
         "label": "Ljudbeskrivning"
       },
       "fade": {
-        "label": "Försvinnande Varaktighet"
+        "label": "Toning Varaktighet"
       },
       "name": {
         "label": "Spårtitel"
@@ -3072,11 +3072,11 @@
     "PrototypeTokenOverrides": {
       "Disabled": "Inaktiverad",
       "Hint": "Konfigurera översättningar av prototypspelfigur-data för alla karaktärer.",
-      "Label": "Konfigurera åsidosatta inställningar",
-      "Name": "Åsidosatta inställningar för prototyp-spelfigur",
+      "Label": "Konfigurera åsidosatta standardinställningar",
+      "Name": "Åsidosätt inställningar för prototypspelfigur",
       "Reset": {
-        "Label": "Återställ standardinställningar",
-        "Warning": "Denna åtgärd kommer att ta bort alla konfigurerade översättningar."
+        "Label": "Åsidosätt standardinställningar",
+        "Warning": "Denna åtgärd kommer att ta bort alla konfigurerade åsidosättningar."
       },
       "Submit": "Spara Översättningar",
       "TABS": {
@@ -4322,7 +4322,11 @@
         "RING_PULSE": "Ringpuls"
       },
       "SETTINGS": {
+        "coreSteel": "Foundry VTT Stålring",
+        "coreBronze": "Foundry VTT Bronsring",
         "FIT_MODES": {
+          "label": "Hur dynamiska tokenringar anpassas",
+          "hint": "Välj hur dynamiska tokenringar anpassas.",
           "grid": "Rutnät",
           "subject": "Standard"
         },
