@@ -1410,7 +1410,7 @@
     "UpdateRequiresManualInstall": "Foundry Virtual Tabletop Version {version} is now available but cannot be installed from within the Foundry Virtual Tabletop application because it requires updates to core dependencies which are only available by re-installing the software from the <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> website."
   },
   "EULA": {
-    "Acknowledge": "Bekräfta avtal",cx
+    "Acknowledge": "Bekräfta avtal",
     "Agree": "Bekräfta",
     "AgreeHint": "Genom att klicka i kryssrutan ovan så indikerar du att du har läst och gått med på villkoren för att använda Foundry Virtual Tabletop.",
     "AgreeLabel": "Jag går med på dessa villkor",
