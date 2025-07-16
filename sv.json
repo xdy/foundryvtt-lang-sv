@@ -100,11 +100,11 @@
     "SECTIONS": {
       "ADVANCED": "Avancerade alternativ",
       "ANIMATION": "Ljusanimering",
-      "APPEARANCE": "Ljusutseende",
       "appearance": "Ljuseffekt",
+      "APPEARANCE": "Ljusutseende",
       "BASIC": "Grundläggande konfiguration",
-      "PLACEMENT": "Ljusplacering",
-      "placement": "Ljussättning"
+      "placement": "Ljussättning",
+      "PLACEMENT": "Ljusplacering"
     },
     "TABS": {
       "advanced": "Avancerade alternativ",
@@ -791,6 +791,7 @@
   "EFFECT": {
     "ChangeKey": "Attributnyckel",
     "ChangeMode": "Ändringsläge",
+    "ChangePriority": "Prioritet",
     "ChangeValue": "Effektvärde",
     "Combat": "Strid",
     "Description": "Effektbeskrivning",
@@ -869,17 +870,16 @@
     "TabDetails": "Detaljer",
     "TabDuration": "Varaktighet",
     "TabEffects": "Effekter",
-    "Tint": "Icon Tint Color",
-    "Transfer": "Tillämpa effekt på karaktärer",
-    "TransferHint": "Om markerad kommer denna effekt att tillämpas på alla karaktärer som äger denna effekts förälderföremål.",
-    "TransferHintLegacy": "Om markerad kommer denna effekt att kopieras till karaktärern när denna effekts förälderföremål skapas på en karaktärer och tas bort om det här föremålet någonsin tas bort.",
-    "TransferLegacy": "Överför effekt till karaktärer",
-    "ChangePriority": "Prioritet",
     "TABS": {
       "changes": "Förändringar",
       "details": "Detaljer",
       "duration": "Varaktighet"
-    }
+    },
+    "Tint": "Icon Tint Color",
+    "Transfer": "Tillämpa effekt på karaktärer",
+    "TransferHint": "Om markerad kommer denna effekt att tillämpas på alla karaktärer som äger denna effekts förälderföremål.",
+    "TransferHintLegacy": "Om markerad kommer denna effekt att kopieras till karaktärern när denna effekts förälderföremål skapas på en karaktärer och tas bort om det här föremålet någonsin tas bort.",
+    "TransferLegacy": "Överför effekt till karaktärer"
   },
   "ELEMENTS": {
     "DOCUMENT_TAGS": {
@@ -894,6 +894,7 @@
     }
   },
   "Elevation": "Höjd över havet",
+  "Error": "Fel",
   "ERROR": {
     "BackgroundTextureSize": "Du använder ett scenbakgrundstextur med dimensioner {width}px x {height}px. En eller båda av dessa dimensioner överstiger den maximala texturfönsterstorleken på {max}px som stöds av din enhet.",
     "BrowserVersion": "Foundry Virtual Tabletop använder moderna JavaScript-funktioner som inte stöds i {browser}-version mindre än {minimum}. Du använder för närvarande {browser}-version {version}. Vänligen uppdatera eller använd en annan webbläsare.",
@@ -917,7 +918,6 @@
     },
     "UpdateRequiresManualInstall": "Foundry Virtual Tabletop Version {version} is now available but cannot be installed from within the Foundry Virtual Tabletop application because it requires updates to core dependencies which are only available by re-installing the software from the <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> website."
   },
-  "Error": "Fel",
   "Errors": "Fel",
   "EULA": {
     "Acknowledge": "Bekräfta avtal",
@@ -1269,6 +1269,7 @@
     "ZoomIn": "Zooma in på kanvas",
     "ZoomOut": "Zooma ut från kanvas"
   },
+  "Light": "Ljus",
   "LIGHT": {
     "AdaptiveLuminance": "Anpassad ljusstyrka",
     "AnimationBewitchingWave": "Förtrollande våg",
@@ -1315,7 +1316,6 @@
     "LowAbsorption": "Låg absorption",
     "NaturalLight": "Naturligt ljus"
   },
-  "Light": "Ljus",
   "MACRO": {
     "FIELDS": {
       "command.label": "Kommando"
@@ -2199,12 +2199,341 @@
     "Wiki": "Kommunityts wiki"
   },
   "SETUP": {
+    "AdminAccess": "Administratörsbehörighet krävs",
+    "AdminLogIn": "Logga in",
+    "AdminLogout": "Logga ut",
+    "AdminPasswordForgot": "Om du har glömt administratörslösenordet kan serveradministratören återställa det genom att <a href='https://foundryvtt.com/article/reset-admin-password/' target='_blank'>följa dessa instruktioner</a>.",
+    "AdminPasswordPrompt": "Det finns för närvarande inget aktivt spel på denna server. För att få åtkomst till inställningsmenyn måste du ange administratörslösenordet.",
+    "BACKUPS": {
+      "BackingUp": "Backup In Progress",
+      "Backup": "Backup",
+      "BulkActions": "Bulk Actions",
+      "CannotDeleteInSnapshot": "Backups that are part of snapshots cannot be individually deleted.",
+      "CannotRestoreUnusable": "This backup cannot be restored as it would render the package unusable.",
+      "Categories": "Backup Categories",
+      "CheckDiskSpace": "Checking Disk Space",
+      "Copying": "Copying Backup",
+      "CopyingPl": "Copying Backups",
+      "CreateBackup": "Creating Backup of {title}",
+      "CreateBackupComplete": "Backup created of {title}",
+      "CreateBackupFailure": "Failed to create backup for package '{title}'. See the console (F12) for details.",
+      "CreateSnapshot": "Create a Snapshot",
+      "CreateSnapshotComplete": "Snapshot created.",
+      "CreateSnapshotConfirm": "This process can take a long time depending on the number packages, their sizes, and the storage medium, and the process cannot be interrupted. Do you want to continue?",
+      "CreateSnapshotFailure": "Failed to create snapshot. See the console (F12) for details.",
+      "CreateSnapshotHint": "Creating a snapshot will take backups of every currently installed package, allowing you to later rollback the state of your Foundry VTT installation to the point when the snapshot was taken.",
+      "CreateSnapshotPackageList": "The following packages will be included in this snapshot:",
+      "DeleteBackupComplete": "Deleted backup for {title}.",
+      "DeleteBackupCompletePl": "Deleted {count} backups for {title}.",
+      "DeleteBackupFailure": "Failed to delete backups for package '{title}'. See the console (F12) for details.",
+      "DeleteBackupTitle": "Deleting Backups for {title}",
+      "DeleteBackupWarning": "Deleting a backup cannot be reversed. Do you want to continue?",
+      "DeleteBackupWarningPl": "<strong>{count}</strong> backups have been selected for deletion. This action cannot be reversed. Do you want to continue?",
+      "DeleteSnapshotComplete": "Deleted snapshot.",
+      "DeleteSnapshotCompletePl": "Deleted {count} snapshots.",
+      "DeleteSnapshotFailure": "Failed to delete one or more snapshots. See the console (F12) for details.",
+      "DeleteSnapshotTitle": "Deleting Snapshots",
+      "DeleteSnapshotWarning": "Deleting a snapshot cannot be reversed. Do you want to continue?",
+      "DeleteSnapshotWarningPl": "<strong>{count}</strong> snapshots have been selected for deletion. This action cannot be reversed. Do you want to continue?",
+      "DeletingBackup": "Deleting Backups",
+      "DeletingSnapshot": "Deleting Snapshots",
+      "DiskSpace": "Disk Space",
+      "DiskSpaceAvailable": "{available} available",
+      "DiskSpaceChecking": "Checking Space",
+      "DiskSpaceInsufficient": "Insufficient Space",
+      "DiskSpaceRequired": "{required} required",
+      "Extracting": "Extracting Backup",
+      "ExtractingPl": "Extracting Backups",
+      "LargePackageWarning": "The chosen package appears to be quite large. It may remain at 0% for some time before the backup process can begin. Please be patient.",
+      "Loading": "Reading Backups",
+      "Manage": "Manage",
+      "ManageBackups": "Manage Backups",
+      "ManagePackage": "{package} Backups",
+      "ModuleCount": "<strong>{count}</strong> Modules",
+      "NoteHint": "Optionally provide a note for reference.",
+      "Num": "{number} Backup",
+      "NumPl": "{number} Backups",
+      "Restore": "Restore",
+      "RestoreBackupComplete": "Successfully restored {title} with backup taken on {date}",
+      "RestoreBackupFailure": "Failed to restore backup for {title}. See the console (F12) for details.",
+      "RestoreBackupTitle": "Restoring backup for {title}",
+      "RestoreBackupWarning": "Restoring a backup will erase the current state of the package. This action cannot be reversed. Do you want to continue?",
+      "RestoreLatest": "Restore Latest",
+      "RestoreLatestBackup": "Restore Latest Backup",
+      "RestoreSnapshotComplete": "Successfully restored snapshot taken on {date}.",
+      "RestoreSnapshotFailure": "Failed to restore snapshot. See the console (F12) for details.",
+      "RestoreSnapshotTitle": "Restore Snapshot",
+      "RestoreSnapshotUnchangedPackages": "<strong>1</strong> package was added after the snapshot was taken and will remain unchanged after the snapshot is restored.",
+      "RestoreSnapshotUnchangedPackagesPl": "<strong>{count}</strong> packages were added after the snapshot was taken and will remain unchanged after the snapshot is restored.",
+      "RestoreSnapshotWarning": "Restoring a snapshot resets the state of your Foundry VTT installation back to the state at which the snapshot was taken. All versions and world states will be rolled back. This process cannot be undone.",
+      "Restoring": "Backup Restoration In Progress",
+      "RestoringSnapshot": "Restoring Snapshot",
+      "Snapshot": "Snapshot",
+      "Snapshotting": {
+        "module": "Snapshotting Modules",
+        "system": "Snapshotting Systems",
+        "world": "Snapshotting Worlds"
+      },
+      "SystemCount": "<strong>{count}</strong> Systems",
+      "TakeBackup": "Take Backup",
+      "TotalSize": "Total Size",
+      "TYPE": {
+        "module": "Modules",
+        "snapshots": "Snapshots",
+        "system": "Systems",
+        "world": "Worlds"
+      },
+      "VersionFormat": "Version {version}",
+      "WorldCount": "<strong>{count}</strong> Worlds"
+    },
+    "COMPAT": {
+      "Compatible": "{count} Compatible",
+      "COMPATIBLE": {
+        "Latest": "The latest version of this package is compatible with the {version} update",
+        "World": "This world's system has a compatible version available for the {version} update"
+      },
+      "CompatibleTooltip": "Packages that are verified as compatible with version {version}.",
+      "Incompatible": "{count} Incompatible",
+      "INCOMPATIBLE": {
+        "Latest": "The latest version of this package is not compatible with the {version} update",
+        "World": "There is no compatible version of this world's system available for the {version} update"
+      },
+      "IncompatibleTooltip": "Packages that are verified as incompatible with version {version}.",
+      "LearnMore": "Learn more about this tool",
+      "Previewing": "Loading Preview",
+      "RISK": {
+        "Latest": "The latest version of this package was last verified for core software version {verified}",
+        "World": "This world's system was last verified for core software version {verified}"
+      },
+      "Title": "Preview Compatibility: {release}",
+      "Unverified": "{count} Unverified",
+      "UnverifiedTooltip": "Packages that were last verified as compatible with an earlier build and are likely still compatible with version {version}.",
+      "Warning": "{count} Compatibility Risk",
+      "WarningTooltip": "Packages that were last verified as compatible with an earlier generation and may not be compatible with version {version}."
+    },
+    "CompatibilityRequireDowngrade": "Detta beroende är nyare än den minsta krävda versionen {version}",
+    "CompatibilityRequireUpgrade": "Detta beroende är äldre än den minsta krävda versionen {version}",
+    "CompatibilityRiskUnknown": "Kompatibilitetsrisk: ingen kompatibilitetsdata angiven",
+    "CompatibilityRiskWithVersion": "Kompatibilitetsrisk: senast verifierad för version {version}",
+    "CompatibilityUnknown": "Kompatibilitet okänd",
+    "Configuration": "Konfiguration",
+    "ConfirmCodeLabel": "Skriv '{code}' exakt för att fortsätta",
+    "CoreUpdateInstructions": "En uppdatering av Foundry är tillgänglig, återgå till installationen för att installera!",
+    "CoreVersion": "Version av Foundry",
+    "CoreVersionHint": "Om en uppdatering av den centrala Foundry Virtual Tabletop-programvaran finns tillgänglig kan du tillämpa den här. Du använder för närvarande {versionDisplay}.",
+    "CouldntLoadPackages": "Kunde inte ladda tillgängliga paket",
+    "CurrentVersion": "Nuvarande version",
+    "DependencyNotInstalled": "Detta beroende är inte installerat",
+    "ErrorTimeout": "Begäran till {url} tog för lång tid ({timeout}s)",
+    "ExclusiveContent": "Exklusivt innehåll",
+    "FavoritePackage": "Favorit",
+    "FeaturedContent": "Utvalt innehåll",
+    "ForceUpdate": "Tvinga uppdatering?",
+    "ForceUpdateHint": "Att välja Tvinga uppdatering kommer att skriva över din nuvarande programvara genom att återställa den till den senaste versionen på den valda uppdateringskanalen. Använd detta alternativ med försiktighet.",
+    "GettingStarted": "Kom igång",
+    "IncompatibleDep": "Inkompatibla beroenden: {dependencies}",
+    "IncompatibleSystems": "Inkompatibla system: {systems}",
+    "INSTALL_PACKAGE": {
+      "ManifestIncompatible": {
+        "Title": "Kompatibilitetsvarning",
+        "Warning": [
+          "{packageType} på given URL är inte kompatible med den nuvarande versionen av Foundry Virtual Tabletop.",
+          "Är du säker att du vill fortsätta med installationen?"
+        ]
+      },
+      "ManifestWrongPackageType": "Den givna URLen verkar inte peka på något {packageType}."
+    },
+    "InstallFailure": "Installationen misslyckades: {message}. Se konsolen (F12) för mer information",
+    "InstallHint": "Du kan installera valfritt paket genom att ange en direktlänk till dess manifest-URL.",
+    "InstallModule": "Installera modul",
+    "InstallSuccess": "{type} {id} installerades framgångsrikt",
+    "InstallSystem": "Installera system",
+    "InstallWorld": "Installera värld",
+    "LockHint": "Låsning av ett paket förhindrar att det avinstalleras eller uppdateras",
+    "ManifestUpdate": "Uppdaterad version tillgänglig på ny installations-URL",
+    "ManifestUpdateAvailable": "En nyare version av \"{package}\" är tillgänglig på en annan installations-URL. Detta händer när paketets värdplats eller författare har ändrats.",
+    "ManifestURL": "Manifest-URL",
+    "MinifyFiles": "Optimera statiska filer",
+    "MinifyFilesHint": "Minska nätverkstrafiken genom att leverera minifierade statiska JavaScript- och CSS-filer. Den här inställningen rekommenderas för de flesta användare, men modulutvecklare kan vilja inaktivera den.",
+    "MissingRequirements": "Den nödvändiga {type} \"{id}\" saknas",
+    "ModuleFilter": "Filtrera moduler",
+    "Modules": "Tilläggsmoduler",
+    "NavLabel": "Konfigurationsflikar för installation",
+    "News": "Nyheter",
+    "NoFeaturedContent": "Inga innehållsrekommendationer mottogs från foundryvtt.com:s webbserver.",
+    "NoSupportedSystem": "Inget stödsystem installerat",
+    "NoSystemsMessage": "För att skapa din första värld måste du först installera ett <a class=\"system-install\" data-query=\"\" title=\"Game System\">spelsystem</a>. Ta dig tid att bläddra bland tillgängliga system och välj ett att installera. Om du inte vet vilket system du vill ha, eller om ditt föredragna system inte är tillgängligt, rekommenderar vi att du installerar <a class=\"system-install\" data-query=\"Simple Worldbuilding\" title=\"Simple Worldbuilding\">Simple Worldbuilding</a>-systemet.",
+    "NoWorldsMessage": "Nu när du har ett spelsystem som ger dig regler för hur man spelar, vill du skapa en värld. Spelvärldar är utrymmen som innehåller alla karaktärer, blad, journaler och kartor som används för att spela ett spel, oavsett om det är en engångssession eller en hel kampanj.",
+    "NueWorldDescription": "<p>För mer information om hur man ställer in världar, se <a href='https://foundryvtt.com/article/game-worlds/' target='_blank'>värld</a>-dokumentationen.</p>",
+    "Package": "Paket",
+    "PackageCategories": "Paketkategorier",
+    "PackageDeleteConfirm": "Är du säker på att du vill radera {type} \"{title}\"?",
+    "PackageDeleteNoUndo": "<strong>Varning:</strong> Denna åtgärd kan inte ångras.",
+    "PackageDeletePersistent": "Detta paket har sparade persistenta filer, ofta använda för saker som konfiguration eller cache-data. Dessa data kommer att raderas om du fortsätter.",
+    "PackageDeleteTitle": "Radera {type}: {title}",
+    "PackageDeleteWorldConfirm": "Du måste ange den exakta koden för att bekräfta raderingsförfrågan.",
+    "PackageDependenciesAutomaticPlural": "Installera valda beroenden automatiskt",
+    "PackageDependenciesAutomaticSingular": "Installera beroende automatiskt",
+    "PackageDependenciesCouldInstallPlural": "{number} beroenden kan installeras automatiskt.",
+    "PackageDependenciesCouldInstallSingular": "Ett beroende kan installeras automatiskt.",
+    "PackageDependenciesCouldNotInstallPlural": "{number} beroenden måste installeras manuellt.",
+    "PackageDependenciesCouldNotInstallSingular": "Ett beroende måste installeras manuellt.",
+    "PackageDependenciesDecline": "Du har valt att inte installera de nödvändiga beroendepaketen för {title}. Du måste installera dem manuellt.",
+    "PackageDependenciesManualPlural": "Installera alla beroenden manuellt",
+    "PackageDependenciesManualSingular": "Installera beroende manuellt",
+    "PackageDependenciesSuccess": "Lyckades installera {title} och {number} beroenden.",
+    "PackageDependenciesTitle": "Installera paketberoenden",
+    "PackageFilter": "Filtrera paket",
+    "PackageHasDependenciesPlural": "{title} har {number} beroenden som ännu inte är installerade.",
+    "PackageHasDependenciesSingular": "{title} har ett beroende som ännu inte är installerat.",
+    "PackageIncompatibleSystemsBulkPrompt": "Följande moduler uppdaterades inte eftersom det skulle göra dem inkompatibla med ett eller flera installerade system. Vill du uppdatera dem ändå?",
+    "PackageIncompatibleSystemsPrompt": "Denna moduluppdatering är inkompatibel med följande installerade system. Vill du fortsätta?",
+    "PackageIncompatibleWithSystems": "{module} <em>inkompatibel med</em> {systems}",
+    "PackageInstallDependencies": "Vill du installera dessa automatiskt?",
+    "PackageInstalled": "Installerad",
+    "PackageName": "Paketnamn",
+    "PackageNotOwned": "Inte ägd",
+    "PackageOptionalDependencies": "Dessa beroenden är valfria, men kan förbättra paketets funktionalitet om de installeras:",
+    "PackageProgressCleanup": "Rensar paket",
+    "PackageProgressComplete": "Paketinstallation slutförd",
+    "PackageProgressDownload": "Laddar ner paket",
+    "PackageProgressError": "Fel",
+    "PackageProgressInstall": "Installerar paket",
+    "PackageProtected": "Skyddad",
+    "PackageRequiredDependencies": "Dessa beroenden krävs och paketet kommer inte att fungera utan dem:",
+    "PackageRequiresDowngradeHint": "Du måste nedgradera till Foundry VTT version {vmax} för att kunna installera detta paket.",
+    "PackageRequiresDowngradeLabel": "Kräver nedgradering",
+    "PackageRequiresUpgradeHint": "Du måste uppgradera till Foundry VTT version {vmin} för att kunna installera detta paket.",
+    "PackageRequiresUpgradeLabel": "Kräver uppgradering",
+    "PackagesLoading": "Laddar tillgängliga paket",
+    "PackagesNoResults": "Inga installerade {type} matchade din sökning efter \"{name}\".",
+    "PackagesNoResultsSearch": "Sök installerbara paket",
+    "PackageStatusBlocked": "Blockerad",
+    "PackageStatusCheck": "Uppdatera",
+    "PackageStatusCurrent": "Aktuell",
+    "PackageStatusUpdate": "Uppdatera",
+    "PackageStatusUpdated": "Uppdaterad",
+    "PackageStatusUpdating": "Uppdaterar",
+    "PackageUpdateCoreInsufficient": "En uppdatering för {title} är tillgänglig men kräver en äldre version av Foundry {vmax} för att fungera. Du använder för närvarande version {vcur}.",
+    "PackageUpdateCoreUnstable": "En uppdatering finns för {title} men den kan inte installeras eftersom den kräver en version av Foundry {vmin} som ännu inte är stabil.",
+    "PackageUpdateCoreUpdateNeeded": "En uppdatering finns för {title} men kan inte installeras eftersom det kräver en uppdatering av Foundry till minst {vmin}. Du använder för närvarande version {vcur}.",
+    "PackageVisAll": "Alla paket",
+    "PackageVisCompatible": "Kompatibla",
+    "PackageVisIncompatible": "Inkompatibla",
+    "PackageVisInst": "Installerade",
+    "PackageVisUnin": "Ej installerade",
+    "PackageVisUnverified": "Ej verifierade",
+    "PremiumContent": "Premiuminnehåll",
+    "PreviewCompatibility": "Förhandsgranska kompatibilitet",
+    "PriorManifestUrl": "Tidigare manifest-URL (version {version})",
+    "RecommendedPackageNote": "Detta beroende rekommenderas eftersom det förbättrar paketets funktionalitet.",
+    "Reinstall": "Installera om",
+    "ReinstallPackageNotFound": "Ominstallation av paketet misslyckades eftersom ett paket med det ID:t inte kunde hittas i det centrala paketrepositoriet. Du måste installera om det manuellt via dess manifestlänk.",
+    "RequireCoreDowngrade": "Ej stödd version av Foundry",
+    "RequireCoreUnstable": "Kräver instabil version",
+    "RequireCoreUpgrade": "Kräver kärnuppdatering",
+    "RequireDep": "Kräver beroenden: {dependencies}",
+    "RequiredPackageNote": "Detta beroende krävs för att paketet ska fungera.",
+    "RequireSystem": "Kräver {system}-system",
+    "RequireUpdate": "Uppdatering krävs",
+    "SaveConfiguration": "Spara konfiguration",
+    "SeeTutorial": "För en mer djupgående guide om hur du kommer igång med Foundry Virtual Tabletop, kan du referera till <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\" title=\"Gamemaster Tutorial\">Gamemaster Tutorial</a>-serien i vår <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\" title=\"Knowledge Base\">kunskapsbas</a>.",
+    "SettingsHeader": "Programvarukonfiguration",
+    "SwapToTheUpdatedManifest": "Vill du byta till den nya manifest-URL:en? (detta rekommenderas)",
+    "SystemFilter": "Filtrera system",
+    "Systems": "Spelsystem",
+    "SystemUpdate": "Uppdatera system",
+    "SystemUpdateInstructions": "En uppdatering av systemet är tillgänglig, återgå till installationen för att installera!",
+    "Title": "Konfiguration och installation",
+    "Uninstall": "Avinstallera",
+    "UninstallFailure": "Avinstallation misslyckades",
+    "UninstallSuccess": "avinstallerades framgångsrikt",
+    "Update": "Uppdatera programvara",
     "UPDATE_NOTES": {
-      "BeginDownload": "Börja nedladdning",
+      "BeginDownload": "Påbörja nedladdning",
       "FullList": "Se den <a href=\"{url}\" target=\"_blank\">fullständiga listan</a> över versionsinformation.",
       "NewGenerationHint": "Överväg att ta en ögonblicksbild av alla installerade paket innan du uppdaterar ifall du behöver återställa den.",
-      "PreviewCompatibilityHint": "Med knappen 'förhandsgranska kompatibilitet' nedan kan du kontrollera om alla dina världar, system och moduler stöds i Foundry Virtual Tabletop Version {version}."
-    }
+      "PreviewCompatibilityHint": "Med knappen 'förhandsgranska kompatibilitet' nedan kan du kontrollera om alla dina världar, system och moduler stöds i Foundry Virtual Tabletop Version {version}.",
+      "Title": "Release Notes: {release}"
+    },
+    "UpdateAll": "Uppdatera alla",
+    "UpdateAvailable": "En uppdatering till {channel} version {version} är nu tillgänglig!",
+    "UpdateButtonDownload": "Ladda ner uppdatering {display}",
+    "UpdateChannel": "Uppdateringskanal för programvara",
+    "UpdateChannelHint": "Du kan välja en uppdateringskanal för att styra vilka typer av uppdateringar du vill få för Foundry Virtual Tabletop. Om du inte har ett specifikt behov att ändra detta rekommenderas den stabila kanalen.",
+    "UpdateCheck": "Uppdatera",
+    "UpdateCheckFor": "Sök efter uppdatering",
+    "UpdateCleaningC": "Rensning klar",
+    "UpdateCleaningS": "Rensar katalog",
+    "UpdateCompleteAuto": "Uppdateringen slutfördes. Startar om Foundry VTT-applikationen.",
+    "UpdateCompleteManual": "Uppdateringen slutfördes. Foundry Virtual Tabletop-servern stängs ner för manuell omstart.",
+    "UpdateDevelopment": "Utveckling",
+    "UpdateDevelopmentHint": "API-utveckling: Releaser för att testa designen av nya funktioner och API-ändringar för att få återkoppling från utvecklarsamhället.",
+    "UpdatedManifestUrl": "Uppdaterad manifest-URL (version {version})",
+    "UpdateDownloadingC": "Nedladdning klar",
+    "UpdateDownloadingS": "Laddar ner uppdatering",
+    "UpdatedPackages": "Paketuppdateringslogg",
+    "UpdateExtractingC": "Extrahering klar",
+    "UpdateExtractingS": "Extraherar uppdatering",
+    "UpdateFailure": "Uppdatering misslyckades",
+    "UpdateHint": "Du kan uppdatera din Foundry Virtual Tabletop-programvara till en ny version genom att söka efter uppdateringar i din valda uppdateringskanal.",
+    "UpdateInfoAvailable": "En uppdatering till Foundry Virtual Tabletop {display} är tillgänglig!",
+    "UpdateInstallingC": "Installation klar",
+    "UpdateInstallingS": "Installerar uppdatering",
+    "UpdateLicenseInvalid": "Din licensnyckel för Foundry Virtual Tabletop är ogiltig.",
+    "UpdateNewGeneration": "Manuell installation krävs",
+    "UpdateNoArchive": "Det finns inget uppdateringsarkiv att installera",
+    "UpdateNoInternetError": "Foundry Virtual Tabletop kräver en aktiv internetanslutning för att uppdatera.",
+    "UpdateNotAvailable": "Ingen programuppdatering är för närvarande tillgänglig på den begärda uppdateringskanalen.",
+    "UpdateNoUpdateMode": "Du får inte uppdatera denna instans av Foundry Virtual Tabletop eftersom den startades i --noupdate-läge.",
+    "UpdatePerformIfAvailable": "Utför uppdatering om tillgänglig",
+    "UpdatePrototype": "Prototyp",
+    "UpdatePrototypeHint": "Prototyp: Releaser för att förhandsvisa designen av experimentella funktioner som ännu inte är fullt utvecklade.",
+    "UpdateStable": "Stabil",
+    "UpdateStableHint": "Stabil: Releaser som har testats noggrant och rekommenderas för användning i riktiga spel.",
+    "UpdateSuccess": "uppdaterades framgångsrikt",
+    "UpdateTesting": "Testning",
+    "UpdateTestingHint": "Funktionstestning: Releaser för att testa funktionaliteten hos nya funktioner för att få återkoppling från användarsamhället.",
+    "UpdateWarningWillDisable": "Denna uppdatering är en ny huvudversion av Foundry Virtual Tabletop-programvaran. Att installera denna uppdatering kommer att kräva att vissa installerade moduler som ännu inte är kompatibla inaktiveras.",
+    "UpdateWebsiteSlowWarning": "https://foundryvtt.com verkar ha hög belastning just nu, vi rekommenderar att du försöker igen senare.",
+    "UpdateWebsiteUnreachableError": "Vi kan inte nå https://foundryvtt.com för tillfället. Försök igen senare.",
+    "UPNPLabel": "Aktivera UPnP",
+    "Verified": "Paketet är verifierat för denna version av Foundry",
+    "VersionChange": "Versionsändring",
+    "ViewPackageChangelog": "Visa ändringslogg",
+    "ViewPackagePage": "Visa paketsida",
+    "ViewPackageWebsite": "Visa paketets webbplats",
+    "WarningsManage": "Hantera paket",
+    "WarningsNone": "Du har inga varningar!",
+    "WarningsTitle": "Paketvarningar",
+    "WorldCoreMigrationRequired": "<p>Vid start av världen <strong>{world}</strong> kommer dess datamodell att migreras från en äldre kärnversion (<code>{oldVersion}</code>) till den nu installerade <strong>{newVersion}</strong>.</p>",
+    "WorldCreate": "Skapa värld",
+    "WorldDelete": "Radera värld",
+    "WorldDeleteConfirmCode": "Skriv in denna exakta kod i rutan nedan för att fortsätta: ",
+    "WorldDeleteConfirmWarning": "Detta kommer att permanent radera din värld och dess innehåll och kan inte ångras. Är du säker på att du vill göra detta?",
+    "WorldEdit": "Redigera värld",
+    "WorldFilter": "Filtrera världar",
+    "WorldLaunch": "Starta värld",
+    "WorldLaunchCleanWorld": "Rensar världens data",
+    "WorldLaunchConnect": "Laddar världens data",
+    "WorldLaunchConnectPackage": "Laddar paketdata",
+    "WorldLaunchExtractDemo": "Extraherar demodata",
+    "WorldLaunchFailure": "Start av värld misslyckades: {message}. Se konsolen (F12) för mer information.",
+    "WorldLaunchMigrate": "Migrerar världens data",
+    "WorldLaunchMigrateCore": "Utför foundry-migreringar",
+    "WorldLaunchMigratePackage": "Migrerar paketdata",
+    "WorldLaunchMigrateSystem": "Utför systemmigreringar",
+    "WorldMigrationBackupPrompt": "<p><strong>Det är inte möjligt att ångra denna process</strong>. Det rekommenderas att du säkerhetskopierar din värld innan du fortsätter. Du kommer att behöva en säkerhetskopia för att kunna återställa till den tidigare versionen.</p>",
+    "WorldMigrationBegin": "Starta migrering",
+    "WorldMigrationCreateBackup": "Skapa säkerhetskopia före migrering?",
+    "WorldMigrationDisableModules": "<p>Se till att uppdatera ditt spelsystem och installerade moduler innan du migrerar din värld. Som en del av denna migrering till en ny programvarugeneration kommer alla moduler och aktiva scener att inaktiveras och eventuell uppspelning av ljud att stoppas. Du kan återaktivera modulerna efter att migreringen är klar.</p>",
+    "WorldMigrationInProcess": "Din värld migreras för att vara kompatibel med {version}. Detta kan ta lite tid. Var tålmodig och stäng inte programmet.",
+    "WorldMigrationRequiredTitle": "Migrering av världens data",
+    "WorldMigrationSystemUnavailable": "<p>Den installerade versionen av spelsystemet <strong>{system}</strong> (<code>{systemVersion}</code>) är inte verifierad som kompatibel med denna programvaruversion. Lyckad migrering kan inte garanteras.</p>",
+    "Worlds": "Spelvärldar",
+    "WorldSystemMigrationRequired": "<p>Denna värld användes senast med en äldre systemversion (<code>{oldVersion}</code>) än den aktuellt installerade systemversionen <strong>{newVersion}</strong> och kan kräva en systemmigrering.</p>",
+    "WorldUnavailable": "Otillgänglig",
+    "YouMustInstallASystem": "Du måste installera ett spelsystem innan du kan skapa en ny värld"
   },
   "Sheet": "Blad",
   "SHEETS": {
@@ -2226,7 +2555,7 @@
   "SIDEBAR": {
     "ACTIONS": {
       "CREATE": {
-        "Actor": "Skapa skådespelare",
+        "Actor": "Skapa karaktär",
         "Adventure": "Skapa äventyr",
         "Cards": "Skapa korthög",
         "Compendium": "Skapa kompendium",
@@ -2298,6 +2627,7 @@
   "Sight": "Syn",
   "Software": "Programvara",
   "Sort": "Sort",
+  "Sound": "Ljud",
   "SOUND": {
     "ConfigTitle": "Konfiguration av bakgrundsljud",
     "EFFECTS": {
@@ -2308,7 +2638,6 @@
     "New": "Nytt ljud",
     "PathPlaceholder": "sökväg/til/ljud.mp3"
   },
-  "Sound": "Ljud",
   "spaces": "platser",
   "SUPPORT": {
     "Dimensions": "{width} × {height}",
@@ -2336,6 +2665,7 @@
       "weight.label": "Vikt"
     }
   },
+  "Template": "Mall",
   "TEMPLATE": {
     "BorderColor": "Ramfärg",
     "ConeTypeFlat": "Platt",
@@ -2366,7 +2696,6 @@
       "rect": "Rektangel"
     }
   },
-  "Template": "Mall",
   "TEXTURE_DATA": {
     "FIT": {
       "contain": "Contain",
@@ -2487,6 +2816,7 @@
       "other": "Years"
     }
   },
+  "Token": "Spelfigur",
   "TOKEN": {
     "Adjectives": {
       "ambitious": "Ambitiös",
@@ -2615,16 +2945,16 @@
     "DISPLAY_NONE": "Aldrig visas",
     "DISPLAY_OWNER": "Alltid för ägare",
     "DISPLAY_OWNER_HOVER": "Vid hovrande av ägare",
+    "Disposition": "Spelfigursdisposition",
     "DISPOSITION": {
       "FRIENDLY": "Vänlig",
       "HOSTILE": "Fientlig",
       "NEUTRAL": "Neutral",
       "SECRET": "Hemlig"
     },
-    "Disposition": "Spelfigurdisposition",
     "FIELDS": {
-      "actorId.label": "Represented Actor",
-      "actorLink.label": "Link Actor Data",
+      "actorId.label": "Representerad karaktär",
+      "actorLink.label": "Länka karaktärsdata",
       "alpha.label": "Token Opacity",
       "appendNumber": {
         "hint": "Lägg till ett automatiskt ökande nummer till namnet på olänkade tokens. Till exempel \"Goblin 3\".",
@@ -2789,6 +3119,35 @@
       "animation": "Light Animation",
       "basic": "Basic Configuration"
     },
+    "SHAPES": {
+      "ELLIPSE": {
+        "label": "Ellips"
+      },
+      "ELLIPSE_1": {
+        "label": "Ellips (Variant 1)"
+      },
+      "ELLIPSE_2": {
+        "label": "Ellips (Variant 2)"
+      },
+      "RECTANGLE": {
+        "label": "Rektangel"
+      },
+      "RECTANGLE_1": {
+        "label": "Rektangel (Variant 1)"
+      },
+      "RECTANGLE_2": {
+        "label": "Rektangel (Variant 2)"
+      },
+      "TRAPEZOID": {
+        "label": "Trapetsformad"
+      },
+      "TRAPEZOID_1": {
+        "label": "Trapetsformad (Variant 1)"
+      },
+      "TRAPEZOID_2": {
+        "label": "Trapetsformad (Variant 2)"
+      }
+    },
     "SightHeaderAdvanced": "Avancerade Alternativ",
     "SightHeaderBasic": "Grundläggande Konfiguration",
     "SightHeaderDetection": "Detektionslägen",
@@ -2832,38 +3191,11 @@
     "VisionSaturation": "Mättnad",
     "VisionSaturationHint": "Justera mättnaden på bakgrunden som är i synkällans radie (standard är 0).",
     "WarningNoActor": "Denna spelfigur refererar till en karaktär som inte längre finns i världen.",
-    "WarningNoVision": "Du äger inte någon spelfigur med syn i den här scenen",
-    "SHAPES": {
-      "ELLIPSE": {
-        "label": "Ellipse"
-      },
-      "ELLIPSE_1": {
-        "label": "Ellipse (Variant 1)"
-      },
-      "ELLIPSE_2": {
-        "label": "Ellipse (Variant 2)"
-      },
-      "RECTANGLE": {
-        "label": "Rectangle"
-      },
-      "RECTANGLE_1": {
-        "label": "Rectangle (Variant 1)"
-      },
-      "RECTANGLE_2": {
-        "label": "Rectangle (Variant 2)"
-      },
-      "TRAPEZOID": {
-        "label": "Trapezoid"
-      },
-      "TRAPEZOID_1": {
-        "label": "Trapezoid (Variant 1)"
-      },
-      "TRAPEZOID_2": {
-        "label": "Trapezoid (Variant 2)"
-      }
-    }
+    "WarningNoVision": "Du äger inte någon spelfigur med syn i den här scenen"
   },
-  "Token": "Spelfigur",
+  "Tours": {
+    "NavLabel": "Rundturhanteringsflikar"
+  },
   "TOURS": {
     "AllTours": "Alla rundturer",
     "Completed": "Slutförd",
@@ -2884,9 +3216,6 @@
     "TourCategories": "Rundturskategorier",
     "TourFilter": "Rundtursfilter",
     "TourName": "RundtursNamn"
-  },
-  "Tours": {
-    "NavLabel": "Rundturhanteringsflikar"
   },
   "Type": "Typ",
   "TYPES": {
@@ -2987,6 +3316,7 @@
     "UpdateSuccess": "Användare uppdaterades framgångsrikt, återgår till spelvärlden.",
     "UserName": "AnvändarNamn"
   },
+  "Vision": "Syn",
   "VISION": {
     "ModeBasicVision": "Bas-syn",
     "ModeBlindness": "Blindhet",
@@ -2996,13 +3326,26 @@
     "ModeMonochromatic": "Monokromatisk",
     "ModeTremorsense": "Vibrationssinne"
   },
-  "Vision": "Syn",
   "WALL": {
+    "ANIMATION_DIRECTIONS": {
+      "DEFAULT": "Default",
+      "REVERSE": "Omväng"
+    },
+    "ANIMATION_TYPES": {
+      "ASCEND": "Stigande",
+      "DESCEND": "Sjunkande",
+      "SLIDE": "Glidande",
+      "SWING": "Swing",
+      "SWIVEL": "Swivel"
+    },
+    "CoordinateRange": "({p0X}, {p0Y}) till ({p1X}, {p1Y})",
     "Directions": {
       "BOTH": "Båda",
       "LEFT": "Vänster",
       "RIGHT": "Höger"
     },
+    "DoorAnimation": "Dörranimering",
+    "DoorConfiguration": "Dörrkonfiguration",
     "DoorSounds": {
       "FuturisticFast": "Futuristiskt, Snabbt",
       "FuturisticForcefield": "Futuristiskt, Kraftfält",
@@ -3061,30 +3404,16 @@
         "label": "Dämpning av närhetströskel"
       }
     },
-    "SenseTypes": {
-      "DISTANCE": "Omvänd närhet",
-      "NORMAL": "Normal",
-      "PROXIMITY": "Närhet",
-      "LIMITED": "Begränsad",
-      "NONE": "Ingen"
-    },
-    "ANIMATION_DIRECTIONS": {
-      "DEFAULT": "Default",
-      "REVERSE": "Omväng"
-    },
-    "ANIMATION_TYPES": {
-      "ASCEND": "Stigande",
-      "DESCEND": "Sjunkande",
-      "SLIDE": "Glidande",
-      "SWING": "Swing",
-      "SWIVEL": "Swivel"
-    },
-    "CoordinateRange": "({p0X}, {p0Y}) till ({p1X}, {p1Y})",
-    "DoorAnimation": "Dörranimering",
-    "DoorConfiguration": "Dörrkonfiguration",
     "Instructions": "Anpassa hur detta väggsement begränsar förflyttning eller sinnen.",
     "NWalls": "[{n} väggar]",
     "Restrictions": "Väggbegränsningar",
+    "SenseTypes": {
+      "DISTANCE": "Omvänd närhet",
+      "LIMITED": "Begränsad",
+      "NONE": "Ingen",
+      "NORMAL": "Normal",
+      "PROXIMITY": "Närhet"
+    },
     "Submit": "Upodatera vägg",
     "Title": "Väggkonfiguration",
     "TitleMany": "Väggkonfiguration [Flera]"
@@ -3149,13 +3478,13 @@
     "Title": "Väggkonfiguration",
     "TitleMany": "Väggkonfiguration [Flera]"
   },
+  "Warning": "Varning",
   "WARNING": {
     "ForegroundDimensionsMismatch": "Dimensionerna för din konfigurerade förgrundslagerbild matchar inte dimensionerna för bakgrundslagersbilden för denna scen. Förgrunden har ändrats i storlek, vilket kan leda till oönskade resultat.",
     "GridConfigNoBG": "Du använder rutnätskonfigurationsverktyget för en scen utan bakgrundsbild. Detta rekommenderas för närvarande inte och kan leda till oförutsägbara resultat.",
     "ObjectDoesNotExist": "{name} \"{identifier}\" finns inte.",
     "TilingSpriteDeprecation": "En modul eller ett system använder den gamla TilingSprite klassen som inte längre stödjs."
   },
-  "Warning": "Varning",
   "Warnings": "Varningar",
   "WEATHER": {
     "AutumnLeaves": "Höstlöv",
@@ -3186,6 +3515,7 @@
   },
   "Width": "Bredd",
   "WORLD": {
+    "description.label": "Världsbeskrivning",
     "FIELDS": {
       "background.label": "Bakgrundsbild",
       "description.label": "Världsbeskrivning",
@@ -3196,6 +3526,12 @@
       "system.label": "Spelsystem",
       "title.label": "Världstitel"
     },
+    "JOIN_THEMES": {
+      "default": "Default",
+      "minimal": "Minimal"
+    },
+    "ResetModules": "Återställ aktiva moduler",
+    "SubmitUpdate": "Uppdatera värld",
     "Title": {
       "Create": "Skapa värld",
       "Update": "Redigera värld: {world}"
