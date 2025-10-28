@@ -409,27 +409,26 @@
   "CARD": {
     "FIELDS": {
       "back": {
-        "img.label": "Back Image",
-        "name.label": "Back Name",
-        "text.label": "Back Text"
+        "img.label": "Baksida Bild",
+        "name.label": "Baksida Namn",
+        "text.label": "Baksida Text"
       },
       "drawn.label": "Drawn",
-      "face.label": "Face",
-      "faces": {
+      "face": {
         "element": {
-          "img.label": "Face Image",
-          "name.label": "Face Name",
-          "text.label": "Face Text"
+          "img.label": "Framsida Bild",
+          "name.label": "Framsida Namn",
+          "text.label": "Framsida Text"
         }
       },
-      "suit.label": "Suit",
-      "value.label": "Value"
+      "suit.label": "Kortlek Suit",
+      "value.label": "Kortvärde"
     }
   },
   "CARDS": {
     "FIELDS": {
-      "img.label": "Default Back Image",
-      "type.label": "Card Stack Type"
+      "img.label": "Standard Baksida Bild",
+      "type.label": "Kortlek Typ"
     }
   },
   "Character": "Tecken",
@@ -481,7 +480,7 @@
     "CombatantStatus": "Status",
     "CombatantToken": "Representerad spelfigur",
     "CombatantUpdate": "Uppdatera stridande",
-    "CombatantUpdateNamed": "Update Combatant: {name}",
+"CombatantUpdateNamed": "Update Combatant: {name}",
     "CONFIG": {
       "FIELDS": {
         "core.combatTrackerConfig": {
@@ -515,6 +514,42 @@
       },
       "SHEET": {
         "TURN_MARKERS": "Token Turn Markers"
+      }
+    },
+    "CombatantUpdateNamed": "Uppdatera stridande: {name}",
+    "CONFIG": {
+      "FIELDS": {
+        "core.combatTrackerConfig": {
+          "resource": {
+            "hint": "Välj en egenskap att spåra för varje stridande.",
+            "label": "Spårad resurs"
+          },
+          "skipDefeated": {
+            "hint": "Skippa automatiskt stridande som markerats som besegrade.",
+            "label": "Utan undantag för besegrade"
+          },
+          "turnMarker": {
+            "animation": {
+              "hint": "Animationstyp som används som standard för varje spelfigurs rundmarkör.",
+              "label": "Animation"
+            },
+            "disposition": {
+              "hint": "Tillämpa en nyans på rundmarkören baserat på spelfigurs disposition.",
+              "label": "Nyans"
+            },
+            "aktiverad": {
+              "hint": "Aktivera stridsmarkör som standard för alla tokens.",
+              "label": "Aktivera markörer"
+            },
+            "src": {
+              "hint": "En bild- eller videofil att använda som standard som för en spelfigurs rundmarkör.",
+              "label": "Mediekälla"
+            }
+          }
+        }
+      },
+      "SHEET": {
+        "TURN_MARKERS": "Spelfigurers rundmarkörer"
       }
     },
     "Create": "Skapa strid",
@@ -902,10 +937,10 @@
       "name.label": "Effekts Namn",
       "origin.label": "Effekts Ursprung",
       "statuses.label": "Status Conditions",
-      "tint.label": "Icon Tint Color",
+      "tint.label": "Ikonfärg",
       "transfer": {
-        "hint": "If checked, this Effect will be applied to any Actor that owns this Effect's parent Item.",
-        "label": "Apply Effect to Actor"
+        "hint": "Om markerad, kommer denna effekt att tillämpas på varje aktör som äger effektens förälderobjekt.",
+        "label": "Tillämpa effekt på aktör"
       }
     },
     "Image": "Effektbild",
@@ -1232,18 +1267,18 @@
     "AnchorLeft": "Vänster",
     "AnchorRight": "Höger",
     "AnchorTop": "Toppen",
-    "CategoryName": "Category name",
-    "ConfigureCategories": "Configure Categories",
-    "ConfigureCategoriesTitle": "{name} Categories",
-    "EditPage": "Edit Page",
+    "CategoryName": "Kategorinamn",
+    "ConfigureCategories": "Konfigurera kategorier",
+    "ConfigureCategoriesTitle": "{name} kategorier",
+    "EditPage": "Redigera sida",
     "EntryTitle": "Anteckningstitel",
-    "ImageOptions": "Image Options",
+    "ImageOptions": "Bildalternativ",
     "ImageShowSuccess": "Bilden visades för {which} spelare.",
-    "LockModeLocked": "Table of contents locked. Click to unlock.",
-    "LockModeUnlocked": "Table of contents unlocked. Click to lock.",
+    "LockModeLocked": "nnehållsförteckning låst. Klicka för att låsa upp.",
+    "LockModeUnlocked": "nnehållsförteckning olåst. Klicka för att låsa.",
     "ModeImage": "Bild",
-    "ModeMultiple": "Multiple Page Mode",
-    "ModeSingle": "Single Page Mode",
+    "ModeMultiple": "Flersidesläge",
+    "ModeSingle": "Ensidesläge",
     "ModeText": "Text",
     "NavLabel": "Innehållsförteckning för journaler",
     "NextPage": "Nästa sida",
@@ -1490,9 +1525,9 @@
     "IconSize": "Ikonstorlek",
     "IconTint": "Ikonfärgton",
     "SECTIONS": {
-      "CONTENT": "Content",
-      "ICON": "Icon",
-      "LABEL": "Label",
+      "CONTENT": "Innehåll",
+      "ICON": "Ikon",
+      "LABEL": "Etikett",
       "POSITION": "Position"
     },
     "TextColor": "Textfärg",
@@ -1529,8 +1564,8 @@
   },
   "PACKAGE": {
     "Compatibility": {
-      "Hint": "You may optionally indicate that this package is compatible only with a range of Foundry Virtual Tabletop software versions. Compatibility can be declared for a specific build version like \"13.339\" or for a broad generation like \"13\".",
-      "Label": "Compatibility"
+      "Hint": "Du kan om du vill ange att detta paket endast är kompatibelt med vissa versioner av Foundry Virtual Tabletop. Kompatibilitet kan anges för en specifik byggversion, till exempel \"13.339\", eller för en bred generation, till exempel \"13\".
+      "Label": "Kompatibilitet"
     },
     "FIELDS": {
       "authors": {
@@ -1549,17 +1584,17 @@
       "dataPath.label": "Datasökväg",
       "packs": {
         "element": {
-          "label.label": "eTIKETT",
+          "label.label": "Etikett",
           "name": {
-            "disabledHint": "You cannot change this compendium pack name because it already exists.",
-            "hint": "A unique alphanumeric string with no special characters that identifies the compendium pack.",
-            "label": "Namn"
+          "disabledHint": "Du kan inte ändra namnet på detta kompendiepaket eftersom det redan finns.",
+          "hint": "En unik alfanumerisk sträng utan specialtecken som identifierar kompendiepaketet.",
+          "label": "Namn"
           },
           "system": {
-            "hint": "Actor, Item, or Adventure compendium packs (which contain Actors or Items) must declare which specific game system they are designed for.",
-            "label": "Required System"
+          "hint": "Kompendiepaket för karaktärer, föremål eller äventyr (som innehåller karaktärer eller föremål) måste ange vilket specifikt spelsystem de är utformade för.",
+          "label": "Krävt System"
           },
-          "type.label": "Document Type"
+          "type.label": "Dokumenttyp"
         }
       }
     }
