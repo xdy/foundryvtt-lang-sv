@@ -409,26 +409,26 @@
   "CARD": {
     "FIELDS": {
       "back": {
-        "img.label": "Baksida Bild",
-        "name.label": "Baksida Namn",
-        "text.label": "Baksida Text"
+        "img.label": "Baksidesbild",
+        "name.label": "Baksidesnamn",
+        "text.label": "Baksidestext"
       },
       "drawn.label": "Drawn",
       "face": {
         "element": {
-          "img.label": "Framsida Bild",
-          "name.label": "Framsida Namn",
-          "text.label": "Framsida Text"
+          "img.label": "Framsidesbild",
+          "name.label": "Framsidesnamn",
+          "text.label": "Framsidestext"
         }
       },
-      "suit.label": "Kortlek Suit",
+      "suit.label": "Kortfärg",
       "value.label": "Kortvärde"
     }
   },
   "CARDS": {
     "FIELDS": {
-      "img.label": "Standard Baksida Bild",
-      "type.label": "Kortlek Typ"
+      "img.label": "Standard Baksidesbild",
+      "type.label": "Kortlekstyp"
     }
   },
   "Character": "Tecken",
@@ -624,7 +624,7 @@
   "CONTROLS": {
     "Title": "Handledning för kontroller",
     "NavLabel": "Palett för kanvaskontroll",
-    "Instructions": "Den här sidan beskriver vanliga tangentbords och muskommandon som används för att styra olika aspekter av Foundry Virtual Tabletop-miljön. Vissa kontroller är endast tillgängliga för en Game Master-användare, dessa är markerade i ljuslila.",
+    "Instructions": "Den här sidan beskriver vanliga tangentbords- och muskommandon som används för att styra olika aspekter av Foundry Virtual Tabletop-miljön. Vissa kontroller är endast tillgängliga för en Game Master-användare, dessa är markerade i ljuslila.",
     "GroupToken": "Spelfigurskontroller",
     "CommonForceSnap": "Tvinga fastsnäppning till rutnätshörn",
     "BasicSelect": "Markera spelfigurer",
@@ -633,7 +633,7 @@
     "TargetSelectP": "Markera alla spelfigurer som du kan se.",
     "BasicMeasure": "Mät avstånd",
     "GroupMeasure": "Mätkontroller",
-    "MeasureType": "Template Type",
+    "MeasureType": "Mätmallstyp",
     "MeasureConfigHint": "Konfigurera placeringen och visningen av mätmallen.",
     "MeasureCircle": "Cirkelmall",
     "MeasureCone": "Konmall",
