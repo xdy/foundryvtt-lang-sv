@@ -3101,11 +3101,11 @@
   "DETECTION": {
     "BasicSight": "Grundläggande Syn",
     "FeelTremor": "Känna Av Skakningar",
-    "LightPerception": "Light Perception",
+    "LightPerception": "Ljusperception",
     "SeeAll": "Se Allt",
-    "SeeInvisibility": "Se Osynlighet",
+    "SeeInvisibility": "Se Osynligt",
     "SenseAll": "Känna Av Allt",
-    "SenseInvisibility": "Känna Av Osynlighet"
+    "SenseInvisibility": "Känna Av Osynligt"
   },
   "Direction": "Riktning",
   "Display": "Visa",
@@ -3176,7 +3176,7 @@
     "BulletList": "Punktlista",
     "ClearFormatting": "Rensa formatering",
     "Code": "Kod",
-    "CodeBlock": "Kodblokk",
+    "CodeBlock": "Kodblock",
     "CollaboratingUsers": "Samverkande användare",
     "DiscardHTML": "Förkasta HTML-ändringar",
     "EditingHTMLWarning": "En annan användare har redigerat samma dokument. alla ändringar du har gjort i HTML skulle radera deras ändringar och kan därför inte sparas.",
