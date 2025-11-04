@@ -10,3 +10,10 @@ gen
 
 #Used to compare with foundry, but not distributable
 en.json
+
+#Used for tools that I don't want to add to project
+node_modules
+package.json
+package-lock.json
+*.js
+*.mjs
