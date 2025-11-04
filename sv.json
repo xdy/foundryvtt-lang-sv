@@ -2784,5 +2784,2370 @@
       "description.label": "Världsbeskrivning"
     },
     "description.label": "Världsbeskrivning"
-  }
+  },
+  "Activate": "Aktivera",
+  "all": "alla",
+  "AMBIENT_SOUND": {
+    "ACTIONS": {
+      "CREATE": "Skapa omgivande ljud",
+      "UPDATE": "Uppdatera omgivande ljud"
+    },
+    "FIELDS": {
+      "darkness": {
+        "hint": "Du kan specificera ett intervall av mörkernivåer under vilket detta omgivande ljud kommer att vara hörbart.",
+        "label": "Aktiveringsintervall för mörker",
+        "max": {
+          "label": "och"
+        },
+        "min": {
+          "label": "Mellan"
+        }
+      },
+      "easing": {
+        "hint": "Justera ljudets volymnivå när spelfigurer rör sig närmare ursprunget.",
+        "label": "Volymutjämning"
+      },
+      "effects": {
+        "base": {
+          "hint": "Tillämpa en ljudeffekt på ljudet som filtrerar eller transformerar dess ljud.",
+          "intensity": {
+            "label": "Intensitet för grundeffekt"
+          },
+          "type": {
+            "label": "Grundeffekt"
+          }
+        },
+        "muffled": {
+          "hint": "Tillämpa en ljudeffekt på ljudet som ersätter grundeffekten när ljudet dämpas av väggar. Ett ljud kan bara dämpas om det inte är begränsat av väggar.",
+          "intensity": {
+            "label": "Intensitet för dämpad effekt"
+          },
+          "type": {
+            "label": "Dämpad effekt"
+          }
+        }
+      },
+      "elevation": {
+        "label": "Höjd"
+      },
+      "hidden": {
+        "hint": "Växla om denna ljudkälla är tillfälligt inaktiverad.",
+        "label": "Dold"
+      },
+      "path": {
+        "hint": "Konfigurera det omgivande ljudet för att spela en ljudfil",
+        "label": "Sökväg till källfil"
+      },
+      "radius": {
+        "label": "Effektradie"
+      },
+      "volume": {
+        "hint": "Definiera den maximala volymen för ljudet vid dess ursprungspunkt (om det utjämnas) eller överallt i området.",
+        "label": "Maximal volym"
+      },
+      "walls": {
+        "hint": "Konfigurera om effektområdet för denna ljudkälla begränsas av närliggande väggar.",
+        "label": "Begränsat av väggar"
+      },
+      "x": {
+        "label": "X"
+      },
+      "y": {
+        "label": "Y"
+      }
+    },
+    "SECTIONS": {
+      "ACTIVATION": "Aktivering",
+      "EFFECTS": "Specialeffekter",
+      "PLACEMENT": "Placering",
+      "PLACEMENT_HINT": "Konfigurera ursprungsläge, höjd och radie för ljudkällan. Höjd används ännu inte och tillhandahålls endast som referens.",
+      "SOURCE": "Källa",
+      "VOLUME": "Volym"
+    }
+  },
+  "Anchor": "Anchor",
+  "Angle": "Vinkel",
+  "APP": {
+    "NavigateBackConfirm": "Är du säker på att du vill avsluta spelvärlden i Foundry Virtual Tabletop?"
+  },
+  "AreYouSure": "Är du säker?",
+  "AUDIO": {
+    "CHANNELS": {
+      "ENVIRONMENT": {
+        "label": "Miljö",
+        "tooltip": "Kontrollerar den lokala volymen för spellistor och omgivningsljud som klassificerats som miljö."
+      },
+      "INTERFACE": {
+        "label": "Användargränssnitt",
+        "tooltip": "Konrollerar den lokala volumen för ljud relaterade till användargränssnitt eller användarinteraktion."
+      },
+      "MUSIC": {
+        "label": "Musik",
+        "tooltip": "Kontrollerar den lokala volymen för spellistor och ljud som klassificerats som musik."
+      }
+    }
+  },
+  "Author": "Författare",
+  "AuthorPl": "Författare",
+  "Between": "Mellan",
+  "Cancel": "Avbryt",
+  "Character": "Tecken",
+  "CHAT": {
+    "Chat": "Chatt",
+    "Clear": "Rensa chattlogg",
+    "ConcealMessage": "Gör privat",
+    "Dismiss": "Dismiss",
+    "EnterMessage": "Skriv meddelande",
+    "Export": "Exportera chattlogg",
+    "FlushTitle": "Töm chattlogg",
+    "FlushWarning": "Alla meddelanden i chattloggen kommer att tas bort permanent.",
+    "InvalidCommand": "{command} är inte ett giltigt chattmeddelandekommando.",
+    "JumpToBottom": "Hoppa till botten",
+    "PopoutMessage": "Öppna meddelande i ny flik",
+    "PrivateRollContent": "{user} rullade tärningar privat",
+    "RevealMessage": "Avslöja för alla",
+    "RollBlind": "SL-tärningsslag i blindo",
+    "RollDefault": "Standard tärningsslag",
+    "RollPrivate": "Privat SL-tärningsslag",
+    "RollPublic": "Offentligt tärningsslag",
+    "RollSelf": "Självtärningsslag",
+    "RollTables": "Slumptabeller",
+    "RollVisibility": "Tärnings-synlighet",
+    "Title": "Chattlogg",
+    "To": "Till",
+    "UnknownUser": "Okänd användare"
+  },
+  "Close": "Stäng",
+  "Collapse": "Minimera",
+  "COMBAT": {
+    "Begin": "Börja strid",
+    "CannotLinkToScene": "Du kan inte länka en strid till en scen som inte innehåller alla dess stridande.",
+    "ClearMovementHistories": "Töm rörelsehistorik",
+    "CombatantActor": "Representerad karaktär",
+    "CombatantClear": "Rensa initiativ",
+    "CombatantClearMovementHistory": "Töm rörelsehistorik",
+    "CombatantCreate": "Skapa stridande",
+    "CombatantDefeated": "Besegrad",
+    "CombatantHidden": "Dold",
+    "CombatantImage": "Miniatyrbild",
+    "CombatantInitiative": "Initiativvärde",
+    "CombatantMovementHistoryCleared": "Rörelsehistorik rensad för token \"{name}\".",
+    "CombatantName": "Visat Namn",
+    "CombatantNotInScene": "Stridanden {name} är inte närvarande i den scen du för närvarande tittar på",
+    "CombatantRemove": "Ta bort stridande",
+    "CombatantReroll": "Rulla om initiativ",
+    "CombatantScene": "Stridandes scen",
+    "CombatantStatus": "Status",
+    "CombatantToken": "Representerad spelfigur",
+    "CombatantUpdate": "Uppdatera stridande",
+    "CombatantUpdateNamed": "Uppdatera stridande: {name}",
+    "CONFIG": {
+      "FIELDS": {
+        "core.combatTrackerConfig": {
+          "resource": {
+            "hint": "Välj en egenskap att spåra för varje stridande.",
+            "label": "Spårad resurs"
+          },
+          "skipDefeated": {
+            "hint": "Skippa automatiskt stridande som markerats som besegrade.",
+            "label": "Utan undantag för besegrade"
+          },
+          "turnMarker": {
+            "animation": {
+              "hint": "Animationstyp som används som standard för varje spelfigurs rundmarkör.",
+              "label": "Animation"
+            },
+            "disposition": {
+              "hint": "Tillämpa en nyans på rundmarkören baserat på spelfigurs disposition.",
+              "label": "Nyans"
+            },
+            "aktiverad": {
+              "hint": "Aktivera stridsmarkör som standard för alla tokens.",
+              "label": "Aktivera markörer"
+            },
+            "src": {
+              "hint": "En bild- eller videofil att använda som standard som för en spelfigurs rundmarkör.",
+              "label": "Mediekälla"
+            }
+          }
+        },
+        "core": {
+          "combatTrackerConfig": {
+            "turnMarker": {
+              "enabled": {
+                "hint": "Aktivera stridsrundemarkörer som standard för alla spelfigurer.",
+                "label": "Aktivera Markörer"
+              }
+            }
+          }
+        }
+      },
+      "SHEET": {
+        "TURN_MARKERS": "Spelfigurers rundmarkörer"
+      }
+    },
+    "Create": "Skapa strid",
+    "Delete": "Ta bort strid",
+    "Encounter": "Strid",
+    "EncounterNext": "Aktivera nästa strid",
+    "EncounterPrevious": "Aktivera föregående strid",
+    "End": "Avsluta strid",
+    "EndConfirmation": "Avsluta den här striden och töm rundräknaren?",
+    "EndTitle": "Avsluta strid?",
+    "FIELDS": {
+      "round.label": "Round",
+      "turn.label": "Turn"
+    },
+    "InitiativeReset": "Återställ initiativ",
+    "InitiativeRoll": "Rulla initiativ",
+    "InitiativeScore": "Initiativvärde",
+    "Linked": "Länkad till scen, klicka för att ta bort länk",
+    "NavLabel": "Navigering av strid",
+    "None": "Ingen strid",
+    "NoneActive": "Det finns ingen strid i den scen du för närvarande tittar på.",
+    "NoneRemaining": "Det finns inga stridande kvar i denna strid som inte är besegrade.",
+    "NotStarted": "Inte påbörjad",
+    "PanToCombatant": "Panorera till stridande",
+    "PingCombatant": "Markera stridande",
+    "Resource": "Spårad resurs",
+    "ResourceHint": "Välj ett attribut att följa för varje stridande.",
+    "RollAll": "Rulla alla",
+    "RollNPC": "Rulla SLP",
+    "RollsInitiative": "{name} rullar för initiativ!",
+    "Round": "Runda",
+    "RoundNext": "Nästa runda",
+    "RoundPrev": "Föregående runda",
+    "Rounds": "Rundor",
+    "Settings": "Stridsinställningar",
+    "SettingsSave": "Spara stridsinställningar",
+    "SidebarTitle": "Stridshanterare",
+    "SkipDefeated": "Hoppa över besegrade?",
+    "SkipDefeatedHint": "Hoppa automatiskt över besegrade karaktärer?",
+    "Sounds": {
+      "Epic": "Episk",
+      "MC": "Kampkommentator"
+    },
+    "ToggleDead": "Markera som besegrad",
+    "ToggleVis": "Växla synlighet",
+    "Turn": "Runda",
+    "TURN_MARKERS": {
+      "ANIMATIONS": {
+        "PULSE": "Pulse",
+        "SPIN": "Spin",
+        "SPIN_PULSE": "Spin Pulse"
+      }
+    },
+    "TurnEnd": "Avsluta runda",
+    "TurnNext": "Nästa runda",
+    "TurnPrev": "Föregående runda",
+    "Turns": "Rundor",
+    "UnknownCombatant": "Okänd stridande",
+    "Unlinked": "Olänkad strid, klicka för att länka till scenen",
+    "WarnNonVisibleToken": "Denna stridande är inte synlig för dig."
+  },
+  "Command": "Kommando",
+  "Commit Change": "Spara förändringar",
+  "COMPENDIUM": {
+    "ART": {
+      "CONFIG": {
+        "Hint": "Använd pilarna för att justera prioriteringen för bildkällorna. När en enskild aktör har bilder från flera källor kommer den med högst prioritet att användas.",
+        "Portraits": "Porträtt",
+        "PriorityDecrease": "Minska prioritet",
+        "PriorityIncrease": "Öka prioritet",
+        "Tokens": "Spelfigurer"
+      },
+      "SETTING": {
+        "Hint": "Konfigurera vilken system/modul som bidrar med bilder.",
+        "Label": "Konfigurera bilder",
+        "Title": "Kompendiumbilder"
+      }
+    },
+    "CannotViewWarning": "Du har inte tillräcklig behörighet för att se detta kompendiepaket.",
+    "ClearFilters": "Rensa filter",
+    "Create": "Skapa kompendie",
+    "CreateHint": "Skapa ett nytt kompendiepaket i din nuvarande värld.",
+    "Delete": "Ta bort Kompendium",
+    "DeleteEntry": "Ta bort post",
+    "DeleteWarning": "Detta kompendiepaket kommer att tas bort permanent och kan inte återställas.",
+    "Duplicate": "Duplicera kompendium",
+    "DuplicateHint": "Du kan kopiera detta kompendium till din värld för att ha en lokal kopia av dess innehåll som du kan redigera säkert.",
+    "DuplicateTitle": "Nytt Namn",
+    "ErrorRequireTitle": "Du måste ange ett namn för att skapa ett kompendiepaket för en värld.",
+    "FilterDocuments": "Filtrera dokument efter typ",
+    "ImportAll": "Importera allt innehåll",
+    "ImportAllFinish": "Importerade framgångsrikt {number} {type} dokument och {folderNumber} mappar till {folder}-mappen.",
+    "ImportAllHint": "Importera allt innehåll från detta kompendiepaket till en ny eller befintlig mapp. Observera att import av stora kompendiepaket kan påverka applikationens prestanda negativt.",
+    "ImportAllStart": "Importerar {number} {type} Dokument och {folderNumber}mappar till {folder}-mappen. Var tålmodig.",
+    "ImportEntry": "Importera post",
+    "Locked": "{title} [Låst]",
+    "Name": "Kompendienamn",
+    "OwnershipInheritBelow": "Ärvt från nedan",
+    "OwnershipReset": "Återställ till standard",
+    "SidebarTitle": "Kompendiumpaket",
+    "ToggleLocked": "Växla redigeringslås",
+    "ToggleLockedWarning": "Du försöker låsa upp ett kompendie som inte tillhör denna värld för redigering. Ändringar du gör i denna kompendiepaket kan gå förlorade om systemet eller modulen som äger det uppdateras. Du kan istället duplicera kompendiet till din värld. Vill du fortsätta?",
+    "Type": "Dokumenttyp",
+    "TypeHint": "Varje kompendiepaket innehåller en specifik typ av dokument."
+  },
+  "Configure": "Konfigurera",
+  "Confirm": "Confirm",
+  "Coordinates": "Koordinater",
+  "Deactivate": "Inaktivera",
+  "Default": "Standard",
+  "Degrees": "Grader",
+  "Delete": "Radera",
+  "DeleteSelected": "Ta bort vald",
+  "Description": "Beskrivning",
+  "DETECTION": {
+    "BasicSight": "Grundläggande Syn",
+    "FeelTremor": "Känna Av Skakningar",
+    "LightPerception": "Ljusperception",
+    "SeeAll": "Se Allt",
+    "SeeInvisibility": "Se Osynligt",
+    "SenseAll": "Känna Av Allt",
+    "SenseInvisibility": "Känna Av Osynligt"
+  },
+  "Direction": "Riktning",
+  "Display": "Visa",
+  "Distance": "Avstånd",
+  "Documentation": "Dokumentation",
+  "DRAWING": {
+    "Author": "Författare",
+    "ConfigDefaultTitle": "Standard ritningskonfiguration",
+    "FIELDS": {
+      "sort.label": "Sortera"
+    },
+    "FillColor": "Fyllnadsfärg",
+    "FillOpacity": "Fyllnadsopacitet",
+    "FillTexture": "Textur",
+    "FillTypeNone": "Ingen",
+    "FillTypePattern": "Mönster",
+    "FillTypes": "Fyllnadsalternativ",
+    "FillTypeSolid": "Solid",
+    "FontFamily": "Typsnittsfamilj",
+    "FontSize": "Typsnittsstorlek",
+    "Height": "Höjd",
+    "Information": "Information",
+    "JointValidationError": "Ritningar måste ha synlig text, en synlig fyllning eller en synlig linje.",
+    "JointValidationErrorUI": "Ritningar måste ha synlig text, en synlig fyllning eller en synlig linje. Kontrollera default-ritningsinställningarna.",
+    "LineOpacity": "Linjeopacitet",
+    "LineWidth": "Linjebredd",
+    "NoteFill": "Justera fyllningsinställningarna för ritningen.",
+    "NoteLines": "Justera yttre linjer för ritningen.",
+    "NotePosition": "Justera position och synlighet för ritningen.",
+    "NoteText": "Justera den textetikett som tillämpas på ritningen (om någon).",
+    "Object": "Objekt",
+    "Role": "Ritningsroll",
+    "RoleHint": "En ritning som representerar ett \"Objekt\" visas i den primära spelkanvasgruppen och påverkas av ljus och krigsdimma. En ritning som representerar \"Information\" visas i interface-gruppen och är synlig för alla spelare om den inte döljs.",
+    "Rotation": "Rotation",
+    "SmoothingFactor": "Utjämningsfaktor",
+    "SmoothingFactorHint": "För frihandsritning kontrollerar utjämningsfaktorn mängden splineutjämning.",
+    "StrokeColor": "Linjefärg",
+    "SubmitCreate": "Skapa ritning",
+    "SubmitDefault": "Konfigurera Standard",
+    "SubmitReset": "Återställ Standard",
+    "SubmitUpdate": "Uppdatera ritning",
+    "TabFill": "Fyllnad",
+    "TabLines": "Linjer",
+    "TabPosition": "Position",
+    "TABS": {
+      "fill": "Fyll",
+      "lines": "Linjer",
+      "position": "Position",
+      "text": "Text"
+    },
+    "TabText": "Text",
+    "TextColor": "Textfärg",
+    "TextLabel": "Textetikett",
+    "TextOpacity": "Textopacitet",
+    "Width": "Bredd",
+    "ZIndex": "Z-Index"
+  },
+  "Duplicate": "Duplicera",
+  "EDITOR": {
+    "Alignment": "Justering",
+    "AlignmentCenter": "Centrerat",
+    "AlignmentJustify": "Justera",
+    "AlignmentLeft": "Vänster",
+    "AlignmentRight": "Höger",
+    "Block": "Block",
+    "Blockquote": "Blockcitat",
+    "Bold": "Fetstil",
+    "BulletList": "Punktlista",
+    "ClearFormatting": "Rensa formatering",
+    "Code": "Kod",
+    "CodeBlock": "Kodblock",
+    "CollaboratingUsers": "Samverkande användare",
+    "DiscardHTML": "Förkasta HTML-ändringar",
+    "EditingHTMLWarning": "En annan användare har redigerat samma dokument. alla ändringar du har gjort i HTML skulle radera deras ändringar och kan därför inte sparas.",
+    "EmbedFailed": "Failed to embed content from '{uuid}'.",
+    "EnableHighlightDocumentMatches": "Växla innehållslänkmatchning vid markering",
+    "Font": "Teckensnitt",
+    "Format": "Format",
+    "Heading": "Rubrik {level}",
+    "Headings": "Rubriker",
+    "Hide": "Dölj",
+    "HorizontalRule": "Horisontell linje",
+    "ImageAlt": "Alternativ beskrivning",
+    "ImageDimensions": "Dimensioner",
+    "ImageDimensionsHint": "Lämna dessa tomma för att använda bildens inneboende storlek.",
+    "ImageInsert": "Infoga",
+    "ImageSource": "Källa",
+    "Inline": "Inline",
+    "InsertImage": "Infoga bild",
+    "Italic": "Kursiv",
+    "Link": "Länk",
+    "LinkInsert": "Infoga länk",
+    "LinkText": "Länktext",
+    "LinkTitle": "Länkens titel",
+    "LinkURL": "Länkens URL",
+    "Markdown": "Markdown",
+    "NoUploadPermission": "Du måste ha behörighet att ladda upp filer för att infoga bildinnehåll.",
+    "NumberList": "Numrerad lista",
+    "Paragraph": "Paragraf",
+    "ProseMirrorBadArguments": "Både ett dokument och ett namn måste tillhandahållas för att skapa en ProseMirror-instans.",
+    "Resync": "Ditt redigerarläge har desynkroniserats från servern och måste återställas. Ditt ursprungliga redigerarlägesinnehåll har kopierats till urklipp.",
+    "Reveal": "Avslöja",
+    "Save": "Spara ändringar",
+    "SaveAndClose": "Spara och stäng redigerare",
+    "Secret": "Dolt",
+    "SourceHTML": "Källa HTML",
+    "Strikethrough": "Genomstrykning",
+    "Subscript": "Nedsänkt",
+    "Superscript": "Upphöjt",
+    "Table": "Tabell",
+    "TableAddColumnAfter": "Lägg till kolumn efter",
+    "TableAddColumnBefore": "Lägg till kolumn före",
+    "TableAddRowAfter": "Lägg till rad efter",
+    "TableAddRowBefore": "Lägg till rad före",
+    "TableColumns": "Kolumner",
+    "TableDelete": "Ta bort tabell",
+    "TableDeleteColumn": "Ta bort kolumn",
+    "TableDeleteRow": "Ta bort rad",
+    "TableDimensions": "Dimensioner",
+    "TableInsert": "Infoga tabell",
+    "TableMergeCells": "Sammanfoga celler",
+    "TableRows": "Rader",
+    "TableSplitCell": "Dela cell",
+    "TinyMCE": "TinyMCE",
+    "Underline": "Understrykning",
+    "UploadComplete": "Uppladdning klar.",
+    "UploadingFile": "Laddar upp bildfil."
+  },
+  "EFFECT": {
+    "ChangeKey": "Attributnyckel",
+    "ChangeMode": "Ändringsläge",
+    "ChangePriority": "Prioritet",
+    "ChangeValue": "Effektvärde",
+    "Combat": "Strid",
+    "Description": "Effektbeskrivning",
+    "Disabled": "Effekt avstängd",
+    "DurationSecs": "Effekts varaktighet (sekunder)",
+    "DurationTurns": "Effekts varaktighet (omgångar)",
+    "FIELDS": {
+      "description.label": "Effectbeskrivning",
+      "disabled.label": "Effekt pausad",
+      "duration": {
+        "combat.label": "Strid",
+        "rounds.label": "Rundor",
+        "seconds.label": "Effektvaraktighet (Sekunder)",
+        "startRound.label": "Runda",
+        "startTime.label": "Effekts starttid",
+        "startTurn.label": "Startomgång",
+        "turns.label": "Startomgångar"
+      },
+      "img.label": "Effekts ikon",
+      "name.label": "Effekts Namn",
+      "origin.label": "Effekts Ursprung",
+      "statuses.label": "Status Conditions",
+      "tint.label": "Ikonfärg",
+      "transfer": {
+        "hint": "Om markerad, kommer denna effekt att tillämpas på varje aktör som äger effektens förälderobjekt.",
+        "label": "Tillämpa effekt på aktör"
+      }
+    },
+    "Image": "Effektbild",
+    "MODE_ADD": "Addera",
+    "MODE_CUSTOM": "Anpassad",
+    "MODE_DOWNGRADE": "Nedgradera",
+    "MODE_MULTIPLY": "Multiplicera",
+    "MODE_OVERRIDE": "Åsidosätt",
+    "MODE_UPGRADE": "Uppgradera",
+    "Name": "EffektNamn",
+    "Origin": "Effektkälla",
+    "StartTime": "Effekts starttid",
+    "StartTurns": "Effekts startomgång",
+    "StatusAsleep": "Sover",
+    "StatusBleeding": "Blöder",
+    "StatusBlessed": "Välsignad",
+    "StatusBlind": "Blind",
+    "StatusBurning": "Brinner",
+    "StatusBurrow": "Grävande",
+    "StatusCorrode": "Korroderad",
+    "StatusCursed": "Förbannad",
+    "StatusDead": "Död",
+    "StatusDeaf": "Döv",
+    "StatusDegen": "Försämrad",
+    "StatusDisease": "Sjuk",
+    "StatusDowngrade": "Försvagad",
+    "StatusFear": "Rädd",
+    "StatusFireShield": "Eldsköld",
+    "StatusFlying": "Flygande",
+    "StatusFrozen": "Frostig",
+    "StatusHolyShield": "Helig sköld",
+    "StatusHover": "Hovering",
+    "StatusIceShield": "Issköld",
+    "StatusInvisible": "Osynlig",
+    "StatusMagicShield": "Magisk sköld",
+    "StatusMarked": "Märkt",
+    "StatusParalysis": "Förlamad",
+    "StatusPoison": "Förgiftad",
+    "StatusProne": "Liggande",
+    "StatusRadiation": "Radioaktiv",
+    "StatusRegen": "Återhämtning",
+    "StatusRestrained": "Fångad",
+    "StatusShocked": "Chockad",
+    "StatusSilenced": "Tystad",
+    "StatusStunned": "Förstenad",
+    "StatusTarget": "Mål",
+    "StatusUnconscious": "Medvetslös",
+    "StatusUpgrade": "Förstärkt",
+    "Submit": "Spara ändringar",
+    "TabDetails": "Detaljer",
+    "TabDuration": "Varaktighet",
+    "TabEffects": "Effekter",
+    "TABS": {
+      "changes": "Förändringar",
+      "details": "Detaljer",
+      "duration": "Varaktighet"
+    },
+    "Tint": "Icon Tint Color",
+    "Transfer": "Tillämpa effekt på karaktärer",
+    "TransferHint": "Om markerad kommer denna effekt att tillämpas på alla karaktärer som äger denna effekts förälderföremål.",
+    "TransferHintLegacy": "Om markerad kommer denna effekt att kopieras till karaktärern när denna effekts förälderföremål skapas på en karaktärer och tas bort om det här föremålet någonsin tas bort.",
+    "TransferLegacy": "Överför effekt till karaktärer"
+  },
+  "Elevation": "Höjd över havet",
+  "Error": "Fel",
+  "Errors": "Fel",
+  "EULA": {
+    "Acknowledge": "Bekräfta avtal",
+    "Agree": "Bekräfta",
+    "AgreeHint": "Genom att klicka i kryssrutan ovan så indikerar du att du har läst och gått med på villkoren för att använda Foundry Virtual Tabletop.",
+    "AgreeLabel": "Jag går med på dessa villkor",
+    "Decline": "Avböj",
+    "Declined": "Du har avböjt att gå med på villkoren och kan inte använda mjukvaran.",
+    "ErrorAgreeRequired": "Du måste klicka i kryssrutan för att visa att du går med på avtalet för att kunna fortsätta."
+  },
+  "Expand": "Expandera",
+  "File Path": "Sökväg till fil",
+  "FOLDER": {
+    "Clear": "Rensa mapp",
+    "Collapse": "Dölj alla mappar",
+    "Color": "Mappfärg",
+    "Create": "Skapa mapp",
+    "CreateTable": "Skapa slumptabell",
+    "CreateTableConfirm": "Skapa ett nytt slumptabellsdokument med innehållet i denna mapp som tabellresultat?",
+    "Delete": "Radera Allt",
+    "DeleteName": "Ta bort alla: {name}",
+    "DeleteWarning": "Denna mapp och dess innehåll kommer att raderas permanent och kan inte återställas.",
+    "DocumentSort": "Sorteringsordning",
+    "DocumentSortHint": "Konfigurera den sorterade ordningen för detta dokument i förhållande till andra i dess samling. Lägre nummer sorteras först.",
+    "Edit": "Redigera mapp",
+    "ExceededMaxDepth": "Du får inte bädda in mappar mer än {depth} nivåer djupt.",
+    "Export": "Exportera till Kompendium",
+    "ExportDestination": "Målmapp",
+    "ExportDone": "Slutfört export av {type}-dokument till Kompendium {compendium}.",
+    "ExportExistingFolder": "Existing Folder",
+    "ExportHint": "Du kan exportera innehållet i denna mapp till en olåst Kompendium-pack av rätt typ.",
+    "Exporting": "Exporterar {type}-dokument till Kompendium {compendium}.",
+    "ExportKeepFolders": "Behållmappstruktur?",
+    "ExportKeepId": "Behåll dokument-ID?",
+    "ExportMerge": "Sammanfoga efter Namn?",
+    "ExportNewFolder": "Ny Folder",
+    "ExportOptions": "Exportalternativ",
+    "ExportTitle": "Exportera innehåll",
+    "ExportWarningNone": "Det finns inga olåsta kompendie-paket tillgängliga för {type}-dokument som du kan exportera till.",
+    "FIELDS": {
+      "color.label": "Folderfärg",
+      "name.label": "FolderNamn",
+      "sorting.label": "Sorteringsläge"
+    },
+    "InvalidDocumentType": "Ogiltig dokumenttyp \"{type}\" angiven för denna mapp.",
+    "Name": "MappNamn",
+    "Remove": "Ta  bortmapp",
+    "RemoveName": "Ta bort mapp: {name}",
+    "RemoveWarning": "Denna mapp kommer att raderas permanent och dess innehåll kommer att flyttas till dess överordnade mapp.",
+    "SortAlphabetical": "Alfabetisk",
+    "SortManual": "Manuell",
+    "SortMode": "Sorteringsläge",
+    "Update": "Uppdatera mapp"
+  },
+  "Foundry Virtual Tabletop": "Foundry Virtual Tabletop",
+  "GAME": {
+    "Paused": "Spelet pausat",
+    "PausedWarning": "Du kan inte utföra denna åtgärd medan spelet är pausat.",
+    "ReturnSetup": "Återgå till inställningar",
+    "ReturnSetupActiveUser": "Det är en annan användare som är aktiv i denna värld och kommer att kopplas bort. Vill du fortsätta?",
+    "ReturnSetupActiveUsers": "Det är {number} andra användare som är aktiva i denna värld och kommer att kopplas bort. Vill du fortsätta?"
+  },
+  "GRID": {
+    "STYLES": {
+      "DashedLines": "Streckade linjer",
+      "DiamondPoints": "Diamant-punkter",
+      "DottedLines": "Punktlinjer",
+      "RoundPoints": "Runda punkter",
+      "SolidLines": "Solida linjer",
+      "SquarePoints": "Fyrkantiga punkter"
+    }
+  },
+  "GridSpaces": "Rutnät",
+  "GridUnits": "Rutnätsenhet",
+  "Height": "Höjd",
+  "Hidden": "Dold",
+  "Hold": "Håll",
+  "HTMLDocumentTagsElement": {
+    "PLACEHOLDER": "Ange UUID eller släpp {type}"
+  },
+  "HUD": {
+    "AssignStatusEffects": "Tilldela statuseffekter",
+    "Elevation": "Höjd över havet",
+    "OpenConfig": "Öppna konfiguration",
+    "SelectMovementAction": "Välj rörelseåtgärd",
+    "TilePause": "Pausa brickvideo",
+    "TilePlay": "Spela brickvideo",
+    "ToBack": "Sätt i bakgrunden",
+    "ToFront": "Ta till förgrunden",
+    "ToggleCombatState": "Växla stridsstatus",
+    "ToggleLock": "Växla låsstatus",
+    "ToggleTargetState": "Växla målstatus",
+    "ToggleVis": "Växla synlighetsstatus",
+    "WarningEffectNoActor": "Du kan inte sätta statuseffekter på en spelfigu som inte har någon vald karaktär"
+  },
+  "Image": "Bild",
+  "INFO": {
+    "SceneViewCanvasDisabled": "Scenen \"{name}\" visas inte eftersom spelkanvasen är inaktiverad."
+  },
+  "Install": "Installera",
+  "Invalid": "Ogiltig",
+  "INVITATIONS": {
+    "ClosedConnection": "Din anslutning verkar vara stängd",
+    "Copied": "Spelinbjudningslänken kopierad till urklipp",
+    "DiscoveryFailed": "Vår IP-detektionstjänst misslyckades med att identifiera din korrekta IP-adress, du använder IPv6 eller är för närvarande inte ansluten till internet.",
+    "Instructions": "Dela nedanstående inbjudningslänkar med användare som du vill bjuda in till ditt spel. Den lokala inbjudningslänken är för användare i ditt lokala nätverk medan internetlänken ansluter via internet på den konfigurerade porten.",
+    "Internet": "Internet",
+    "Local": "Lokalt nätverk",
+    "OpenConnection": "Din anslutning verkar vara öppen",
+    "Title": "Spelinbjudningslänkar",
+    "UnknownConnection": "Vi kunde inte upptäcka din anslutningsstatus"
+  },
+  "ITEM": {
+    "ViewArt": "Visa föremålskonst"
+  },
+  "JOIN": {
+    "AuthAdmin": "Du är autentiserad som en serveradministratörsanvändare.",
+    "CurrentPlayers": "Nuvarande spelare",
+    "ErrorBanned": "{user} har inte behörighet att komma åt denna värld!",
+    "ErrorInvalidPassword": "Ogiltigt lösenord angivet för {user}!",
+    "ErrorMustSelectUser": "Du måste välja en användare för att logga in.",
+    "ErrorUserDoesNotExist": "Den begärda användaren, \"{user}\", finns inte!",
+    "HeaderDetails": "Speldetaljer",
+    "HeaderJoin": "Gå med i spelsession",
+    "HeaderWorld": "Världsbeskrivning",
+    "LoginSuccess": "Inloggning som {user} lyckades, går med i spelet!",
+    "NextSession": "Nästa session",
+    "SelectUser": "Välj användare",
+    "UserKey": "Användarlösenord"
+  },
+  "JOURNAL": {
+    "ActionShow": "Visa spelare",
+    "ActionShowSuccess": "Visade innehållet i {title} för {which} spelare.",
+    "AddPage": "Lägg till sida",
+    "AnchorBottom": "Botten",
+    "AnchorCenter": "Centrera",
+    "AnchorLeft": "Vänster",
+    "AnchorRight": "Höger",
+    "AnchorTop": "Toppen",
+    "CategoryName": "Kategorinamn",
+    "ConfigureCategories": "Konfigurera kategorier",
+    "ConfigureCategoriesTitle": "{name} kategorier",
+    "EditPage": "Redigera sida",
+    "EntryTitle": "Anteckningstitel",
+    "ImageOptions": "Bildalternativ",
+    "ImageShowSuccess": "Bilden visades för {which} spelare.",
+    "LockModeLocked": "nnehållsförteckning låst. Klicka för att låsa upp.",
+    "LockModeUnlocked": "nnehållsförteckning olåst. Klicka för att låsa.",
+    "ModeImage": "Bild",
+    "ModeMultiple": "Flersidesläge",
+    "ModeSingle": "Ensidesläge",
+    "ModeText": "Text",
+    "NavLabel": "Innehållsförteckning för journaler",
+    "NextPage": "Nästa sida",
+    "PrevPage": "Föregående sida",
+    "ShowBadPermissions": "Du får endast visa anteckningar eller sidor som du äger.",
+    "ShowEntry": "Visa {name}",
+    "ShowNoPlayers": "Det finns inga andra anslutna spelare att visa detta för.",
+    "ShowOwnershipHint": "Uppdatera valfritt ägande av detta dokument för de spelare som det visas för. Om en spelare redan har en högre ägandenivå, kommer de inte att nedgraderas.",
+    "ShowTo": "Visa för",
+    "Submit": "Spara anteckning",
+    "Uncategorized": "Okategoriserad",
+    "UnnamedCategory": "<Odöpt kategoru>",
+    "ViewCollapse": "Dölj sidofältet",
+    "ViewExpand": "Expandera sidofältet",
+    "ViewMultiple": "Visa flera sidor",
+    "ViewSingle": "Visa en sida"
+  },
+  "JOURNALENTRYPAGE": {
+    "Category": "Sidkategori",
+    "DefaultPageSheet": "Standard {page}-sidblad",
+    "Format": "Format",
+    "HeadingLevel": "Rubriknivå",
+    "ImageCaption": "Bildtext",
+    "ImageSource": "Bildkälla",
+    "Level": "Nivå {level}",
+    "Page": "Sida",
+    "PageTitle": "SidNamn",
+    "PDFLoad": "Ladda PDF",
+    "PDFSource": "PDF-källa",
+    "ShowImageCaption": "Visa bildtext",
+    "ShowImageOnly": "Visa endast bild",
+    "ShowImageTitle": "Visa bildtitel",
+    "ShowTitle": "Visa sidtitel",
+    "Source": "Källa",
+    "Type": "Typ",
+    "TypeImage": "Bild",
+    "TypePDF": "PDF",
+    "TypeText": "Text",
+    "TypeVideo": "Video",
+    "VideoAutoplay": "Autospela video",
+    "VideoControls": "Visa videoverktyg",
+    "VideoDimensions": "Videomått",
+    "VideoLoop": "Loopa video",
+    "VideoSource": "Videokälla",
+    "VideoSourceHint": "Detta kan vara en lokal fil, en fjärrvideo-URL eller en YouTube-URL.",
+    "VideoStartTime": "Videostarttid",
+    "VideoVolume": "Videovolym"
+  },
+  "Light": "Ljus",
+  "LIGHT": {
+    "AdaptiveLuminance": "Anpassad ljusstyrka",
+    "AnimationBewitchingWave": "Förtrollande våg",
+    "AnimationBlackHole": "Svart hål",
+    "AnimationChroma": "Chroma",
+    "AnimationDenseSmoke": "Tjock rök",
+    "AnimationEmanation": "Mystisk emanation",
+    "AnimationEnergyField": "Energifält",
+    "AnimationFairyLight": "Förtrollande ljus",
+    "AnimationFlame": "Fackla",
+    "AnimationFog": "Virvlande dimma",
+    "AnimationForceGrid": "Kraftnät",
+    "AnimationGhostLight": "Spöklikt ljus",
+    "AnimationHexaDome": "Hexa-dom",
+    "AnimationLightDome": "Ljusdom",
+    "AnimationMagicalGloom": "Magiskt dunkel",
+    "AnimationPulse": "Puls",
+    "AnimationRadialRainbow": "Radiell regnbåge",
+    "AnimationReactivePulse": "Puls som reagerar på ljud",
+    "AnimationRevolving": "Roterande ljus",
+    "AnimationRoilingMass": "Virvlande massor",
+    "AnimationSiren": "Sirenljus",
+    "AnimationSmokePatch": "Rökfläck",
+    "AnimationStarLight": "Stjärnljus",
+    "AnimationSunburst": "Solstråle",
+    "AnimationSwirlingRainbow": "Virvlande regnbåge",
+    "AnimationTorch": "Flimrande ljus",
+    "AnimationVortex": "Virvel",
+    "AnimationWave": "Pulsande våg",
+    "ColorBurn": "Färgintensitet",
+    "ExternalBurn": "Extern färgbränna",
+    "ExternalHalo": "Extern halo",
+    "FIELDS": {
+      "priority": {
+        "hint": "Determines how light and darkness sources interact. Higher-priority light repels lower-priority darkness, but if priorities match, darkness prevails.",
+        "label": "Prioritet"
+      }
+    },
+    "HighAbsorption": "Hög absorption",
+    "InternalBurn": "Intern färgbränna",
+    "InternalHalo": "Intern halo",
+    "InvertAbsorption": "Inverterad absorption",
+    "LegacyColoration": "Utgången färgning",
+    "LowAbsorption": "Låg absorption",
+    "NaturalLight": "Naturligt ljus"
+  },
+  "Maximum": "Maximum",
+  "MENU": {
+    "Logout": "Logga ut",
+    "NavLabel": "Huvudmeny",
+    "Players": "Användarhantering",
+    "Reload": "Ladda om programmet"
+  },
+  "Minimum": "Minimum",
+  "MODMANAGE": {
+    "Bugs": "Felrapporter eller problemrapporter",
+    "Build": "Bygge",
+    "DeactivateAll": "Inaktivera alla moduler",
+    "DepDisable": "Denna modul hade {number} beroenden som nu kan inaktiveras:",
+    "DepDisableCheck": "Vill du inaktivera de valda paketen också?",
+    "DepEnableCheck": "Vill du aktivera modulen och de valda beroendena?",
+    "Dependencies": "Beroenden",
+    "DependencyIssues": "Kan inte aktiveras på grund av problem med obligatoriska beroenden",
+    "DependencyResolution": "Dependency Resolution",
+    "DepMissing": "Du har aktiverat modulen {module}, men dess beroenden {missing} är inte aktiverade!",
+    "DepNotInstalled": "Det obligatoriska beroendet {missing} är inte installerat!",
+    "DepOptionalEnable": "Denna modul har {number} inaktiva beroenden som kan aktiveras valfritt för att förbättra den:",
+    "DepRequiredEnable": "Denna modul har {number} inaktiva beroenden som krävs för att den ska fungera korrekt:",
+    "FilterActive": "Aktiva moduler",
+    "FilterAll": "Alla moduler",
+    "FilterInactive": "Inaktiva moduler",
+    "Instructions": "Använd det här formuläret för att konfigurera vilka moduler som är aktiva i din nuvarande värld. Att skicka ändringar till aktiva moduler kommer att få den aktuella sessionen att laddas om.",
+    "NavLabel": "Modulhanteringsnavigering",
+    "None": "Inga moduler är tillgängliga i denna värld.",
+    "OptionalDependencies": "Optional Dependencies",
+    "Readme": "Moduldokumentation",
+    "RecommendedDependencies": "Rekommenderade beroenden",
+    "RequiredDependencies": "Obligatoriska beroenden",
+    "RequiredDepError": "This module cannot be disabled as it is required by the following: {dependents}",
+    "RequiredModule": "Denna modul måste vara aktiv",
+    "Search": "Filtrera moduler",
+    "Submit": "Spara modulinställningar",
+    "SystemCompatibilityIssueMaximum": "Denna modul kräver en maximal systemversion av {maximum}, men din version är {version}.",
+    "SystemCompatibilityIssueMinimum": "Denna modul kräver en minsta systemversion av {minimum}, men din version är {version}. Uppdatera systemet.",
+    "Title": "Modulhantering",
+    "UnavailableDocuments": "Dokument har gjorts otillgängliga",
+    "UpstreamPackages": "Det finns {number} paket som kräver att detta paket är aktivt. Om du inaktiverar detta paket kommer dessa paket också att inaktiveras.",
+    "View": "De moduler som listas nedan är för närvarande aktiva i denna värld."
+  },
+  "Name": "Namn",
+  "Next": "Nästa",
+  "No": "Nej",
+  "None": "Ingen",
+  "NOTE": {
+    "AnchorPoint": "Textankare",
+    "ConfigTitle": "Konfiguration av kartanteckningar",
+    "Create": "Skapa kartanteckning",
+    "CreateJournal": "Skapa motsvarande journal?",
+    "Custom": "Anpassad",
+    "CustomIcon": "Anpassad ikon",
+    "EntryIcon": "Inläggsikon",
+    "FIELDS": {
+      "entryId.label": "Journal Entry",
+      "fontFamily.label": "Font Family",
+      "fontSize.label": "Font Size",
+      "global": {
+        "hint": "Allow this map note to be seen anywhere on the map by a player with permission to view it.",
+        "label": "Globally Visible"
+      },
+      "iconSize.label": "Icon Size",
+      "pageId.label": "Page",
+      "sort.label": "Sort",
+      "text.label": "Text Label",
+      "textAnchor.label": "Text Anchor Point",
+      "textColor.label": "Text Color",
+      "texture": {
+        "src.label": "Entry Icon",
+        "tint.label": "Icon Tint"
+      }
+    },
+    "FontFamily": "Fontfamilj",
+    "FontSize": "Fontstorlek",
+    "Global": "Globalt synlig",
+    "GlobalHint": "Tillåt att denna kartanteckning kan ses var som helst på kartan av en spelare med rättigheter att se den.",
+    "IconSize": "Ikonstorlek",
+    "IconTint": "Ikonfärgton",
+    "SECTIONS": {
+      "CONTENT": "Innehåll",
+      "ICON": "Ikon",
+      "LABEL": "Etikett",
+      "POSITION": "Position"
+    },
+    "TextColor": "Textfärg",
+    "TextLabel": "Textetikett",
+    "Unknown": "Okänd",
+    "Update": "Uppdatera kartanteckning"
+  },
+  "Notes": "Anteckningar",
+  "NUE": {
+    "FirstLaunchBody": "Det verkar som om detta är en ny värld. För att komma igång bör du först lägga till eventuella ytterligare spelare som du kanske behöver via konfigurationen för <a class=\"nue-tab\" data-tab=\"settings\">Användarhantering</a>. Därifrån kan du skapa <a class=\"nue-tab\" data-tab=\"actors\"> karaktärer</a> för dem, liksom andra viktiga personligheter du behöver representera. Kartor och andra visuella element kan ställas in med hjälp av <a class=\"nue-tab\" data-tab=\"scenes\">Scener</a>, och handouts, anteckningar och annan information kan lagras i <a class=\"nue-tab\" data-tab=\"journal\">Journanteckning</a>.",
+    "FirstLaunchHeader": "Kom igång",
+    "FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i> Det här chattkortet kan tas ut genom att högerklicka på det, eller så kan du ta ut hela chattrutan genom att högerklicka på pratbubblans ikon högst upp. Du kan göra samma sak för att ta ut alla andra sidoflikar också.",
+    "FirstLaunchInvite": "Bjuda in dina spelare",
+    "FirstLaunchInviteBody": "När allt är inställt och du är redo att bjuda in dina spelare kan du skicka dem en länk till din värld från <a class=\"nue-action\" data-action=\"invite\">Inbjudningslänkar</a>.",
+    "FirstLaunchKB": "Se till att undersöka alla flikar som är tillgängliga i den här sidofältet, och för mer detaljerad information kan du granska vår <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\">Spelledarhandledning</a>-serie i vår <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\">Kunskapsbas</a>.",
+    "FirstLaunchTroubleshooting": "Om dialogrutan för Inbjudningslänkar indikerar att din anslutning är stängd, kan du behöva ställa in port vidarebefordran. Du kan hitta instruktioner om hur du gör detta i vår <a href=\"https://foundryvtt.com/article/port-forwarding/\" target=\"_blank\">Guide för port vidarebefordran</a>. Om du fortfarande behöver hjälp är du välkommen att gå med i vår Discord och skapa ett inlägg i <a href=\"https://discord.com/channels/170995199584108546/689889940590690323\" target=\"_blank\">#install-and-connection</a> för inbjudningsproblem, <a href=\"https://discord.com/channels/170995199584108546/486930822465716249\" target=\"_blank\">#troubleshooting</a> för allmänna problem med programvaran, eller <a href=\"https://discord.com/channels/170995199584108546/713259405667205193\" target=\"_blank\">#core-how-to</a> för att ta reda på hur du gör något i Foundry VTT."
+  },
+  "Packs": "Paket",
+  "Path": "Sökväg",
+  "PERMISSION": {
+    "ActorCreate": "Skapa nya karaktärer",
+    "ActorCreateHint": "Tillåt användare med denna roll att skapa nya karaktärer i världen.",
+    "BroadcastAudio": "Tillåt sändning av ljud",
+    "BroadcastAudioHint": "Tillåt användare med denna roll att sända ljud när de använder ljud- och bildchattintegration.",
+    "BroadcastVideo": "Tillåt sändning av video",
+    "BroadcastVideoHint": "Tillåt användare med denna roll att sända video när de använder ljud- och bildchattintegration.",
+    "CardsCreate": "Skapa kort",
+    "CardsCreateHint": "Tillåt användare med denna roll att skapa nya dokument för kort i världen.",
+    "Configure": "Konfigurera behörigheter",
+    "ConfigureHint": "Finjustera de tillåtna åtgärderna som användare får utföra för varje roll.",
+    "ConfigureLabel": "Öppna Behörighetskonfiguration",
+    "DrawingCreate": "Använd ritverktyg",
+    "DrawingCreateHint": "Tillåt användare med denna roll att skapa ritningar med ritverktygen.",
+    "FilesBrowse": "Använd Filbläddraren",
+    "FilesBrowseHint": "Tillåt användare med denna roll att bläddra bland tillgängliga filer i filbläddraren.",
+    "FilesUpload": "Ladda upp nya filer",
+    "FilesUploadHint": "Tillåt användare med denna roll att ladda upp innehåll till servern med hjälp av filbläddraren.",
+    "Instructions": "Konfigurera vilken användarroll som har behörighet att utföra vilken åtgärd. Observera att vissa åtgärder inte kan inaktiveras för spelledar-användare. Vissa ändringar kan inte träda i kraft förrän spelet har laddats om.",
+    "ItemCreate": "Skapa nya föremål",
+    "ItemCreateHint": "Tillåt användare med denna roll att skapa nya föremål i världen.",
+    "JournalCreate": "Skapa Journalposter",
+    "JournalCreateHint": "Tillåt användare med denna roll att skapa nya journalposter i sidofältet för journalen.",
+    "MacroScript": "Använd Skriptmakron",
+    "MacroScriptHint": "Tillåt användare med denna roll att använda JavaScript-makron som har tillgång till API:et.",
+    "ManualRolls": "Make Manual Rolls",
+    "ManualRollsHint": "Allow users with this role the option to manually input rolls.",
+    "MessageWhisper": "Viska Privata Meddelanden",
+    "MessageWhisperHint": "Tillåt användare med denna roll att viska privata meddelanden som spelledare inte kan se.",
+    "NoteCreate": "Skapa Kartanteckningar",
+    "NoteCreateHint": "Tillåt användare med denna roll att skapa anteckningsobjekt från journalposter som de äger.",
+    "Permission": "Behörighet",
+    "Permissions": "Behörigheter för Användarroller",
+    "PingCanvas": "Pinga kanvasen",
+    "PingCanvasHint": "Tillåt användare med denna roll att uppmärksamma en punkt på kanvasen med en ping-liknande animation.",
+    "PlaylistCreate": "Skapa spellista",
+    "PlaylistCreateHint": "Tillåt användare med denna roll att skapa nya spellistor.",
+    "QueryUser": "Fråga om användare",
+    "QueryUserHint": "Tillåt användare med den här rollen att fråga andra användare.",
+    "Reset": "Återställ standardinställningar",
+    "SettingsModify": "Ändra konfigurationsinställningar",
+    "SettingsModifyHint": "Tillåt användare med denna roll att ändra spelinställningar och aktivera eller inaktivera moduler.",
+    "ShowCursor": "Visa muspekare",
+    "ShowCursorHint": "Visa positionen för spelarens muspekare, vilket visar var användaren tittar på kanvasen.",
+    "ShowRuler": "Visa linjalmätning",
+    "ShowRulerHint": "Visa mätning med hjälp av linjalverktyget för andra anslutna spelare.",
+    "Submit": "Spara konfiguration",
+    "TemplateCreate": "Skapa måttmall",
+    "TemplateCreateHint": "Tillåt användare med denna roll att skapa mallar för områdesmätning.",
+    "Title": "Användarbehörighetskonfiguration",
+    "TokenConfigure": "Konfigurera spelfigurinställningar",
+    "TokenConfigureHint": "Tillåt användare med denna roll att konfigurera inställningarna för spelfigurer som de äger.",
+    "TokenCreate": "Skapa nya spelfigurer",
+    "TokenCreateHint": "Tillåt användare med denna roll att placera spelfigurer för karaktärer som de äger på spelkanvasen.",
+    "TokenDelete": "Ta bort spelfigurer",
+    "TokenDeleteHint": "Tillåt användare med denna roll att ta bort spelfigurer för karaktärer som de äger på spelkanvasen.",
+    "WallDoors": "Öppna och stäng dörrar",
+    "WallDoorsHint": "Tillåt användare med denna roll att interagera med dörrar som är definierade på vägglagret.",
+    "WarningNoCreate": "Du har inte tillräcklig behörighet att skapa en q {document}."
+  },
+  "Permissions": "Behörigheter",
+  "Pixels": "Pixlar",
+  "PLAYLIST": {
+    "Backward": "Föregående ljud",
+    "BulkImport": "Massimport",
+    "BulkImportWarning": "Inga giltiga spelljud importerades från den begärda \"{path}\"-mappen",
+    "Channel": "Audio Channel",
+    "CurrentlyPlaying": "Spelas för närvarande",
+    "DefaultChannel": "Playlist Audio Channel",
+    "Delete": "Ta bort spellista",
+    "Description": "Spellistans beskrivning",
+    "Edit": "Redigera spellista",
+    "Fade": "Toning-varaktighet (ms)",
+    "FIELDS": {
+      "channel.label": "Audio Channel",
+      "description.label": "Playlist Description",
+      "fade.label": "Fade Duration",
+      "mode.label": "Playback Mode",
+      "name.label": "Playlist Name",
+      "sorting.label": "Sort Mode"
+    },
+    "Forward": "Nästa ljud",
+    "Mode": "Uppspelningsläge",
+    "ModeDisabled": "Endast ljudbräde",
+    "ModeSequential": "Sekventiell uppspelning",
+    "ModeShuffle": "Slumpmässig uppspelning",
+    "ModeSimultaneous": "Samtidig uppspelning",
+    "Name": "Spellistans Namn",
+    "PinToBottom": "Fäst längst ned",
+    "PinToTop": "Fäst högst upp",
+    "Play": "Spela spellista",
+    "SortAlphabetical": "Alfabetiskt",
+    "SortManual": "Manuell",
+    "SortMode": "Sorteringsläge",
+    "SoundCreate": "Skapa ljud",
+    "SoundDelete": "Ta bort ljud",
+    "SoundDescription": "Ljudbeskrivning",
+    "SoundEdit": "Redigera ljud",
+    "SoundLoop": "Loopa ljud",
+    "SoundName": "LjudspårNamn",
+    "SoundPause": "Pausa ljud",
+    "SoundPlay": "Spela ljud",
+    "SoundPreload": "Förhandsladda ljud",
+    "SoundRepeat": "Upprepa",
+    "SoundResume": "Återuppta ljud",
+    "SoundSrc": "Ljudkälla",
+    "SoundStop": "Stoppa ljud",
+    "SoundStreaming": "Stor filströmning",
+    "SoundUpdate": "Uppdatera spår",
+    "SoundVolume": "Ljudvolym",
+    "Stop": "Stoppa spellista",
+    "Update": "Uppdatera spellista",
+    "VolAmbient": "Omgivning",
+    "VolInterface": "Gränssnitt",
+    "VolPlaylist": "Spellistor",
+    "VOLUME": {
+      "CONTROLS": "Användarvolymkontroller",
+      "TOOLTIP": "Volym: {volume}%"
+    }
+  },
+  "PLAYLIST_SOUND": {
+    "FIELDS": {
+      "channel.label": "Audio Channel",
+      "description.label": "Sound Description",
+      "fade.label": "Fade Duration",
+      "name.label": "Track Name",
+      "path.label": "Audio Source",
+      "repeat.label": "Repeat",
+      "volume.label": "Sound Volume"
+    },
+    "Update": "Uppdatera spår"
+  },
+  "Position": "Position",
+  "Preload": "Förhandsladda",
+  "Preview": "Förhandsvisning",
+  "Previous": "Föregående",
+  "Ratio": "Förhållande",
+  "Reset": "Återställ",
+  "Reset Changes": "Återställ ändringar",
+  "Resize": "Ändra storlek",
+  "Resources": "Resurser",
+  "Result": "Resultat",
+  "Roll Formula": "Tärningsformel",
+  "Rotation": "Rotation",
+  "RULER": {
+    "MovementCollision": "Försökt förflyttning kolliderar med åtminstone en vägg.",
+    "MovementLocked": "Denna spelfigur kan inte flyttas eftersom den är låst.",
+    "MovementNoPermission": "Du har inte tillstånd att flytta denna spelfigur.",
+    "MovementNotAllowed": "Den uppmätta förflyttningsvägen är inte tillåten"
+  },
+  "Save": "Spara",
+  "Save Changes": "Spara Ändringar",
+  "Scale": "Skala",
+  "SCENE": {
+    "Accessibility": "Permissions",
+    "AccessibilityAll": "Alla spelare",
+    "AccessibilityGM": "Endast GM",
+    "Activate": "Activate",
+    "Ambience": {
+      "Base": "Base Ambience",
+      "Dark": "Dark Ambience",
+      "ResetEnvironment": "Reset to Default Options"
+    },
+    "BackgroundScale": "Bakgrundsbildens skalning",
+    "BackgroundScaleHint": "Använd SKIFT+Mushjul eller SKIFT+Piltangent upp och SKIFT+Piltangent ned för att justera bakgrundsbildens storlek.",
+    "CaptureInitialViewPosition": "Den fångade canvastavlan som utgångsläge i Scene-konfigurationsformuläret.",
+    "Configure": "Configure",
+    "DimensionChangeTitle": "Ändra Scendimensioner?",
+    "DimensionChangeWarning": "Du ändrar de underliggande dimensionerna för den här scenen, om du redan har placerat objekt i denna scen kan den här åtgärden leda till att objekten flyttas relativt bakgrundsbilden.",
+    "DimensionLinked": "Scendimensionerna är för närvarande länkade: ändra en av dem kommer att ändra den andra för att behålla bildförhållandet. Klicka för att koppla ur.",
+    "Dimensions": "Scendimensioner",
+    "DimensionsHint": "Scendimensionerna ställs automatiskt in för att matcha bakgrundsbildens dimensioner när en bakgrundsbild först konfigureras.",
+    "DimensionUnlinked": "Scendimensionerna är för närvarande urkopplade, ändrar du en av dem kommer det inte att påverka den andra. Klicka för att länka.",
+    "DistortedDimensionsTitle": "Förvrängda scendimensioner",
+    "DistortedDimensionsWarning": "Du har valt nya dimensioner som har en annan bildproportion än originalet. Vill du automatiskt omplacera placerade objekt som till exempel Token? Resultatet kan hamna distorderat.",
+    "FIELDS": {
+      "background": {
+        "offsetX.label": "Horisontell",
+        "offsetY.label": "Vertikal",
+        "src": {
+          "hint": "Configure the background image and dimensions of the scene's primary map.",
+          "label": "Backgroundsbild"
+        }
+      },
+      "backgroundColor.label": "Backgroundsfärg",
+      "environment": {
+        "cycle": {
+          "hint": "When this option is checked, the base ambience values are merged with the darkness ambience values according to darkness level.",
+          "label": "Blend Ambience"
+        },
+        "darknessLevel": {
+          "hint": "Apply an overlay that darkens the Scene and diminishes light sources to simulate nighttime or dimly illuminated conditions.",
+          "label": "Mörkernivå"
+        },
+        "darknessLock": {
+          "hint": "When this option is checked, the darkness level can't be changed.",
+          "label": "Mörkernivålås"
+        },
+        "globalLight": {
+          "darkness.max": {
+            "hint": "A darkness threshold between 0 and 1. When the Scene darkness level exceeds this threshold Global Illumination is automatically disabled.",
+            "label": "Global Illumination Threshold"
+          },
+          "enabled": {
+            "hint": "This Scene contains a global source of light that provides all areas of the Scene with a base level of illumination.",
+            "label": "Global Illumination"
+          }
+        }
+      },
+      "environment.base": {
+        "hue": {
+          "hint": "Choose a hue (color) to blend into the entire scene. To activate the color slider, you must have an intensity greater than 0.",
+          "label": "Hue"
+        },
+        "intensity": {
+          "hint": "Adjust how intensely the chosen hue is blended into the scene. A high hue intensity saturates the scene with the color, possibly overwhelming existing colors. A lower hue intensity blends in the chosen color more subtly.",
+          "label": "Hue Intensity"
+        },
+        "luminosity": {
+          "hint": "Control how bright the scene appears. Higher luminosity makes the scene bright like a sunny day, while lower luminosity makes it appear darker and gloomier.",
+          "label": "Luminosity"
+        },
+        "saturation": {
+          "hint": "Adjust the purity of colors in the scene. Settings above 0 make the colors more saturated (intense and vibrant) while negative settings dull and mute the colors.",
+          "label": "Saturation"
+        },
+        "shadows": {
+          "hint": "Raising this slider causes the shadows and darker elements of the scene to be darker and deeper.",
+          "label": "Shadows"
+        }
+      },
+      "fog": {
+        "colors": {
+          "explored": {
+            "hint": "A color applied to all areas of the Scene which have been explored but are outside of the current vision area.",
+            "label": "Fog Explored Color"
+          },
+          "unexplored": {
+            "hint": "A solid color applied to all unexplored areas of the Scene.",
+            "label": "Fog Unexplored Color"
+          }
+        },
+        "exploration": {
+          "hint": "If this setting is enabled, fog-of-war exploration will be tracked on a per-User basis and stored to the database as the Scene is explored. Otherwise, fog exploration does not occur and instead Tokens are limited to only what they can currently see.",
+          "label": "Fog Exploration"
+        },
+        "overlay": {
+          "hint": "An optional fog of war image to be drawn above unexplored parts of the scene.",
+          "label": "Fog of War Image"
+        }
+      },
+      "foreground": {
+        "hint": "An optional foreground image which is drawn above other objects in the Scene.",
+        "label": "Foreground Image"
+      },
+      "foregroundElevation": {
+        "hint": "An elevation in distance units which configures the height of the foreground image and overhead tiles.",
+        "label": "Foreground Elevation"
+      },
+      "grid": {
+        "alpha.label": "Grid Opacity",
+        "color.label": "Grid Color",
+        "distance.label": "Distance",
+        "size": {
+          "hint": "The pixel size of a single grid space. Use the Grid Configuration tool to visually adjust this.",
+          "label": "Grid Size"
+        },
+        "style.label": "Grid Style",
+        "thickness.label": "Grid Thickness",
+        "type.label": "Grid Type",
+        "units.label": "Units"
+      },
+      "initial.scale.label": "Zoom",
+      "journal": {
+        "hint": "A linked Journal Entry providing notes for the Game Master about this Scene.",
+        "label": "Journal Entry"
+      },
+      "journalEntryPage": {
+        "hint": "A specific page from the linked Journal Entry.",
+        "label": "Journal Entry Page"
+      },
+      "name.label": "Scene Name",
+      "navigation.label": "Show in Navigation",
+      "navName": {
+        "hint": "An alternative name for the Scene that is displayed in the Navigation Bar instead of the actual Scene name.",
+        "label": "Navigation Name"
+      },
+      "padding": {
+        "hint": "An amount of additional padding around the Scene background image which provides usable canvas space.",
+        "label": "Padding Percentage"
+      },
+      "playlist": {
+        "hint": "A Playlist that should automatically begin playing when this Scene is activated.",
+        "label": "Scene Playlist"
+      },
+      "playlistSound": {
+        "hint": "A specific Sound within the Audio Playlist, which should play when this Scene is active.",
+        "label": "Playlist Sound"
+      },
+      "tokenVision": {
+        "hint": "Restrict visibility within this Scene to the vision of controlled Tokens. If disabled, the entire Scene is visible.",
+        "label": "Token Vision"
+      },
+      "weather": {
+        "hint": "Display an active Weather Effect which is present within this Scene.",
+        "label": "Weather Effect"
+      }
+    },
+    "GenereateThumb": "Generera miniatyrbild",
+    "GenereateThumbNoCanvas": "Scenminiatyren kan inte genereras med inställningen 'Inaktivera spelduk' aktiv.",
+    "GenereateThumbProgress": "Genererar miniatyrbild för scen {name}.",
+    "GenereateThumbSuccess": "Genererad miniatyrbild för scen {name}.",
+    "GenereateThumbUploadDenied": "Scenminiatyren kunde inte genereras eftersom användaren inte har behörighet att ladda upp filer.",
+    "GridConfigTool": "Konfigurationsverktyg för rutnät",
+    "GridConfigToolHint": "Konfigurera rutnätets och bakgrundsbildens position med mushjulet och piltangenterna, eller genom att manuellt ställa in följande fält.",
+    "GridGridless": "Utan rutnät",
+    "GridHexEvenQ": "Hexagonala kolumner - jämna",
+    "GridHexEvenR": "Hexagonala rader - jämn",
+    "GridHexOddQ": "Hexagonala kolumner - udda",
+    "GridHexOddR": "Hexagonala rader - udda",
+    "GridPosition": "Bakgrundsbildsförskjutning",
+    "GridPositionHint": "Använd piltangenterna för att flytta bakgrundsbilden.",
+    "GridReset": "Återställ ändringar",
+    "GridResizeHint": "Använd ALT+mushjulet eller ALT+uppåtpil och ALT+nedåtpil för att justera rutnätsstorleken.",
+    "GridScale": "Rutnätsskala",
+    "GridSizeError": "Denna storleksändring minskar rutnätsstorleken till under minimum 50px. Om du vill minska till denna storlek, byt först till rutnätslöst och återställ ett nytt rutnät efter storleksändringen.",
+    "GridSquare": "Kvadrat",
+    "InitialView": "Ursprunglig vyposition",
+    "InitialViewButton": "Fånga aktuell vy",
+    "InitialViewHint": "Ange en standardkameraposition som visas första gången den här scenen visas.",
+    "InvalidDimension": "Den angivna dimensionen skulle resultera i ett värde som inte är ett heltal för den andra dimensionen. Försök med ett annat värde eller ta bort länken till dimensionerna.",
+    "Loading": "Laddar {name}",
+    "Notes": "Scennoteringar",
+    "Pixels": "Pixlar",
+    "Preload": "Förladda scen",
+    "ShiftBG": "Förskjuten bakgrund",
+    "TABS": {
+      "AMBIENCE": {
+        "basic": "Basic Options",
+        "environment": "Environment Lighting"
+      },
+      "SHEET": {
+        "ambience": "Ambience",
+        "basics": "Basics",
+        "grid": "Grid",
+        "lighting": "Lighting"
+      }
+    },
+    "ToggleNav": "Växla navigering",
+    "View": "Visa Scen",
+    "GenerateThumb": "Skapa Miniatyrbild",
+    "GenerateThumbNoCanvas": "Scenens miniatyrbild kan inte genereras när 'Inaktivera kanvas' är aktivt.",
+    "GenerateThumbProgress": "Genererar miniatyrbild för scen {name}.",
+    "GenerateThumbSuccess": "Genererad miniatyrbild för scen {name}.",
+    "GenerateThumbUploadDenied": "Miniatyrbilden för scenen kunde inte genereras eftersom användaren inte har behörighet att ladda upp filer."
+  },
+  "SCENES": {
+    "Accessibility": "Åtkomst",
+    "AccessibilityAll": "Alla spelare",
+    "AccessibilityGM": "Endast SL",
+    "Activate": "Aktivera",
+    "AudioPlaylist": "Spellista för scenen",
+    "AudioPlaylistHint": "En spellista som automatiskt ska börja spela när denna scen aktiveras.",
+    "BackgroundColor": "Bakgrundsfärg",
+    "BackgroundImage": "Bakgrundsbild",
+    "BackgroundImageHint": "Konfigurera bakgrundsbilden och dimensionerna för scenens primära karta.",
+    "BackgroundScale": "Skala på bakgrundsbilden",
+    "BackgroundScaleHint": "Använd SKIFT+Mushjul eller SKIFT+Pil Upp och SKIFT+Pil Ned för att justera bakgrundsbildens storlek.",
+    "CaptureInitialViewPosition": "Fångat kanvasposition som startvy in scenkonfigurationsformuläret.",
+    "ConfigTitle": "Konfigurera scenen",
+    "Configure": "Konfigurera",
+    "Darkness": "Mörkergrad",
+    "DarknessHint": "Tillämpa en överlagring som mörkar ner scenen och minskar ljuskällorna för att simulera nattetid eller svagt upplysta förhållanden.",
+    "DimensionChangeTitle": "Ändra scenens dimensioner?",
+    "DimensionChangeWarning": "Du ändrar de underliggande dimensionerna för denna scen. Om du redan har placerat objekt i denna scen kan denna operation orsaka att dessa objekt förflyttas i förhållande till bakgrundsbilden.",
+    "DimensionLinked": "Scenens dimensioner är för närvarande länkade, att ändra en kommer att ändra den andra för att behålla aspect ratio. Klicka för att avlänka.",
+    "Dimensions": "Scenens dimensioner",
+    "DimensionsHint": "Scenens dimensioner ställs automatiskt in för att matcha bakgrundsbildens dimensioner när en bakgrundsbild först konfigureras.",
+    "DimensionUnlinked": "Scenens dimensioner är för närvarande avlänkade, att ändra en kommer inte att ändra den andra. Klicka för att länka.",
+    "DistortedDimensionsTitle": "Förvridna scenens dimensioner",
+    "DistortedDimensionsWarning": "Du har valt nya dimensioner som har ett annat bildförhållande än originalet. Vill du automatiskt flytta om placerade objekt som t exspelfigur? Resultatet kan se förvridet ut.",
+    "ENVIRONMENT": {
+      "BaseAmbience": "Basomgivning",
+      "BlendAmbience": "Blanda omgivning",
+      "BlendAmbienceHint": "När detta alternativ är markerat kombineras basomgivningsvärdena med mörkeromgivningsvärdena enligt mörkernivå.",
+      "DarkAmbience": "Mörk omgivning",
+      "DarknessLock": "Lås mörkernivå",
+      "DarknessLockHint": "När detta alternativ är markerat kan mörkernivån inte ändras.",
+      "HeaderLabel": "Miljöbelysning",
+      "Hue": "Nyans",
+      "HueHint": "Välj en nyans (färg) att blanda in i hela scenen. För att aktivera färgreglaget måste du ha en intensitet större än 0.",
+      "Intensity": "Intensitet för nyans",
+      "IntensityHint": "Justera hur intensivt den valda nyansen blandas in i scenen. En hög nyansintensitet mättar scenen med färgen, vilket eventuellt överväldigar befintliga färger. En lägre nyansintensitet blandar in den valda färgen mer subtilt.",
+      "Luminosity": "Luminositet",
+      "LuminosityHint": "Kontrollera hur ljust scenen verkar. Hög luminositet gör scenen ljus som en solig dag, medan lägre luminositet gör den mörkare och mer dyster.",
+      "ResetEnvironment": "Återställ till standardalternativ",
+      "Saturation": "Mättnad",
+      "SaturationHint": "Justera renheten hos färgerna i scenen. Inställningar över 0 gör färgerna mer mättade (intensiva och livfulla), medan negativa inställningar dämpar och tonar ner färgerna.",
+      "Shadows": "Skuggor",
+      "ShadowsHint": "Att höja detta reglage gör att skuggorna och de mörkare elementen i scenen blir mörkare och djupare."
+    },
+    "FogExplore": "Dimutforskning",
+    "FogExploredColor": "Utforskad krigsdimmefärg",
+    "FogExploredColorHint": "En färg som tillämpas på alla områden i scenen som har utforskats men är utanför det aktuella synområdet.",
+    "FogExploreHint": "Följ spelfigurs utforskning, ta bort dimman för områden som har utforskats. Om inaktiverad är bara en spelfigurer aktuella position och redan utforskade områden synliga.",
+    "FogOverlay": "Krigsdimma över kartan",
+    "FogOverlayHint": "En valfri krigsdimma över kartbild som ritas ovanför outforskade delar av scenen.",
+    "FogUnexploredColor": "Outforskad krigsdimmefärg",
+    "FogUnexploredColorHint": "En solid färg som tillämpas på alla outredda områden i scenen.",
+    "ForegroundElevation": "Förgrundshöjd",
+    "ForegroundElevationHint": "En höjd i avståndsenheter som konfigurerar höjden för förgrundsbilden och överhängande brickor.",
+    "ForegroundImage": "Förgrundsbild",
+    "ForegroundImageHint": "En valfri förgrundsbild som ritas ovanför andra objekt i scenen.",
+    "GenerateThumb": "Generera miniatyrbild",
+    "GenerateThumbNoCanvas": "Miniatyrbild för scenen kan inte genereras med inställningen 'Inaktivera spelkanvas' aktiverad.",
+    "GenerateThumbSuccess": "Genererade miniatyrbild för scenen {name}.",
+    "GlobalIllum": "Global belysning",
+    "GlobalIllumHint": "Denna scen innehåller en global ljuskälla som ger alla delar av scenen en grundnivå av belysning.",
+    "GlobalLightThreshold": "Tröskel för global belysning",
+    "GlobalLightThresholdHint": "En mörkertröskel mellan 0 och 1. När scenens mörkergrad överstiger denna tröskel inaktiveras automatiskt global belysning.",
+    "GridColor": "Rutätfärg",
+    "GridConfigTool": "Verktyg för rutnätkonfiguration",
+    "GridConfigToolHint": "Konfigurera rutnätet och bakgrundsbildens position med hjälp av musens rullhjul och piltangenter, eller genom att manuellt ställa in följande fält.",
+    "GridDistance": "Avstånd",
+    "GridGridless": "Rutnätslöst",
+    "GridHexEvenQ": "Hexagonala kolumner - Jämna",
+    "GridHexEvenR": "Hexagonala rader - Jämna",
+    "GridHexOddQ": "Hexagonala kolumner - Ojämna",
+    "GridHexOddR": "Hexagonala rader - Ojämna",
+    "GridOpacity": "Rutnätsgenomskinlighet",
+    "GridPosition": "Bakgrundsbildens förskjutning",
+    "GridPositionHint": "Använd piltangenterna för att förskjuta bakgrundsbildens position.",
+    "GridReset": "Återställ ändringar",
+    "GridResizeHint": "Använd ALT+Musens rullhjul eller ALT+Pil Upp och ALT+Pil Ned för att justera rutnätstorleken.",
+    "GridScale": "Rutnätskala",
+    "GridSize": "Rutnätstorlek",
+    "GridSizeError": "Denna ändring skulle minska rutnätstorleken under det minsta värdet på 50 px. Om du vill minska till detta värde, byt först till rutnätlöst och ställ upp ett nytt rutnät efter storleksändring.",
+    "GridSizeHint": "Pixelstorleken för en enskild rutnätplats. Använd rutnätverktyget för konfiguration för att justera detta visuellt.",
+    "GridSquare": "Kvadrat",
+    "GridStyle": "Rutnätsstil",
+    "GridThickness": "Rutnätstjocklek",
+    "GridType": "Rutnätstyp",
+    "GridUnits": "Rutnätsenheter",
+    "HeaderAmbience": "Stämning",
+    "HeaderAmbienceBasic": "Basic Options",
+    "HeaderDetails": "Grundläggande",
+    "HeaderGrid": "Rutnät",
+    "HeaderVision": "Belysning",
+    "InitialView": "Inledande vyposition",
+    "InitialViewButton": "Fånga aktuell vy",
+    "InitialViewHint": "Ställ in en standard kameraposition som visas första gången denna scen ses.",
+    "InvalidDimension": "Den angivna dimensionen skulle resultera i ett icke-heltal för den andra dimensionen. Försök med ett annat värde eller avlänka dimensionerna.",
+    "JournalEntry": "Journalsida",
+    "JournalEntryHint": "En länkad journalsida som ger spelägaren anteckningar om denna scen.",
+    "Loading": "Laddar {name}",
+    "NavLabel": "Navigering för kanvasscen",
+    "NavName": "NavigationsNamn",
+    "NavNameHint": "Ett alternativt Namn för scenen som visas i navigeringsfältet istället för det faktiska scenNamnet.",
+    "Notes": "Scenanteckningar",
+    "Padding": "Utfyllnad i procent",
+    "PaddingHint": "Den mängd extra utfyllnad runt scenens bakgrundsbild som ger användbar arbetsyta.",
+    "Pixels": "Pixlar",
+    "PlaylistSound": "Spellisteljud",
+    "PlaylistSoundHint": "Ett specifikt ljud inom spellistan som ska spelas när denna scen är aktiv.",
+    "Preload": "Förhandsladda scenen",
+    "SceneName": "ScenNamn",
+    "ShiftBG": "Förskjut bakgrund",
+    "ShiftHorizontal": "Horisontellt",
+    "ShiftVertical": "Vertikalt",
+    "ShowNav": "Visa i navigationen",
+    "ToggleNav": "Växla navigering",
+    "TokenVision": "Spelfigursvy",
+    "TokenVisionHint": "Begränsa synligheten inom denna scen till de kontrollerade spelfigurerens sikt. Om inaktiverat är hela scenen synlig.",
+    "Units": "enheter",
+    "View": "Visa scenen",
+    "WeatherEffect": "Vädereffekt",
+    "WeatherEffectHint": "Visa en aktiv vädereffekt som är närvarande i denna scen.",
+    "ZoomLower": "Zoom"
+  },
+  "Scope": "Omfattning",
+  "Seconds": "Sekunder",
+  "SelectAll": "Select All",
+  "selected": "vald",
+  "SETTINGS": {
+    "AccessHeader": "Spelåtkomst",
+    "AnimLightL": "Tillåt ljuskällors animering. Att inaktivera detta förbättrar prestanda för datorer med lägre kapacitet.",
+    "AnimLightN": "Ljuskällans animering",
+    "AnimVisionL": "Animerar spelfigurers sikt och ljusändringar under spelfigurers rörelseanimationer. Att inaktivera detta förbättrar prestanda för datorer med lägre kapacitet.",
+    "AnimVisionN": "Spelfigurssiktsanimation",
+    "CBubL": "Konfigurera om chattbubblor ska visas ovanför spelfigurer för chattmeddelanden i karaktär och emote.",
+    "CBubN": "Aktivera chattbubblor",
+    "CBubPL": "Konfigurera om kameran automatiskt ska panorera till en talande spelfigur när den visar en chattbubbla.",
+    "CBubPN": "Panorera till talande spelfigur",
+    "ColorSchemeDark": "Mörkt",
+    "ColorSchemeDefault": "Browserdefault",
+    "ColorSchemeH": "Välj om du föredrar ett mörkt eller ljust tema. Alla delar i guit stödjer inte detta.",
+    "ColorSchemeLight": "Ljust",
+    "ColorSchemeN": "Valt färgschema",
+    "CombatConfigH": "Inställningar relaterade till strid och översikt.",
+    "CombatConfigL": "Konfigurera stridsöversikten",
+    "CombatConfigN": "Stridsöversikt",
+    "CombatThemeL": "Uppsättningen av ljud som spelas när striden börjar, när du är näst på tur och när det är din tur.",
+    "CombatThemeN": "Stridstema",
+    "Configure": "Konfigurera inställningar",
+    "DefaultSheetsH": "Konfigurera vilka sidor som används som standard för alla dokumenttyper som är tillgängliga i världen.",
+    "DefaultSheetsL": "Konfigurera standarddokumentsidor",
+    "DefaultSheetsN": "Standarddokumentsidor",
+    "DefaultTokenH": "Konfigurera standardvärden för spelfigur för nyss skapade karaktärer.",
+    "DefaultTokenL": "Konfigurera standardinställningar för spelfigur",
+    "DefaultTokenN": "Standardkonfiguration för spelfigur",
+    "DemoMode": "Demoläge",
+    "Docs": "Visa dokumentation",
+    "DocsHeader": "Hjälp och dokumentation",
+    "EditorAutosaveH": "Antal sekunder mellan varje automatisk sparning för öppna ProseMirror-redigerare.",
+    "EditorAutosaveN": "Frekvens för automatisk sparning av redigerare",
+    "EnableHighlightDocumentMatches": "Aktivera träffar för innehållslänkar",
+    "EnableHighlightDocumentMatchesH": "Aktivera träffar för innehållslänkar när text markeras i ProseMirror-redigeraren. När detta är aktiverat kommer markerad text att verktygas efter matchande dokument i världen eller i några kompendiepaket och erbjudas som ersättningslänkar.",
+    "FontConfigH": "Konfigurera ytterligare typsnitt som kommer att vara tillgängliga för användning i denna värld.",
+    "FontConfigL": "Konfigurera ytterligare typsnitt",
+    "FontConfigN": "Ytterligare typsnitt",
+    "FontSizeL": "Förstora eller förminska teckenstorleken som används i applikationen.",
+    "FontSizeN": "Teckenstorlek",
+    "FPSMeterL": "Visa en FPS-mätare i det nedre högra hörnet av skärmen som rapporterar kanvaskapaciteten i bilder per sekund.",
+    "FPSMeterN": "Visa FPS-mätare",
+    "GridDiagonalsAlternating1": "Varannan (1/2/1)",
+    "GridDiagonalsAlternating2": "Varannan (2/1/2)",
+    "GridDiagonalsApproximate": "Ungefärlig (1.5)",
+    "GridDiagonalsEquidistant": "Ekvidistant (1)",
+    "GridDiagonalsExact": "Exakt (√2)",
+    "GridDiagonalsIllegal": "Otillåtet (∞)",
+    "GridDiagonalsL": "Konfigurera hur diagonalt avstånd mäts på fyrkantsrutnät. Siffran inom parantes definierar hur lång en diagonal är i rutnätsenheter för varje val.",
+    "GridDiagonalsN": "Fyrkantsrutnätsdiagonaler",
+    "GridDiagonalsRectilinear": "Rätlinjig (2)",
+    "InfoHeader": "Allmän information",
+    "Invite": "Inbjudningslänkar",
+    "Issues": "Problem",
+    "Keybindings": "Bas-tangentbindningar",
+    "LangL": "Ändra det visade språket för Foundry Virtual Tabletop.",
+    "LangN": "Språkpreferens",
+    "LClickReleaseL": "När detta är aktiverat släpps aktuellt kontrollerade objekt med en vänsterklick på tom kanvasyta. Om det är inaktiverat släpps objekt genom att välja en tom yta, skiftklicka på objektet eller trycka på escape-tangenten.",
+    "LClickReleaseN": "Vänsterklicka för att släppa objekt",
+    "Logout": "Logga ut",
+    "ManageModules": "Hantera moduler",
+    "MaxFPSL": "Begränsa den högsta uppdateringsfrekvens Foundry Virtual Tabletop kommer att använda för att uppdatera kanvas. Att sänka detta värde kan förbättra applikationsprestanda för mindre kraftfulla maskiner.",
+    "MaxFPSN": "Högsta uppdateringsfrekvens",
+    "MipMapL": "Beräkna mipkartor till antialias sprite-texturer vid lägre zoomnivåer. Detta är en klientinställning eftersom olika användare kanske föredrar olika visuella stilar.",
+    "MipMapN": "Antialiasing av texturer vid zoom",
+    "NoCanvasL": "Spelkanvasen, som ger en visuell representation av den virtuella spelbordet, kan inaktiveras. Detta möjliggör att datorer med lägre kapacitet använder en del av programvarufunktionerna.",
+    "NoCanvasN": "Inaktivera spelkanvas",
+    "None": "Ingen",
+    "PerformanceModeHigh": "Hög",
+    "PerformanceModeL": "Välj ett prestandaläge som påverkar kanvasens renderingskvalitet och applikationsprestanda. Lägre prestandalägen fungerar bättre på mindre kraftfull hårdvara.",
+    "PerformanceModeLow": "Låg",
+    "PerformanceModeMax": "Maximal",
+    "PerformanceModeMed": "Medium",
+    "PerformanceModeN": "Prestandaläge",
+    "PermissionReset": "Återställ användarrollens behörighetskonfiguration till standardvärden.",
+    "PermissionUpdate": "Uppdaterad användarrollens behörighetskonfiguration.",
+    "PhotosensitiveModeL": "Genom att aktivera detta läge minskas förekomsten och intensiteten av blinkande, snabbt rörliga och upprepade animationer och effekter.",
+    "PhotosensitiveModeN": "Fotosensitivitetsläge",
+    "Players": "Användarhantering",
+    "PrototypeTokenOverrides": {
+      "Disabled": "Disabled",
+      "Hint": "Configure overrides of Prototype Token data for all Actors.",
+      "Label": "Configure Prototype Overrides",
+      "Name": "Prototype Token Overrides",
+      "Reset": {
+        "Label": "Reset Defaults",
+        "Warning": "This action will remove all configured overrides."
+      },
+      "Submit": "Save Overrides",
+      "TABS": {
+        "AllTypes": {
+          "Hint": "These overrides apply to all Prototype Tokens, regardless of parent Actor type. They can themselves be overridden for each Actor type in the subsequent tabs. A blank selection for a field indicates no override.",
+          "Label": "[All Types]"
+        },
+        "Basics": "Basics",
+        "Marker": "Turn Marker"
+      }
+    },
+    "ReloadPromptBody": "Vissa av de ändrade inställningarna kräver att applikationen laddas om för att de ska träda i kraft. Vill du ladda om nu?",
+    "ReloadPromptTitle": "Ladda om applikationen?",
+    "Reset": "Återställ till standard",
+    "ResetInfo": "Återställ alla inställningar till standardvärden. Klicka på \"Spara ändringar\" för att bekräfta.",
+    "ResolutionScaleL": "Skala upp upplösningen för spelkanvasen enligt webbläsarens upptäckta pixelratio. För displayenheter med hög pixeldensitet (som retina-skärmar) ökar detta den rendrerade upplösningen för kanvasen på bekostnad av prestandan. Upplösningsskalning påverkas också av zoomnivån i webbläsaren eller operativsystemets visningsinställningar. I sådana fall kommer denna inställning att öka eller minska den faktiska upplösningen för kanvasen beroende på mängden zoom som tillämpas. Att inaktivera denna inställning kan förbättra prestandan på bekostnad av visuell kvalitet för hög pixeldensitet.",
+    "ResolutionScaleN": "Skalning av upplösning med pixelratio",
+    "Save": "Spara ändringar",
+    "ScrollStatusL": "Rullande status-text kan visas ovanför spelfigurer eller andra kanvasobjekt för att ge textfeedback om ändringar för det objektet.",
+    "ScrollStatusN": "Rullande status-text",
+    "SettingsHeader": "Spelinställningar",
+    "Setup": "Återgå till inställningarna",
+    "ShowToolclips": "Visa verktygstips vid hover",
+    "ShowToolclipsH": "Konfigurera om verktygstips ska visas när du sveper över verktyg i sidofältet.",
+    "SoftSL": "Aktivera mjuka skuggor för vackrare dynamisk belysning, eller inaktivera det för förbättrad prestanda på maskiner med lägre kapacitet.",
+    "SoftSN": "Aktivera mjuka skuggor",
+    "Support": "Support och problem",
+    "TabCore": "Grundinställningar",
+    "TabModule": "Modulinställningar",
+    "TabSystem": "Systeminställningar",
+    "Title": "Konfigurera spelinställningar",
+    "TokenAutoRotateL": "When enabled, Tokens are automatically rotated in the direction of movement by default. Regardless of this setting, the Lock Rotation setting on individual tokens will still prevent their artwork from being visually rotated.",
+    "TokenAutoRotateN": "Automatic Token Rotation",
+    "TokenDragPreviewL": "När detta är aktiverat förhandsvisas synlighet och belysning för en spelfigur i realtid under en vänsterklicksdragprocess. Detta är inaktiverat som standard eftersom det kan främja oönskat meta-spelande.",
+    "TokenDragPreviewN": "Förhandsvisning av spelfigur-sikt",
+    "Tours": "Rundturshantering",
+    "UI": {
+      "FIELDS": {
+        "chatNotifications": {
+          "cards": "Chattkort",
+          "hint": "Välj om aviseringar om nya chattmeddelanden ska visas som fullständiga chattkort eller bara som en punkt på chattfliken.",
+          "label": "Chattaviseringar",
+          "pip": "Aviserings-PIP"
+        },
+        "colorScheme": {
+          "applications": {
+            "hint": "Ange om du föredrar att fönsterbaserade gränssnittsapplikationer, som teckenark, ska renderas med ett ljust eller mörkt tema. Alla ark stöder inte denna inställning.",
+            "label": "Program"
+          },
+          "choices": {
+            "dark": "Mörk",
+            "default": "Webbläsarens standard",
+            "light": "Ljus"
+          },
+          "interface": {
+            "hint": "Ange om du föredrar att användargränssnittselement ska renderas med ett ljust tema eller ett mörkt tema.",
+            "label": "Gränssnitt"
+          }
+        },
+        "fade": {
+          "opacity": {
+            "hint": "Opaciteten hos bleknade användargränssnittselement när de inte är aktiva. Lägre värden är mer transparenta.",
+            "label": "Inaktiv opacitet"
+          },
+          "speed": {
+            "hint": "Hur snabbt gränssnittselement tonas in eller ut när musen går in i eller lämnar deras område. Lägre värden är snabbare.",
+            "label": "Toningshastighet"
+          }
+        },
+        "fontScale": {
+          "hint": "Förstora eller minska standardteckenstorleken som används i programmet.",
+          "label": "Teckenstorlek"
+        },
+        "uiScale": {
+          "hint": "Tillämpa en global skalningsfaktor på det övergripande användargränssnittet för att göra det större eller mindre.",
+          "label": "Gränssnittsskala"
+        }
+      },
+      "HEADERS": {
+        "fade": "Gränssnittstoning",
+        "other": "Andra inställningar",
+        "size": "Gränssnittsstorlek",
+        "theme": "Tema och färgschema"
+      },
+      "MENU": {
+        "hint": "Inställningar som påverkar hur Foundry Virtual Tabletops användargränssnitt visas eller beter sig.",
+        "label": "Konfigurera gränssnitt",
+        "name": "Konfiguration av användargränssnitt"
+      }
+    },
+    "Update": "Uppdatera programvara",
+    "ViewModules": "Visa aktiva moduler",
+    "Wiki": "Kommunityts wiki"
+  },
+  "Sheet": "Blad",
+  "SHEETS": {
+    "ConfigureSheet": "Konfigurera blad",
+    "ConfigureTitle": "{prefix}: Bladkonfiguration",
+    "CopyUuid": "Kopiera dokument-uuid",
+    "DefaultDocumentSheet": "Standardblad för {document}",
+    "Defaults": "Defaults",
+    "DefaultSheet": "Standardblad",
+    "DocumentSheetHint": "Åsidosätt vilken typ av blad du vill använda för detta specifika dokument.",
+    "DocumentSheetPrivate": "Du har inte tillräcklig behörighet att visa dokumentet för detta {type}.",
+    "FormNavLabel": "Navigering för formulärflikar",
+    "Save": "Spara bladkonfiguration",
+    "Theme": "Tema",
+    "ThemeHint": "Inte alla teman är tillgängliga för varje ark.",
+    "ThisSheet": "Detta blad",
+    "TypeSheetHint": "Ange standardbladtyp som används för denna dokumenttyp (endast spelledare)."
+  },
+  "SIDEBAR": {
+    "ACTIONS": {
+      "CREATE": {
+        "Actor": "Skapa karaktär",
+        "Adventure": "Skapa äventyr",
+        "Cards": "Skapa korthög",
+        "Compendium": "Skapa kompendium",
+        "Folder": "Skapa mapp",
+        "Item": "Skapa föremål",
+        "JournalEntry": "Skapa post",
+        "Macro": "Skapa makro",
+        "Playlist": "Skapa spellista",
+        "RollTable": "Skapa tabell",
+        "Scene": "Skapa scen"
+      }
+    },
+    "CharArt": "Visa karaktärsbild",
+    "CollapseToggle": "Fäll ihop eller expandera",
+    "COMPENDIUM": {
+      "LABELS": {
+        "Locked": "Locked",
+        "Ownership": "Non-default ownership"
+      }
+    },
+    "Create": "Skapa {type}",
+    "Delete": "Radera",
+    "DeleteWarning": "Denna {type} kommer att raderas permanent och kan inte återställas.",
+    "DirectoryTitle": "{type}-katalog",
+    "Documentation": "Foundry VTT Dokumentation",
+    "Duplicate": "Duplicera",
+    "Edit": "Redigera",
+    "Export": "Exportera data",
+    "Import": "Importera data",
+    "JumpPin": "Hoppa till nål",
+    "NavLabel": "Sidofältets flikar",
+    "Search": "Sök {types}",
+    "SearchModeFull": "Fulltextssökning",
+    "SearchModeName": "Sök efter Namn",
+    "SETTINGS": {
+      "ACTIONS": {
+        "Configure": "Konfigurera inställningar",
+        "Docs": "Visa dokumentation",
+        "Invite": "Inbjudningslänkar",
+        "Keybindings": "Konfigurera kontroller",
+        "Logout": "Logga ut",
+        "ManageModules": "Hantera moduler",
+        "Players": "Användarhantering",
+        "Support": "Support och problem",
+        "Tours": "Rundturhantering",
+        "ViewModules": "Visa aktiva moduler",
+        "Wiki": "Community-wikisidor"
+      },
+      "HEADERS": {
+        "Access": "Spelåtkomst",
+        "Docs": "Hjälp Documentation",
+        "Settings": "Spelinställningar"
+      },
+      "LABELS": {
+        "Build": "Byggversion",
+        "Demo": "Demoläge",
+        "Modules": "Aktivera moduler"
+      }
+    },
+    "SortModeAlpha": "Sortera i bokstavsordning",
+    "SortModeManual": "Sortera manuellt",
+    "TabCompendium": "Kompendiepaket",
+    "TabJournal": "Journaler",
+    "TabSettings": "Spelinställningar",
+    "TabTables": "Slumptabeller",
+    "TokenArt": "Visa spelfigurkonst",
+    "Wiki": "Foundry VTT Community Wiki"
+  },
+  "Sight": "Syn",
+  "Software": "Programvara",
+  "Sort": "Sort",
+  "Sound": "Ljud",
+  "SOUND": {
+    "ConfigTitle": "Konfiguration av bakgrundsljud",
+    "EFFECTS": {
+      "HIGHPASS": "Högpassfilter",
+      "LOWPASS": "Lågpassfilter",
+      "REVERB": "Reverb"
+    },
+    "New": "Nytt ljud",
+    "PathPlaceholder": "sökväg/til/ljud.mp3"
+  },
+  "spaces": "platser",
+  "System": "System",
+  "Template": "Mall",
+  "TEMPLATE": {
+    "BorderColor": "Ramfärg",
+    "ConeTypeFlat": "Platt",
+    "ConeTypeRound": "Rund",
+    "ConeTypeSetting": "Konmalltyp",
+    "ConeTypeSettingHint": "Välj hur området för effekt för konmallar ska definieras.",
+    "FIELDS": {
+      "angle.label": "Vinkel",
+      "borderColor.label": "Ramfärg",
+      "direction.label": "Riktning",
+      "distance.label": "Avstånd",
+      "fillColor.label": "Fyllnadsfärg",
+      "sort.label": "Sortering",
+      "t.label": "Typ",
+      "texture.label": "Fyllnadstextur"
+    },
+    "FillColor": "Fyllnadsfärg",
+    "FillTexture": "Fyllnadstextur",
+    "GridTemplatesSetting": "Grid-based Template Shapes",
+    "GridTemplatesSettingHint": "Configure whether the area of effect of templates should be grid-based instead of Euclidean.",
+    "MeasuredConfig": "Konfiguration av mätmall",
+    "SubmitCreate": "Skapa uppmätt mätmall",
+    "SubmitUpdate": "Uppdatera mätmall",
+    "TYPES": {
+      "circle": "Cirkel",
+      "cone": "Kon",
+      "ray": "Stråle",
+      "rect": "Rektangel"
+    }
+  },
+  "TEXTURE_DATA": {
+    "FIT": {
+      "contain": "Contain",
+      "cover": "Täck",
+      "fill": "Fyll",
+      "height": "Full höjd",
+      "width": "Full bredd"
+    }
+  },
+  "THEME": {
+    "fantasy": "Klassisk fantasy",
+    "foundry": "Foundry Virtual Tabletop",
+    "scifi": "Science Fiction"
+  },
+  "TILE": {
+    "ACTIONS": {
+      "CREATE": "Create Tile",
+      "UPDATE": "Update Tile"
+    },
+    "AnimationHeader": "Animering",
+    "AnimationHint": "Ytterligare attribut som gäller om tilen använder en animerad video-textur.",
+    "BasicHeader": "Grundläggande",
+    "BasicHint": "Konfigurera denna Tile-sprite som visas ovanför scenens bakgrund.",
+    "ConfigTitle": "Tile-konfiguration",
+    "Dimensions": "Dimensions",
+    "FIELDS": {
+      "alpha.label": "Tile Opacity",
+      "occlusion": {
+        "alpha.label": "Occlusion Alpha",
+        "mode.label": "Occlusion Mode"
+      },
+      "restrictions": {
+        "light": {
+          "hint": "Blockeras ljuskällor baserat på deras höjd i förhållande till höjden på denna platta?",
+          "label": "Begränsar ljus"
+        },
+        "weather": {
+          "hint": "Blockeras vädereffekter baserat på deras höjd i förhållande till höjden på denna ruta?",
+          "label": "Begränsar väder"
+        }
+      },
+      "sort.label": "Sort",
+      "texture": {
+        "scaleX.label": "Horisontell",
+        "scaleY.label": "Vertikal",
+        "src.label": "Sida till sida-bild eller video",
+        "tint.label": "Toningsfärg"
+      },
+      "video": {
+        "autoplay.label": "Autospela video",
+        "loop.label": "Loopa video",
+        "volume.label": "Videovolym"
+      }
+    },
+    "Image": "Tile-bild eller video",
+    "OcclusionAlpha": "Ocklusionsalfa",
+    "OcclusionMode": "Ocklusionsläge",
+    "OcclusionModeFade": "Försvinna (Hela Tilen)",
+    "OcclusionModeNone": "Inget (Alltid synligt)",
+    "OcclusionModeRadial": "Radial (Omgivande spelfigur)",
+    "OcclusionModeRoof": "Tak (Blockerar syn och belysning)",
+    "OcclusionModeVision": "Syn (Spelfigurens synfält)",
+    "Opacity": "Tile-genomskinlighet",
+    "OverheadHeader": "Överhängande",
+    "OverheadHint": "Ytterligare attribut som gäller om tilen är överhängande i förgrunden.",
+    "RestrictsLight": "Restricts Light",
+    "RestrictsLightHint": "Are light sources blocked based on their elevation relative to the elevation of this Tile?",
+    "RestrictsWeather": "Begränsar väder",
+    "RestrictsWeatherHint": "Är vädereffekter blockerade baserat på deras höjd relativt denna bricka?",
+    "Scale": "Tile-skala",
+    "ScaleHint": "Justera skalan för bilden på X- eller Y-axeln. Bilden kan översvämma sin begränsningsruta. Negativa värden kommer att vända bilden.",
+    "ScaleX": "Horisontell",
+    "ScaleY": "Vertikal",
+    "SECTIONS": {
+      "overhead": "Additional attributes that apply if the Tile is overhead in the Foreground.",
+      "position": "Adjust the position and dimensions of the Tile."
+    },
+    "SubmitCreate": "Skapa Tile",
+    "SubmitUpdate": "Uppdatera Tile",
+    "TABS": {
+      "appearance": "Appearance",
+      "overhead": "Overhead",
+      "position": "Position"
+    },
+    "Tint": "Färgtonfärg",
+    "VideoAutoplay": "Autouppspelning video",
+    "VideoLoop": "Loopa video",
+    "VideoOptions": "Videoinställningar",
+    "VideoVolume": "Videovolym"
+  },
+  "Token": "Spelfigur",
+  "TOKEN": {
+    "Adjectives": {
+      "ambitious": "Ambitiös",
+      "angry": "Arg",
+      "annoyed": "Irriterad",
+      "anxious": "Orolig",
+      "apathetic": "Apatisk",
+      "arrogant": "Arrogant",
+      "bashful": "Blyg",
+      "bored": "Uttråkad",
+      "brave": "Modig",
+      "calm": " Lugn",
+      "cautious": "Försiktig",
+      "cheerful": "Gladynt",
+      "confident": "Självsäker",
+      "confused": "Förvirrad",
+      "cowardly": "Feg",
+      "cruel": "Grym",
+      "curious": "Nyfiken",
+      "cynical": "Cynisk",
+      "deceitful": "Bedräglig",
+      "defeated": "Besegrad",
+      "defiant": "Trotsig",
+      "demented": "Sinnessjuk",
+      "dissociated": "Dissocierad",
+      "distracted": "Distraherad",
+      "doubtful": "Tvivlande",
+      "drunk": "Full",
+      "eager": "Ivrig",
+      "ecstatic": "Extatisk",
+      "embarrassed": "Generad",
+      "enraged": "Rasande",
+      "envious": "Avundsjuk",
+      "evil": "Ond",
+      "exhausted": "Utmattad",
+      "fearful": "Rädd",
+      "foolish": "Dumdristig",
+      "furious": "Rasande",
+      "gloomy": "Dyster",
+      "grateful": "Tacksam",
+      "grieving": "Sörjande",
+      "grumpy": "Sur",
+      "guilty": "Skyldig",
+      "happy": "Lycklig",
+      "helpless": "Maktlös",
+      "hopeful": "Hoppfull",
+      "humble": "Ödmjuk",
+      "hungry": "Hungrig",
+      "hurt": "Sårad",
+      "innocent": "Oskyldig",
+      "insecure": "Osäker",
+      "intimidated": "Intimiderad",
+      "irritated": "Irriterad",
+      "jealous": "Avundsjuk",
+      "lonely": "Ensam",
+      "loving": "Kärleksfull",
+      "mad": "Galen",
+      "mischievous": "Busig",
+      "miserable": "Eländig",
+      "naive": "Naiv",
+      "nervous": "Nervös",
+      "numb": "Domnad",
+      "optimistic": "Optimistisk",
+      "overwhelmed": "Överväldigad",
+      "painful": "Smärtsam",
+      "panicked": "Panikslagen",
+      "pensive": "Tankfull",
+      "perplexed": "Förbryllad",
+      "pessimistic": "Pessimistisk",
+      "proud": "Stolt",
+      "puzzled": "Förbryllad",
+      "relieved": "Lättad",
+      "remorseful": "Ångerfull",
+      "resentful": "Förbittrad",
+      "restless": "Orolig",
+      "sad": "Ledsen",
+      "satisfied": "Nöjd",
+      "scared": "Rädd",
+      "selfish": "Självisk",
+      "shocked": "Chockad",
+      "shy": "Blyg",
+      "silly": "Fånig",
+      "sleepy": "Sömnig",
+      "stressed": "Stressad",
+      "strong": "Stark",
+      "surprised": "Förvånad",
+      "suspicious": "Misstänksam",
+      "tense": "Spänd",
+      "terrified": "Skräckslagen",
+      "thankful": "Tacksam",
+      "thoughtful": "Tankfull",
+      "tired": "Trött",
+      "trusting": "Förtroendeingivande",
+      "unamused": "Oroad",
+      "unhinged": "Ursinnig",
+      "unsure": "Ovisst",
+      "vengeful": "Hämndlysten",
+      "vindictive": "Hämndlysten",
+      "worried": "Orolig",
+      "zen": "Zen"
+    },
+    "AnchorHint": "Standardankaret är mitten på spelfigurens bild.",
+    "AppendNumber": "Lägg till nummer i Namnet på olänkade spelfigurer?",
+    "AppendNumberHint": "Exempel: \"{name} (3)\"",
+    "Assign": "Tilldela spelfigur",
+    "AssignSuccess": "Uppdaterad prototypkonfiguration för spelfiguren {name}",
+    "AssignWarn": "Du måste välja en befintlig spelfigur att tilldela som ny prototypkonfiguration.",
+    "BarAttributes": "Attributfält",
+    "BarValues": "Enskilda värden",
+    "CharActor": "Representerad Karaktär",
+    "CharLink": "Länka Karaktärdata",
+    "CharNameplate": "SpelfigurNamn",
+    "CharShowNameplate": "Visa Namn",
+    "Coordinates": "Koordinater",
+    "DeleteCombatantWarning": "Du tar bort en spelfigur som är i strid. Dess stridande kommer att tas bort permanent.",
+    "DetectionAdd": "Lägg till Detektionsläge",
+    "DetectionEnabled": "Aktiverat",
+    "DetectionMode": "Detektionsläge",
+    "DetectionRange": "Räckvidd",
+    "DetectionRemove": "Ta bort Detektionsläge",
+    "Dimensions": "Dimensioner",
+    "DimensionsHint": "Spelfigurdimensioner avrundas till närmaste 0,5 av en rutplats.",
+    "DISPLAY_ALWAYS": "Alltid för alla",
+    "DISPLAY_CONTROL": "När kontrollerad",
+    "DISPLAY_HOVER": "Vid hovrande av vem som helst",
+    "DISPLAY_NONE": "Aldrig visas",
+    "DISPLAY_OWNER": "Alltid för ägare",
+    "DISPLAY_OWNER_HOVER": "Vid hovrande av ägare",
+    "Disposition": "Spelfigursdisposition",
+    "DISPOSITION": {
+      "FRIENDLY": "Vänlig",
+      "HOSTILE": "Fientlig",
+      "NEUTRAL": "Neutral",
+      "SECRET": "Hemlig"
+    },
+    "FIELDS": {
+      "actorId.label": "Representerad karaktär",
+      "actorLink.label": "Länka karaktärsdata",
+      "alpha.label": "Token Opacity",
+      "appendNumber": {
+        "hint": "Lägg till ett automatiskt ökande nummer till namnet på olänkade tokens. Till exempel \"Goblin 3\".",
+        "label": "Lägg till ökande nummer"
+      },
+      "bar1.attribute.label": "Bar 1 Attribute",
+      "bar2.attribute.label": "Bar 2 Attribute",
+      "displayBars.label": "Display Bars",
+      "displayName.label": "Display Name",
+      "disposition.label": "Token Disposition",
+      "lockRotation": {
+        "hint": "Förhindra att denna tokens rotationsvinkel renderas på arbetsytan.",
+        "label": "Lås konstverksrotation"
+      },
+      "movementAction.label": "Movement Action",
+      "name.label": "Token Name",
+      "occludable.radius": {
+        "hint": "När denna token är under en platta som använder radiell ocklusion, styr detta värde storleken på hålet som skärs i plattan för att tillåta att token syns igenom den.",
+        "label": "Ocklusionsradie"
+      },
+      "prependAdjective": {
+        "hint": "Lägg till ett slumpmässigt adjektiv framför namnet på olänkade tokens. Till exempel \"Angry Goblin\".",
+        "label": "Lägg till ett slumpmässigt adjektiv framför namnet"
+      },
+      "randomImg.label": "Randomize Wildcard Images",
+      "ring": {
+        "effects.label": "Ring Effects",
+        "enabled.label": "Ring Enabled"
+      },
+      "shape": {
+        "hint": "The shape of the Token.",
+        "label": "Shape"
+      },
+      "sight": {
+        "angle": {
+          "hint": "The angle of the vision cone (default is 360).",
+          "label": "Vision Angle"
+        },
+        "attenuation": {
+          "hint": "Adjust the strength of the vision source attenuation (default is 0).",
+          "label": "Attenuation"
+        },
+        "brightness": {
+          "hint": "Adjust the brightness of this vision source. The greater the brightness, the better the character is able to see in darkness (default is 0).",
+          "label": "Vision Brightness"
+        },
+        "color.label": "Vision Color",
+        "contrast": {
+          "hint": "Adjust the contrast of the background which is in the vision source radius (default is 0).",
+          "label": "Contrast"
+        },
+        "enabled": {
+          "hint": "Allows the token to see illuminated spaces within its line of sight.",
+          "label": "Vision Enabled"
+        },
+        "range": {
+          "hint": "The distance a token can see without any light.",
+          "label": "Vision Range"
+        },
+        "saturation": {
+          "hint": "Adjust the saturation of the background which is in the vision source radius (default is 0).",
+          "label": "Saturation"
+        },
+        "visionMode": {
+          "hint": "Applies a visual effect to the vision to represent special senses (default is Basic Vision).",
+          "label": "Vision Mode"
+        }
+      },
+      "sort.label": "Sort",
+      "texture": {
+        "anchorX.label": "X",
+        "anchorY.label": "Y",
+        "fit": {
+          "hint": "Adjust how the image is fit to the size of the Token.",
+          "label": "Image Fit Mode"
+        },
+        "src.label": "Image Path",
+        "tint.label": "Tint Color"
+      },
+      "turnMarker": {
+        "animation": {
+          "hint": "Choose an animation style for this Token's combat turn marker.",
+          "label": "Animation"
+        },
+        "disposition": {
+          "hint": "Tint this Token's combat turn marker according to their disposition.",
+          "label": "Disposition Tint"
+        },
+        "mode": {
+          "hint": "Choose Default to use default Combat settings, Disabled to hide the turn marker, or Custom for a unique turn marker behavior.",
+          "label": "Mode"
+        },
+        "src": {
+          "hint": "Choose an image or video file used for this Token's combat turn marker.",
+          "label": "Media Source"
+        }
+      }
+    },
+    "HeaderAppearance": "Utseende",
+    "HeaderIdentity": "Identitet",
+    "HeaderLight": "Ljus",
+    "HeaderResources": "Resurser",
+    "HeaderVision": "Syn",
+    "HEXAGONAL_SHAPE_ELLIPSE_1": "Ellips (Variant 1)",
+    "HEXAGONAL_SHAPE_ELLIPSE_2": "Ellips (Variant 2)",
+    "HEXAGONAL_SHAPE_RECTANGLE_1": "Rektangel (Variant 1)",
+    "HEXAGONAL_SHAPE_RECTANGLE_2": "Rektangel (Variant 2)",
+    "HEXAGONAL_SHAPE_TRAPEZOID_1": "Trapets (Variant 1)",
+    "HEXAGONAL_SHAPE_TRAPEZOID_2": "Trapets (Variant 2)",
+    "HexagonalShape": "Hexagonalform",
+    "HexagonalShapeHint": "Vilken form en spelfigur har på ett hexagonalt rutbräde.",
+    "ImageAlts": "Alternativa Karaktär spelfigurer",
+    "ImageFitMode": "Bildanpassningsläge",
+    "ImageFitModeHint": "Justera hur bilden anpassas till spelfigursstorleken.",
+    "ImagePath": "Bildsökväg",
+    "Lock": "Lås",
+    "LockRotation": "Lås Rotation",
+    "Mirror": "Spegelbild",
+    "MirrorX": "Horisontellt",
+    "MirrorY": "Vertikalt",
+    "MOVEMENT": {
+      "ACTIONS": {
+        "blink.label": "Teleport (Blink)",
+        "burrow.label": "Burrow",
+        "climb.label": "Climb",
+        "crawl.label": "Crawl",
+        "displace.label": "Teleport (Displace)",
+        "fly.label": "Fly",
+        "jump.label": "Jump",
+        "swim.label": "Swim",
+        "walk.label": "Walk"
+      }
+    },
+    "OcclusionRadius": "Ocklusionsradie",
+    "OcclusionRadiusHint": "När denna spelfigur är under en Tile som använder radial ocklusion, kontrollerar detta värde storleken på hålet som skärs i Tile för att låta spelfiguren synas genom det.",
+    "Opacity": "Spelfigurgenomskinlighet",
+    "PrependAdjective": "Lägg till adjektiv i Namnet på olänkade spelfigurer?",
+    "PrependAdjectiveHint": "Exempel: \"Arg {name}\"",
+    "RandomImg": "Slumpmässiga wildcard-bilder",
+    "ResourceBar1A": "Fält 1 Attribut",
+    "ResourceBar1D": "Fält 1 Data",
+    "ResourceBar2A": "Fält 2 Attribut",
+    "ResourceBar2D": "Fält 2 Data",
+    "ResourceDisplay": "Visa Fält",
+    "RING": {
+      "EFFECTS": {
+        "COLOR_OVER_SUBJECT": "Color Over Subject"
+      },
+      "SETTINGS": {
+        "coreBronze": "Foundry VTT Bronze Ring",
+        "coreSteel": "Foundry VTT Steel Ring",
+        "FIT_MODES": {
+          "grid": "Grid",
+          "hint": "Choose the fit mode for the Dynamic Rings.",
+          "label": "Dynamic Token Rings Fit Modes",
+          "subject": "Standard"
+        }
+      }
+    },
+    "SECTIONS": {
+      "advanced": "Advanced Options",
+      "animation": "Light Animation",
+      "basic": "Basic Configuration"
+    },
+    "SHAPES": {
+      "ELLIPSE": {
+        "label": "Ellips"
+      },
+      "ELLIPSE_1": {
+        "label": "Ellips (Variant 1)"
+      },
+      "ELLIPSE_2": {
+        "label": "Ellips (Variant 2)"
+      },
+      "RECTANGLE": {
+        "label": "Rektangel"
+      },
+      "RECTANGLE_1": {
+        "label": "Rektangel (Variant 1)"
+      },
+      "RECTANGLE_2": {
+        "label": "Rektangel (Variant 2)"
+      },
+      "TRAPEZOID": {
+        "label": "Trapetsformad"
+      },
+      "TRAPEZOID_1": {
+        "label": "Trapezoid (Variant 1)"
+      },
+      "TRAPEZOID_2": {
+        "label": "Trapezoid (Variant 2)"
+      }
+    },
+    "SightHeaderAdvanced": "Avancerade Alternativ",
+    "SightHeaderBasic": "Grundläggande Konfiguration",
+    "SightHeaderDetection": "Detektionslägen",
+    "SightNavLabel": "Synkonfiguration Flikar",
+    "TABS": {
+      "appearance": "Appearance",
+      "identity": "Identity",
+      "light": "Light",
+      "resources": "Resources",
+      "vision": "Vision"
+    },
+    "TintColor": "Färgtonfärg",
+    "Title": "Spelfigurkonfiguration",
+    "TitlePrototype": "Prototyp spelfigur",
+    "TURNMARKER": {
+      "MODES": {
+        "CUSTOM": "Custom",
+        "DEFAULT": "Default",
+        "DISABLED": "Disabled"
+      },
+      "SHEET": {
+        "legend": "Combat Turn Marker"
+      }
+    },
+    "Update": "Uppdatera spelfigur",
+    "VisionAngle": "Synvinkel",
+    "VisionAngleHint": "Vinkeln på synvinkeln (standard är 360).",
+    "VisionAttenuation": "Dämpning",
+    "VisionAttenuationHint": "Justera styrkan för dämpning av synkällan (standard är 0).",
+    "VisionBrightness": "Syn Ljusstyrka",
+    "VisionBrightnessHint": "Justera ljusstyrkan på denna synkälla. Ju större ljusstyrka, desto bättre kan karaktären se i mörker (standard är 0).",
+    "VisionColor": "Synfärg",
+    "VisionContrast": "Kontrast",
+    "VisionContrastHint": "Justera kontrasten på bakgrunden som är i synkällans radie (standard är 0).",
+    "VisionEnabled": "Syn Aktiverad",
+    "VisionEnabledHint": "Tillåter spelfiguren att se upplysta utrymmen inom sin synlinje.",
+    "VisionMode": "Synläge",
+    "VisionModeHint": "Tillämpar en visuell effekt på synen för att representera speciella sinnen (standard är Basisk Syn).",
+    "VisionRange": "Synområde",
+    "VisionRangeHint": "Avståndet en spelfigur kan se utan något ljus.",
+    "VisionSaturation": "Mättnad",
+    "VisionSaturationHint": "Justera mättnaden på bakgrunden som är i synkällans radie (standard är 0).",
+    "WarningNoActor": "Denna spelfigur refererar till en karaktär som inte längre finns i världen.",
+    "WarningNoVision": "Du äger inte någon spelfigur med syn i den här scenen"
+  },
+  "Tours": {
+    "NavLabel": "Rundturhanteringsflikar"
+  },
+  "Type": "Typ",
+  "Uninstall": "Avinstallera",
+  "units": "enheter",
+  "Unknown": "Okänd",
+  "Update": "Uppdatera",
+  "URL": "Webbadress",
+  "USERS": {
+    "AccessKey": "Lösenord",
+    "Create": "Skapa ny användare",
+    "Delete": "Ta bort användare",
+    "DeleteGMWarning": "Du håller på att radera en spelledaranvändare!",
+    "DeleteName": "Radera användare: {name}",
+    "DeleteWarning": "Denna användare kommer att raderas permanent från spelvärlden.",
+    "KeyShow": "Visa lösenord",
+    "Launch": "Spara och återgå",
+    "ManageTitle": "Användarhantering",
+    "NoGMError": "Du måste ha minst en spelledar-användare i din spelvärld.",
+    "Role": "Användarroll",
+    "UpdateSuccess": "Användare uppdaterades framgångsrikt, återgår till spelvärlden.",
+    "UserName": "AnvändarNamn"
+  },
+  "Vision": "Syn",
+  "VISION": {
+    "ModeBasicVision": "Bas-syn",
+    "ModeBlindness": "Blindhet",
+    "ModeDarkvision": "Mörkerseende",
+    "ModeDetectInvisibility": "Se osynligt",
+    "ModeLightAmplification": "Ljusförstärkning",
+    "ModeMonochromatic": "Monokromatisk",
+    "ModeTremorsense": "Vibrationssinne"
+  },
+  "WALL": {
+    "ANIMATION_DIRECTIONS": {
+      "DEFAULT": "Default",
+      "REVERSE": "Omväng"
+    },
+    "ANIMATION_TYPES": {
+      "ASCEND": "Stigande",
+      "DESCEND": "Sjunkande",
+      "SLIDE": "Glidande",
+      "SWING": "Swing",
+      "SWIVEL": "Swivel"
+    },
+    "CoordinateRange": "({p0X}, {p0Y}) till ({p1X}, {p1Y})",
+    "Directions": {
+      "BOTH": "Båda",
+      "LEFT": "Vänster",
+      "RIGHT": "Höger"
+    },
+    "DoorAnimation": "Dörranimering",
+    "DoorConfiguration": "Dörrkonfiguration",
+    "DoorSounds": {
+      "FuturisticFast": "Futuristiskt, Snabbt",
+      "FuturisticForcefield": "Futuristiskt, Kraftfält",
+      "FuturisticHydraulic": "Futuristiskt, Hydrauliskt",
+      "Industrial": "Industriellt",
+      "IndustrialCreaky": "Industriellt, Knarrande",
+      "Jail": "Fängelse",
+      "MagicDoor": "Magisk dörr",
+      "MagicWall": "Magisk vägg",
+      "Metal": "Metall",
+      "SlidingMetal": "Skjutdörr, Metall",
+      "SlidingMetalHeavy": "Sliding, Metal (Heavy)",
+      "SlidingModern": "Skjutdörr, Modern",
+      "SlidingWood": "Skjutdörr, Trä",
+      "StoneBasic": "Sten",
+      "StoneRocky": "Sten, Klippig",
+      "StoneSandy": "Sten, Sandig",
+      "WoodBasic": "Trä, Vanligt",
+      "WoodCreaky": "Trä, Knarrande",
+      "WoodHeavy": "Trä, Tungt"
+    },
+    "DoorStates": {
+      "CLOSED": "Stängd",
+      "LOCKED": "Låst",
+      "OPEN": "Öppen"
+    },
+    "DoorTypes": {
+      "DOOR": "Dörr",
+      "NONE": "Ingen",
+      "SECRET": "Hemlig dörr"
+    },
+    "FIELDS": {
+      "animation": {
+        "direction.label": "Öppna åt",
+        "double.label": "Dubbeldörr",
+        "duration.label": "Hur länge animering varar (ms)",
+        "flip.label": "Flip Door Texture",
+        "strength": {
+          "hint": "En multiplikator mellan 0 och 2 som modifierar hur mycket dörren rör sig vid animering. Till exempel för en svängdörr ger mer styrka en bredare öppningsvinkel. För en skjutdörr gör mer styrka att dörren glider längre.",
+          "label": "Animationsstyrka"
+        },
+        "texture.label": "Door Texture",
+        "type.label": "Animation Type"
+      },
+      "c.label": "Wall Coordinates",
+      "dir.label": "Restriction Direction",
+      "door.label": "Door Type",
+      "doorSound.label": "Door Sound",
+      "ds.label": "Door State",
+      "light.label": "Light",
+      "move.label": "Movement",
+      "sight.label": "Sight",
+      "sound.label": "Sound",
+      "threshold.attenuation": {
+        "hint": "Avståndet som perceptionen kan penetrera denna vägg är adaptivt i förhållande till observatörens närhet och aktiveringströskeln. Gäller endast när ett tröskelvärde är definierat.",
+        "label": "Dämpning av närhetströskel"
+      }
+    },
+    "Instructions": "Anpassa hur detta väggsement begränsar förflyttning eller sinnen.",
+    "NWalls": "[{n} väggar]",
+    "Restrictions": "Väggbegränsningar",
+    "SenseTypes": {
+      "DISTANCE": "Omvänd närhet",
+      "LIMITED": "Begränsad",
+      "NONE": "Ingen",
+      "NORMAL": "Normal",
+      "PROXIMITY": "Närhet"
+    },
+    "Submit": "Upodatera vägg",
+    "Title": "Väggkonfiguration",
+    "TitleMany": "Väggkonfiguration [Flera]"
+  },
+  "WALLS": {
+    "Coordinates": "Väggkoordinater",
+    "Direction": "Väggriktning",
+    "Directions": {
+      "BOTH": "Båda",
+      "LEFT": "Vänster",
+      "RIGHT": "Höger"
+    },
+    "Door": "Dörrkonfiguration",
+    "DoorOptions": "Dörralternativ",
+    "DoorSound": {
+      "FuturisticFast": "Futuristiskt, Snabbt",
+      "FuturisticForcefield": "Futuristiskt, Kraftfält",
+      "FuturisticHydraulic": "Futuristiskt, Hydrauliskt",
+      "Industrial": "Industriellt",
+      "IndustrialCreaky": "Industriellt, Knarrande",
+      "Jail": "Fängelse",
+      "MagicDoor": "Magisk dörr",
+      "MagicWall": "Magisk vägg",
+      "Metal": "Metall",
+      "SlidingMetal": "Skjutdörr, Metall",
+      "SlidingModern": "Skjutdörr, Modern",
+      "SlidingWood": "Skjutdörr, Trä",
+      "StoneBasic": "Sten",
+      "StoneRocky": "Sten, Klippig",
+      "StoneSandy": "Sten, Sandig",
+      "WoodBasic": "Trä, Vanligt",
+      "WoodCreaky": "Trä, Knarrande",
+      "WoodHeavy": "Trä, Tungt"
+    },
+    "DoorSoundLabel": "Dörrljud",
+    "DoorState": "Dörrstatus",
+    "DoorStates": {
+      "CLOSED": "Stängd",
+      "LOCKED": "Låst",
+      "OPEN": "Öppen"
+    },
+    "DoorTypes": {
+      "DOOR": "Dörr",
+      "NONE": "Inget",
+      "SECRET": "Hemlig dörr"
+    },
+    "Instructions": "Anpassa hur detta väggsegment begränsar rörelse eller sinnen.",
+    "Light": "Ljusbegränsning",
+    "Movement": "Rörelsebegränsning",
+    "SenseTypes": {
+      "DISTANCE": "Omvänd närhet",
+      "LIMITED": "Begränsad",
+      "NONE": "Ingen",
+      "NORMAL": "Normal",
+      "PROXIMITY": "Närhet"
+    },
+    "Sight": "Siktbegränsning",
+    "Sound": "Ljudbegränsning",
+    "Submit": "Uppdatera Vägg",
+    "ThresholdAttenuation": "Dämpning av närhetströskel",
+    "ThresholdAttenuationHint": "Avståndet som sinnen kan tränga igenom denna vägg är anpassningsbar relativt observatörens närhet och aktiveringströskeln. Gäller endast när en tröskel är definierad.",
+    "Title": "Väggkonfiguration",
+    "TitleMany": "Väggkonfiguration [Flera]"
+  },
+  "Warning": "Varning",
+  "WARNING": {
+    "ForegroundDimensionsMismatch": "Dimensionerna för din konfigurerade förgrundslagerbild matchar inte dimensionerna för bakgrundslagersbilden för denna scen. Förgrunden har ändrats i storlek, vilket kan leda till oönskade resultat.",
+    "GridConfigNoBG": "Du använder rutnätskonfigurationsverktyget för en scen utan bakgrundsbild. Detta rekommenderas för närvarande inte och kan leda till oförutsägbara resultat.",
+    "ObjectDoesNotExist": "{name} \"{identifier}\" finns inte.",
+    "TilingSpriteDeprecation": "En modul eller ett system använder den gamla TilingSprite klassen som inte längre stödjs."
+  },
+  "Warnings": "Varningar",
+  "WEATHER": {
+    "AutumnLeaves": "Höstlöv",
+    "Blizzard": "Snöstorm",
+    "Fog": "Dimma",
+    "Rain": "Regn",
+    "RainStorm": "Regnstorm",
+    "Snow": "Snö"
+  },
+  "Width": "Bredd",
+  "XCoord": "X-Koordinat",
+  "YCoord": "Y-Koordinat",
+  "Yes": "Ja"
 }
