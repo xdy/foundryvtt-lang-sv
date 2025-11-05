@@ -2153,13 +2153,13 @@
         "View": "Visa"
       },
       "OpenResultConfig": "Öppna resultatinställningar",
-      "DrawResult": "Rita resultat",
-      "DrawSpecificResult": "Rita detta resultat",
+      "DrawResult": "Dra resultat",
+      "DrawSpecificResult": "Dra detta resultat",
       "NormalizeResults": "Normalisera resultatintervall",
       "ResetResults": "Återställ resultat",
       "CreateResult": "Lägg till nytt resultat",
       "DeleteResult": "Radera resultat",
-      "ToggleDrawn": "Växla visningsstatus",
+      "ToggleDrawn": "Växla dragen-status",
       "Submit": "Uppdatera slumptabell"
     },
     "TABS": {
@@ -4406,7 +4406,7 @@
         "ManageModules": "Hantera moduler",
         "Players": "Användarhantering",
         "Support": "Support och problem",
-        "Tours": "Rundturhantering",
+        "Tours": "Rundturshantering",
         "ViewModules": "Visa aktiva moduler",
         "Wiki": "Community-wikisidor"
       },
