@@ -1,36 +1,32 @@
 {
-    "id" : "lang-sv",
-    "title" : "Swedish [Core] - Foundry på svenska",
-    "version" : "5.2.2",
-    "compatibility": {
-        "minimum": "11",
-        "verified": "13"
-    },
-    "author" : "xdy",
-    "description" : "Swedish language support for Foundry VTT - Foundry på svenska",
-    "coreTranslation": true,
-    "languages" : [
-      {
-         "lang" : "sv",
-         "name" : "Svenska",
-         "path" : "sv.json"
-      }
-    ],
-    "packs" : [],
-    "scripts" : [],
-    "styles" : [],
-    "url" : "https://github.com/xdy/foundryvtt-lang-sv",
-    "manifest" : "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
-    "download" : "https://github.com/xdy/foundryvtt-lang-sv/archive/v5.2.2.zip",
-    "authors": [
-      {
-        "name": "Jonas Karlsson",
-        "url": "https://gnu.xdy.se/home",
-        "discord": "xdy#3735",
-        "twitter": "@xdy",
-        "reddit": "u/xdydxy"
-      }
-    ],
+  "id": "lang-sv",
+  "title": "Swedish [Core] - Foundry på svenska",
+  "description": "Swedish language support for Foundry VTT - Foundry på svenska",
+  "version": "5.2.2",
+  "authors": [
+    {
+      "name": "Jonas Karlsson",
+      "url": "https://gnu.xdy.se/home",
+      "discord": "xdy#3735",
+      "twitter": "@xdy",
+      "reddit": "u/xdydxy"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "sv",
+      "name": "Svenska",
+      "path": "sv.json"
+    }
+  ],
+  "coreTranslation": true,
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "url": "https://github.com/xdy/foundryvtt-lang-sv",
+  "manifest": "https://raw.githubusercontent.com/xdy/foundryvtt-lang-sv/master/module.json",
+  "download": "https://github.com/xdy/foundryvtt-lang-sv/archive/v5.2.2.zip",
   "media": [
     {
       "type": "icon",
